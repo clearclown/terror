@@ -1,0 +1,55 @@
+graph TD
+    AlQaeda["アルカイダ"] --> AQIM["イスラム・マグレブ諸国のアルカイダ AQIM"]
+    AlQaeda --> AQAP["アラビア半島のアルカイダ AQAP"]
+    AlQaeda --> AlShabaab["アル・シャバーブ"]
+    
+    ISIL["イラク・レバントのイスラム国 ISIL"] --> WestAfricaProvince["西アフリカ州"]
+    ISIL --> KhorasanProvince["ホラサン州"]
+    ISIL --> SinaiProvince["シナイ州"]
+    ISIL --> CaucasusProvince["コーカサス州"]
+    
+    Taliban["タリバン"] --> HaqqaniNetwork["ハッカーニ・ネットワーク"]
+    
+    BokoHaram["ボコ・ハラム"] -.-> WestAfricaProvince
+    
+    NusraFront["ヌスラ戦線"] --> HTS["タハリール・アル・シャーム機構 HTS"]
+    
+    FarLeft["極左組織"] --> RedBrigades["新赤い旅団 イタリア"]
+    FarLeft --> DirectAction["直接行動 AD フランス"]
+    
+    FarRight["極右組織"] --> VariousFarRightGroups["各国の極右団体"]
+    
+    Separatist["分離独立組織"] --> ETA["バスク祖国と自由 ETA"]
+    Separatist --> FARC["コロンビア革命軍 FARC"]
+    Separatist --> NewIRA["新IRA"]
+    
+    subgraph MiddleEastNorthAfrica["中東・北アフリカ"]
+    AlQaeda
+    ISIL
+    Taliban
+    NusraFront
+    end
+    
+    subgraph Africa["アフリカ"]
+    AQIM
+    AlShabaab
+    WestAfricaProvince
+    BokoHaram
+    end
+    
+    subgraph Europe["欧州"]
+    CaucasusProvince
+    FarLeft
+    FarRight
+    Separatist
+    end
+    
+    subgraph SouthAsia["南アジア"]
+    KhorasanProvince
+    HaqqaniNetwork
+    end
+    
+    subgraph SoutheastAsia["東南アジア"]
+    JemaahIslamiyah["ジェマー・イスラミア JI"]
+    AbuSayyafGroup["アブ・サヤフ・グループ ASG"]
+    end
