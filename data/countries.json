@@ -1,0 +1,602 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-11-05",
+    "description": "テロリズムの影響を受けている国々の情報",
+    "regions": ["東南アジア", "南アジア", "中東", "アフリカ", "欧州", "中央アジア"]
+  },
+  "countries": [
+    {
+      "id": "philippines",
+      "name": {
+        "ja": "フィリピン",
+        "en": "Philippines"
+      },
+      "region": "東南アジア",
+      "threatLevel": "中（大幅改善）",
+      "lastUpdated": "2025-06",
+      "summary": "ASGの壊滅により治安が大幅改善。ISEAの残存勢力への警戒は継続。",
+      "activeOrganizations": ["isea"],
+      "dismantledOrganizations": ["asg"],
+      "historicalOrganizations": ["mnlf", "milf", "npa"],
+      "currentSituation": {
+        "overview": "2024-2025年にかけてASGが実質壊滅。ミンダナオ地域の治安が大幅に改善。",
+        "keyDevelopments": [
+          "2025年6月: バシラン州がASGフリーを宣言",
+          "2023年: スールー州もASGフリー",
+          "ISEAは弱体化しているが完全排除には至っていない",
+          "バンサモロ自治政府による和平プロセス継続"
+        ],
+        "threatAssessment": "ISEAの再興リスクはあるが、軍事・社会プログラムの組み合わせで対応"
+      },
+      "counterTerrorismEfforts": [
+        "2020年反テロリズム法の施行",
+        "軍事掃討作戦の継続",
+        "元テロリストの再統合プログラム",
+        "バンサモロ和平プロセスの推進"
+      ],
+      "majorEvents": [
+        {
+          "year": 2017,
+          "event": "マラウィ占拠事件"
+        },
+        {
+          "year": 2024,
+          "event": "ASG完全解体宣言"
+        },
+        {
+          "year": 2025,
+          "event": "バシラン州ASGフリー宣言"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["Philippine Government", "US INDOPACOM"]
+    },
+    {
+      "id": "indonesia",
+      "name": {
+        "ja": "インドネシア",
+        "en": "Indonesia"
+      },
+      "region": "東南アジア",
+      "threatLevel": "低～中（改善）",
+      "lastUpdated": "2024-06",
+      "summary": "JIの解散宣言により大幅改善。JAD等の小規模組織は依然活動。",
+      "activeOrganizations": ["jad"],
+      "dismantledOrganizations": ["jemaah-islamiyah", "mit"],
+      "currentSituation": {
+        "overview": "2024年6月のJI解散宣言は歴史的転換点。ただし分派グループへの警戒は継続。",
+        "keyDevelopments": [
+          "2024年6月30日: JI公式解散",
+          "2022年12月: MIT壊滅宣言",
+          "JAD関連のテロは減少傾向",
+          "ISIL支持者のSNS宣伝活動は継続"
+        ],
+        "threatAssessment": "大幅に改善したが、今後20年以上は脅威に対処する必要性があるとの指摘"
+      },
+      "counterTerrorismEfforts": [
+        "2018年改正反テロ法（予備拘束期間延長等）",
+        "テロ準備段階での摘発強化",
+        "教育機関でのリクルート活動の監視",
+        "元メンバーの社会復帰支援"
+      ],
+      "majorEvents": [
+        {
+          "year": 2002,
+          "event": "第1次バリ島爆弾テロ"
+        },
+        {
+          "year": 2018,
+          "event": "スラバヤ家族テロ"
+        },
+        {
+          "year": 2024,
+          "event": "ジェマー・イスラミア解散"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["Indonesian Government", "Counter Extremism Project"]
+    },
+    {
+      "id": "afghanistan",
+      "name": {
+        "ja": "アフガニスタン",
+        "en": "Afghanistan"
+      },
+      "region": "南アジア",
+      "threatLevel": "高",
+      "lastUpdated": "2025-07",
+      "summary": "タリバン政権下で統治は安定も、IS-Kの脅威は継続。人道危機が深刻。",
+      "governingOrganization": "taliban",
+      "activeOrganizations": ["is-k", "al-qaeda"],
+      "currentSituation": {
+        "overview": "2021年8月のタリバン政権復帰後、統治は安定化も国際的孤立と人道危機が深刻。",
+        "keyDevelopments": [
+          "2025年7月: ロシアがタリバン政権を正式承認",
+          "2025年5月: 米国が外国テロ組織指定を検討",
+          "IS-Kが2024年に60件の攻撃（40%増）",
+          "タリバンがIS-Kへの掃討作戦を実施",
+          "アルカイダ幹部の居住が報告される"
+        ],
+        "governanceIssues": [
+          "女性・少女の教育・就労の厳格な制限",
+          "90%以上の国民が貧困状態",
+          "表現の自由の抑圧",
+          "少数民族への差別"
+        ],
+        "terrorismConcerns": "テロ組織に安全な避難所を提供している懸念"
+      },
+      "counterTerrorismEfforts": [
+        "IS-Kへの掃討作戦（効果的との評価）",
+        "ただし国際的検証が困難"
+      ],
+      "majorEvents": [
+        {
+          "year": 2001,
+          "event": "米国侵攻開始"
+        },
+        {
+          "year": 2021,
+          "event": "タリバンのカブール制圧"
+        },
+        {
+          "year": 2024,
+          "event": "IS-Kによるタリバン閣僚暗殺"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["UN Security Council", "Brookings Institution", "Stimson Center"]
+    },
+    {
+      "id": "palestine-gaza",
+      "name": {
+        "ja": "パレスチナ（ガザ地区）",
+        "en": "Palestine (Gaza Strip)"
+      },
+      "region": "中東",
+      "threatLevel": "戦争状態",
+      "lastUpdated": "2025-11",
+      "summary": "2023年10月以降の戦争で壊滅的被害。ハマスは大幅弱体化も完全排除は困難。",
+      "governingOrganization": "hamas",
+      "currentSituation": {
+        "overview": "2023年10月7日のハマス攻撃以降、イスラエルとの戦争で壊滅的被害。",
+        "casualties": {
+          "palestinianDeaths": "68,000人以上（約半数が女性と子供）",
+          "injured": "170,000人以上",
+          "infrastructureDestruction": "69%の建造物が破壊・損傷",
+          "displaced": "ほぼ全住民が強制避難を経験"
+        },
+        "keyDevelopments": [
+          "2023年10月7日: ハマスのイスラエル攻撃",
+          "2024年: ハマスが1,600件以上の戦闘を実施",
+          "2025年1月15日: 停戦合意（脆弱な状態）",
+          "ハマスは統治から退く意思を表明（パレスチナ国家樹立が条件）"
+        ],
+        "hamasStatus": "軍事・統治能力が大幅に低下。指導部の多くが殺害されたが完全排除は困難。",
+        "humanitarianCrisis": "深刻な人道危機。国際的なジェノサイド議論。"
+      },
+      "westBank": {
+        "casualties": "607人以上のパレスチナ人、25人以上のイスラエル人が死亡",
+        "situation": "IDFの軍事作戦と逮捕が継続"
+      },
+      "futureOutlook": "政治的解決の見込みは不透明。次の紛争への準備とみなす意見も。",
+      "majorEvents": [
+        {
+          "year": 2006,
+          "event": "ハマスが選挙で勝利"
+        },
+        {
+          "year": 2007,
+          "event": "ハマスがガザを実効支配"
+        },
+        {
+          "year": 2023,
+          "event": "10月7日攻撃とガザ戦争開始"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["UN", "Human Rights Watch", "ACLED"]
+    },
+    {
+      "id": "lebanon",
+      "name": {
+        "ja": "レバノン",
+        "en": "Lebanon"
+      },
+      "region": "中東",
+      "threatLevel": "中（停戦後）",
+      "lastUpdated": "2025-10",
+      "summary": "2024年のイスラエル紛争でヒズボラが大幅弱体化。停戦は脆弱で違反が継続。",
+      "activeOrganizations": ["hezbollah"],
+      "currentSituation": {
+        "overview": "2024年のイスラエルとの紛争でヒズボラが大きな打撃。停戦合意後も緊張継続。",
+        "economicImpact": "140億米ドルの損失（物理的損害68億ドル）",
+        "hezbollahStatus": "主要指導者と兵器の大部分を失い大幅弱体化",
+        "keyDevelopments": [
+          "2024年10月1日: イスラエル地上侵攻",
+          "2024年11月27日: 60日間停戦合意",
+          "2025年2月: イスラエルが5つの軍事拠点を維持",
+          "2025年4月: ヒズボラが武装解除協議参加を表明",
+          "2025年10月: 散発的衝突が継続"
+        ],
+        "ceasefireViolations": "停戦は脆弱で双方による違反が継続"
+      },
+      "politicalSituation": {
+        "president": "ジョゼフ・アウン",
+        "hezbollahRole": "弱体化したが依然として影響力を保持",
+        "disarmamentTalks": "イスラエル撤退を条件に協議意思を表明"
+      },
+      "majorEvents": [
+        {
+          "year": 2006,
+          "event": "イスラエルとの34日間戦争"
+        },
+        {
+          "year": "2023-2024",
+          "event": "イスラエルとの大規模紛争"
+        },
+        {
+          "year": 2024,
+          "event": "第6次レバノン侵攻と停戦"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["UN", "Human Rights Watch", "FDD"]
+    },
+    {
+      "id": "nigeria",
+      "name": {
+        "ja": "ナイジェリア",
+        "en": "Nigeria"
+      },
+      "region": "西アフリカ",
+      "threatLevel": "非常に高い",
+      "lastUpdated": "2025-09",
+      "summary": "2025年にボコ・ハラムとISWAPの活動が大幅激化。深刻な人道危機。",
+      "activeOrganizations": ["boko-haram", "iswap"],
+      "currentSituation": {
+        "overview": "2025年前半に2,266人以上が死亡し、2024年全体を超える。毎日のように攻撃が発生。",
+        "casualties2025": "2,266人以上（2025年前半のみ）",
+        "keyDevelopments": [
+          "2025年9月5日: ダルル・ジャマルで63人殺害",
+          "2025年6月21日: ボルノ州魚市場で自爆テロ（12人死亡）",
+          "2025年5月: 約100人虐殺",
+          "ISWAPが2025年5月に最も洗練された攻撃を実行",
+          "チャド湖流域全体で活動激化"
+        ],
+        "humanitarianCrisis": {
+          "displaced": "290万人の国内避難民、27.2万人の難民",
+          "needsAssistance": "780万人（80%が女性と子供）"
+        }
+      },
+      "affectedRegions": ["ボルノ州", "ヨベ州", "アダマワ州"],
+      "regionalImpact": "カメルーン、チャド、ニジェールにも影響",
+      "counterTerrorismEfforts": [
+        "多国籍合同タスクフォース",
+        "軍事掃討作戦",
+        "地域協力"
+      ],
+      "majorEvents": [
+        {
+          "year": 2014,
+          "event": "チボク女学生拉致"
+        },
+        {
+          "year": 2015,
+          "event": "ボコ・ハラムがISILに忠誠"
+        },
+        {
+          "year": 2025,
+          "event": "攻撃の大幅激化"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["Amnesty International", "Human Rights Watch", "The Soufan Center"]
+    },
+    {
+      "id": "somalia",
+      "name": {
+        "ja": "ソマリア",
+        "en": "Somalia"
+      },
+      "region": "東アフリカ",
+      "threatLevel": "非常に高い",
+      "lastUpdated": "2025-07",
+      "summary": "アル・シャバブが2025年に大規模攻勢で領土を奪還。モガディシュ包囲を目指す。",
+      "activeOrganizations": ["al-shabaab"],
+      "currentSituation": {
+        "overview": "2025年にアル・シャバブが失った領土を再占領。モガディシュ包囲戦略を展開。",
+        "keyDevelopments": [
+          "2025年7月: サビード・アノレを奪還（モガディシュ南西40km）",
+          "2025年7月: モココリとグマレを奪取",
+          "2025年3月: モハムド大統領暗殺未遂（首都内）",
+          "2024年: 対政府攻勢が膠着状態に",
+          "現在: 中部ソマリアで三角形の拠点を形成"
+        ],
+        "strategicSituation": "モココリ、タルド、ブク・アカブレを支配し、ヒランと中部シャベレを包囲",
+        "governmentResponse": "対アル・シャバブ作戦は膠着状態"
+      },
+      "tactics": ["IED", "自爆攻撃", "迫撃砲", "標的暗殺"],
+      "regionalImpact": "ケニアでも攻撃を実行",
+      "counterTerrorismEfforts": [
+        "AMISOM/AUSSOM（AU平和維持軍）",
+        "米軍の支援",
+        "ソマリア国軍の作戦"
+      ],
+      "majorEvents": [
+        {
+          "year": 2010,
+          "event": "ウガンダ・カンパラ爆弾テロ"
+        },
+        {
+          "year": 2024,
+          "event": "モガディシュ・ビーチレストラン攻撃"
+        },
+        {
+          "year": 2025,
+          "event": "大規模領土奪還作戦"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["UN Security Council", "The Soufan Center", "ACLED"]
+    },
+    {
+      "id": "turkey",
+      "name": {
+        "ja": "トルコ",
+        "en": "Turkey"
+      },
+      "region": "中東",
+      "threatLevel": "低（和平プロセス中）",
+      "lastUpdated": "2025-07",
+      "summary": "PKKとの40年以上の紛争が2025年に歴史的和平プロセスに。武装解除進行中。",
+      "historicalOrganizations": ["pkk"],
+      "currentSituation": {
+        "overview": "2025年3月のPKK停戦宣言以降、40年以上の紛争が平和的解決へ。",
+        "keyDevelopments": [
+          "2025年3月1日: PKK停戦宣言",
+          "2025年5月12日: PKK解散発表",
+          "2025年7月11日: 武器破壊式典",
+          "武装解除プロセス継続中",
+          "オジャラン議長の処遇が今後の鍵"
+        ],
+        "peaceProcess": "政府とクルド勢力の歴史的和解。地域安定化への期待。",
+        "lastMajorAttack": "2024年10月: トルコ航空宇宙産業施設攻撃（5人死亡）"
+      },
+      "kurdhishIssue": {
+        "historicalConflict": "1984年以降、40,000人以上が死亡",
+        "currentStatus": "和平プロセス進行中",
+        "politicalDialogue": "クルド政党との対話継続"
+      },
+      "regionalContext": [
+        "シリアのクルド勢力（YPG）との関係",
+        "2024年12月: アサド政権崩壊の影響",
+        "イラク北部のPKK拠点"
+      ],
+      "majorEvents": [
+        {
+          "year": 1984,
+          "event": "PKK武装闘争開始"
+        },
+        {
+          "year": 1999,
+          "event": "オジャラン逮捕"
+        },
+        {
+          "year": 2025,
+          "event": "PKK停戦・解散"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["UN OHCHR", "International Crisis Group", "NPR"]
+    },
+    {
+      "id": "syria",
+      "name": {
+        "ja": "シリア",
+        "en": "Syria"
+      },
+      "region": "中東",
+      "threatLevel": "高",
+      "lastUpdated": "2025-05",
+      "summary": "ISISが2024年以降攻撃を大幅に激化。2024年の攻撃数は2023年の3倍近く。",
+      "activeOrganizations": ["isis", "al-qaeda-affiliates"],
+      "currentSituation": {
+        "overview": "2024年12月のアサド政権崩壊後、ISISが活動を激化。新政府への攻撃も実施。",
+        "keyDevelopments": [
+          "2024年: 約700件の攻撃（2023年の3倍近く）",
+          "2025年: さらに攻撃ペースが加速",
+          "2025年5月18日: マヤディンで自動車爆弾攻撃（5人死亡）",
+          "2025年5月15日時点: ISISが33件の攻撃を主張",
+          "2024年12月: アサド政権崩壊",
+          "2025年5月: 新政府がトルキスタン・イスラム党(AQ系)を軍に統合"
+        ],
+        "isisStatus": "シリア東部でゲリラ戦を継続。最も活発な地域の一つ。",
+        "governanceTransition": "新政府の統制は不安定"
+      },
+      "politicalSituation": {
+        "formerRegime": "アサド政権（2024年12月崩壊）",
+        "currentSituation": "暫定政府（トルコ支援）",
+        "kurdhishControl": "北東部をSDF（クルド勢力）が支配"
+      },
+      "regionalActors": ["トルコ", "米国", "ロシア", "イラン"],
+      "majorEvents": [
+        {
+          "year": "2011-2020",
+          "event": "シリア内戦"
+        },
+        {
+          "year": "2014-2019",
+          "event": "ISIS領土支配"
+        },
+        {
+          "year": 2024,
+          "event": "アサド政権崩壊とISIS激化"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["UN", "The Soufan Center", "Washington Institute"]
+    },
+    {
+      "id": "iraq",
+      "name": {
+        "ja": "イラク",
+        "en": "Iraq"
+      },
+      "region": "中東",
+      "threatLevel": "中",
+      "lastUpdated": "2025-01",
+      "summary": "ISISはゲリラ戦を継続。シリアほどではないが脅威は持続。",
+      "activeOrganizations": ["isis"],
+      "currentSituation": {
+        "overview": "ISISは領土を失ったがゲリラ戦を継続。1,500-3,000人の戦闘員が活動。",
+        "isisMembers": "1,500-3,000人（シリアと合わせて）",
+        "activities": [
+          "散発的なIED攻撃",
+          "標的暗殺",
+          "検問所攻撃",
+          "地方での影響力維持"
+        ],
+        "governmentControl": "中央政府の統制は概ね回復"
+      },
+      "counterTerrorismEfforts": [
+        "米軍主導の対ISIS作戦継続",
+        "イラク治安部隊の作戦",
+        "地域協力"
+      ],
+      "majorEvents": [
+        {
+          "year": "2014-2017",
+          "event": "ISIS領土支配"
+        },
+        {
+          "year": 2017,
+          "event": "モスル奪還"
+        },
+        {
+          "year": 2019,
+          "event": "ISIS領土喪失宣言"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["US CENTCOM", "UN"]
+    },
+    {
+      "id": "russia",
+      "name": {
+        "ja": "ロシア",
+        "en": "Russia"
+      },
+      "region": "欧州・中央アジア",
+      "threatLevel": "中",
+      "lastUpdated": "2024-03",
+      "summary": "2024年3月のモスクワ攻撃はIS-Kによる近年最大のテロ。中央アジアからの脅威。",
+      "currentSituation": {
+        "overview": "IS-Kによる2024年3月の攻撃は近年最大のテロ事件。中央アジアからの脅威が顕在化。",
+        "keyDevelopments": [
+          "2024年3月22日: クロッカス・シティ・ホール攻撃（140人死亡）",
+          "IS-Kが犯行声明",
+          "中央アジア出身者が実行",
+          "対テロ警戒を強化"
+        ],
+        "threatSource": "中央アジアのIS-K支持者",
+        "historicalContext": "チェチェン紛争、北コーカサス地域の不安定"
+      },
+      "counterTerrorismEfforts": [
+        "FSB（連邦保安庁）の作戦",
+        "中央アジア諸国との協力",
+        "国内監視強化"
+      ],
+      "majorEvents": [
+        {
+          "year": "1999-2009",
+          "event": "第二次チェチェン紛争"
+        },
+        {
+          "year": 2024,
+          "event": "クロッカス・シティ・ホール攻撃"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["Russian Government", "The Soufan Center"]
+    },
+    {
+      "id": "yemen",
+      "name": {
+        "ja": "イエメン",
+        "en": "Yemen"
+      },
+      "region": "中東",
+      "threatLevel": "高",
+      "lastUpdated": "2025-07",
+      "summary": "AQAP（アラビア半島のアルカイダ）が最も活発なAQ支部の一つ。米国への攻撃を呼びかけ。",
+      "activeOrganizations": ["aqap", "houthis"],
+      "currentSituation": {
+        "overview": "内戦とAQAPの脅威が継続。AQAPは米国への攻撃を活発に呼びかけ。",
+        "aqapStatus": {
+          "members": "2,000-3,000人",
+          "leader": "サアド・アティフ・アル・アウラキ（2024年就任）",
+          "activities": [
+            "2025年7月: Inspireガイド第10版発行",
+            "2025年6月: トランプ大統領らを脅迫",
+            "米国での簡易攻撃を呼びかけ",
+            "ガザ紛争関連の宣伝活動"
+          ],
+          "usBounty": "アウラキへの賞金1,000万ドル（2025年7月増額）"
+        },
+        "civilWar": "フーシ派と政府軍の内戦継続",
+        "humanitarianCrisis": "深刻な人道危機"
+      },
+      "counterTerrorismEfforts": [
+        "米軍のドローン攻撃",
+        "イエメン政府軍の作戦",
+        "サウジアラビアの支援"
+      ],
+      "majorEvents": [
+        {
+          "year": 2000,
+          "event": "USSコール攻撃"
+        },
+        {
+          "year": 2009,
+          "event": "下着爆弾テロ未遂"
+        },
+        {
+          "year": 2025,
+          "event": "AQAP宣伝活動激化"
+        }
+      ],
+      "credibility": "tier1",
+      "sources": ["US State Department", "UN Security Council"]
+    }
+  ],
+  "regionalSummary": {
+    "eastAsia": {
+      "trend": "大幅改善",
+      "keyDevelopments": "ASGとJIの壊滅・解散"
+    },
+    "middleEast": {
+      "trend": "混在",
+      "keyDevelopments": "ガザ戦争、レバノン紛争、PKK和平、ISISのシリア激化"
+    },
+    "africa": {
+      "trend": "悪化",
+      "keyDevelopments": "ボコ・ハラム再活性化、アル・シャバブ攻勢"
+    },
+    "southAsia": {
+      "trend": "高リスク継続",
+      "keyDevelopments": "タリバン統治、IS-K活発化"
+    },
+    "centralAsia": {
+      "trend": "懸念",
+      "keyDevelopments": "IS-Kの国際的脅威拡大"
+    }
+  },
+  "statistics": {
+    "totalCountries": 12,
+    "highThreatCountries": 5,
+    "mediumThreatCountries": 4,
+    "improvingCountries": 3,
+    "regionsC overed": 5
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-11-05",
+    "description": "主要なテロ事件と組織の重要な出来事のタイムライン",
+    "coveragePeriod": "2001-2025"
+  },
+  "events": [
+    {
+      "id": "event-001",
+      "date": "2001-09-11",
+      "title": {
+        "ja": "米国同時多発テロ事件",
+        "en": "September 11 Attacks"
+      },
+      "organization": "al-qaeda",
+      "location": {
+        "country": "米国",
+        "cities": ["ニューヨーク", "ワシントンD.C.", "ペンシルベニア州"]
+      },
+      "casualties": {
+        "deaths": 2977,
+        "injured": 6000
+      },
+      "type": "ハイジャック・自爆テロ",
+      "significance": "現代史上最大のテロ攻撃。対テロ戦争の開始点。",
+      "description": "アルカイダのメンバー19人が4機の旅客機をハイジャック。2機が世界貿易センタービルに、1機が国防総省に衝突。1機はペンシルベニア州に墜落。",
+      "aftermath": [
+        "米国がアフガニスタンに侵攻（2001年10月）",
+        "対テロ戦争の開始",
+        "愛国者法の制定",
+        "世界的な対テロ政策の強化"
+      ],
+      "credibility": "tier1",
+      "sources": ["9/11 Commission Report", "US Government"]
+    },
+    {
+      "id": "event-002",
+      "date": "2002-10-12",
+      "title": {
+        "ja": "バリ島爆弾テロ事件（第1次）",
+        "en": "2002 Bali Bombings"
+      },
+      "organization": "jemaah-islamiyah",
+      "location": {
+        "country": "インドネシア",
+        "cities": ["バリ島クタ"]
+      },
+      "casualties": {
+        "deaths": 202,
+        "injured": 209,
+        "note": "日本人2人を含む"
+      },
+      "type": "自動車爆弾・爆弾テロ",
+      "significance": "東南アジア最大のテロ攻撃。JIの国際的認知。",
+      "description": "ナイトクラブとバーを標的にした連続爆弾テロ。オーストラリア人88人を含む多国籍の犠牲者。",
+      "aftermath": [
+        "インドネシアの対テロ法強化",
+        "東南アジア地域の対テロ協力強化",
+        "JI幹部の逮捕・処刑"
+      ],
+      "credibility": "tier1",
+      "sources": ["Indonesian Government", "Australian Government"]
+    },
+    {
+      "id": "event-003",
+      "date": "2014-06-29",
+      "title": {
+        "ja": "ISILカリフ国家宣言",
+        "en": "ISIS Caliphate Declaration"
+      },
+      "organization": "isis",
+      "location": {
+        "country": "イラク・シリア",
+        "cities": ["モスル"]
+      },
+      "casualties": {
+        "note": "直接的な死者数なし（宣言）"
+      },
+      "type": "政治宣言・組織変革",
+      "significance": "ISIL/ISISの最盛期の始まり。広大な領土支配の開始。",
+      "description": "アブ・バクル・アル・バグダディが「カリフ国家」を宣言。イラクとシリアの広大な地域を支配下に置く。",
+      "aftermath": [
+        "世界中から数万人の外国人戦闘員が参加",
+        "国際的な対ISIS連合の形成",
+        "世界各地でISIS触発型テロが増加",
+        "2019年に領土を喪失"
+      ],
+      "credibility": "tier1",
+      "sources": ["UN", "US State Department"]
+    },
+    {
+      "id": "event-004",
+      "date": "2014-04-14",
+      "title": {
+        "ja": "チボク女学生拉致事件",
+        "en": "Chibok Schoolgirls Kidnapping"
+      },
+      "organization": "boko-haram",
+      "location": {
+        "country": "ナイジェリア",
+        "cities": ["ボルノ州チボク"]
+      },
+      "casualties": {
+        "kidnapped": 276,
+        "note": "100人以上が依然行方不明"
+      },
+      "type": "大規模誘拐",
+      "significance": "ボコ・ハラムの国際的認知を高めた事件。#BringBackOurGirls運動。",
+      "description": "ボコ・ハラムが寄宿学校から女学生276人を拉致。国際的な救出運動が展開された。",
+      "aftermath": [
+        "国際的な#BringBackOurGirls運動",
+        "ナイジェリア軍の対ボコ・ハラム作戦強化",
+        "一部の女学生は脱出または解放"
+      ],
+      "credibility": "tier1",
+      "sources": ["Amnesty International", "Human Rights Watch", "Nigerian Government"]
+    },
+    {
+      "id": "event-005",
+      "date": "2017-05-23",
+      "title": {
+        "ja": "マラウィ占拠事件",
+        "en": "Battle of Marawi"
+      },
+      "organization": "isea",
+      "location": {
+        "country": "フィリピン",
+        "cities": ["南ラナオ州マラウィ"]
+      },
+      "casualties": {
+        "deaths": 1100,
+        "note": "ISEA側、市民、フィリピン軍の合計"
+      },
+      "type": "都市占拠・武力衝突",
+      "duration": "2017年5月23日 - 2017年10月23日（5ヶ月）",
+      "significance": "ISIL東アジアの存在を示した最大規模の作戦。東南アジアでのISIL脅威の現実化。",
+      "description": "ISEAの武装集団数百人がマラウィ市街地を占拠。5ヶ月間の激しい戦闘。",
+      "aftermath": [
+        "マラウィ市街地の壊滅的破壊",
+        "フィリピンの対テロ法強化（2020年）",
+        "ISEAの弱体化",
+        "長期的な復興プロセス"
+      ],
+      "credibility": "tier1",
+      "sources": ["Philippine Government", "US INDOPACOM"]
+    },
+    {
+      "id": "event-006",
+      "date": "2019-04-21",
+      "title": {
+        "ja": "スリランカ連続爆弾テロ",
+        "en": "2019 Sri Lanka Easter Bombings"
+      },
+      "organization": "isis",
+      "location": {
+        "country": "スリランカ",
+        "cities": ["コロンボ", "ネゴンボ", "バティカロア"]
+      },
+      "casualties": {
+        "deaths": 269,
+        "injured": 500
+      },
+      "type": "連続自爆テロ",
+      "significance": "南アジアでの大規模ISIS触発型攻撃。",
+      "description": "イースターの日曜日に教会3か所とホテル3か所で連続自爆テロ。地元組織がISISに触発されて実行。",
+      "aftermath": [
+        "スリランカの治安体制見直し",
+        "政府の情報共有不全が明らかに"
+      ],
+      "credibility": "tier1",
+      "sources": ["Sri Lankan Government", "UN"]
+    },
+    {
+      "id": "event-007",
+      "date": "2021-08-15",
+      "title": {
+        "ja": "タリバンのカブール制圧",
+        "en": "Taliban Takeover of Kabul"
+      },
+      "organization": "taliban",
+      "location": {
+        "country": "アフガニスタン",
+        "cities": ["カブール"]
+      },
+      "casualties": {
+        "note": "制圧自体での直接的死者は限定的"
+      },
+      "type": "軍事制圧・政権交代",
+      "significance": "20年間の対テロ戦争の象徴的終結。タリバンの政権復帰。",
+      "description": "米軍撤退に伴いタリバンがアフガニスタン全土を急速に制圧。アシュラフ・ガニ大統領が国外逃亡。",
+      "aftermath": [
+        "アフガニスタン・イスラム首長国の再樹立",
+        "女性の権利の大幅な制限",
+        "人道危機の悪化",
+        "IS-Kとの対立激化",
+        "2025年7月: ロシアが政権承認"
+      ],
+      "credibility": "tier1",
+      "sources": ["UN", "US State Department", "Brookings Institution"]
+    },
+    {
+      "id": "event-008",
+      "date": "2023-10-07",
+      "title": {
+        "ja": "ハマスのイスラエル攻撃",
+        "en": "Hamas Attack on Israel (October 7)"
+      },
+      "organization": "hamas",
+      "location": {
+        "country": "イスラエル",
+        "region": "イスラエル南部・ガザ周辺"
+      },
+      "casualties": {
+        "deaths": 1200,
+        "hostages": 240,
+        "note": "イスラエル側の死者"
+      },
+      "type": "大規模奇襲攻撃",
+      "significance": "イスラエル・パレスチナ紛争の大規模エスカレーション。ガザ戦争の引き金。",
+      "description": "ハマスがガザからイスラエルに大規模奇襲攻撃。ロケット弾、地上侵入、人質拉致を実施。",
+      "aftermath": [
+        "イスラエルのガザ大規模軍事作戦",
+        "68,000人以上のパレスチナ人が死亡（2025年11月時点）",
+        "ガザ地区の69%の建造物が破壊・損傷",
+        "ヒズボラ・イスラエル紛争の激化",
+        "2025年1月15日: 停戦合意（脆弱）",
+        "国際的なジェノサイド議論"
+      ],
+      "credibility": "tier1",
+      "sources": ["UN", "Human Rights Watch", "ACLED", "Al Jazeera"]
+    },
+    {
+      "id": "event-009",
+      "date": "2024-03-22",
+      "title": {
+        "ja": "モスクワ・クロッカス・シティ・ホール攻撃",
+        "en": "Crocus City Hall Attack"
+      },
+      "organization": "isis",
+      "branch": "IS-K",
+      "location": {
+        "country": "ロシア",
+        "cities": ["モスクワ"]
+      },
+      "casualties": {
+        "deaths": 140,
+        "injured": 多数
+      },
+      "type": "銃乱射・放火",
+      "significance": "ロシア国内での近年最大のテロ攻撃。IS-Kの国際的脅威を示す。",
+      "description": "IS-Kの戦闘員がコンサートホールを襲撃。銃乱射と放火により140人が死亡。",
+      "aftermath": [
+        "ロシアの対テロ警戒強化",
+        "IS-Kの国際的活動能力の証明",
+        "中央アジア・ロシアでのIS-K脅威の認識向上"
+      ],
+      "credibility": "tier1",
+      "sources": ["Russian Government", "The Soufan Center", "UN"]
+    },
+    {
+      "id": "event-010",
+      "date": "2024-06-30",
+      "title": {
+        "ja": "ジェマー・イスラミア解散宣言",
+        "en": "Jemaah Islamiyah Dissolution"
+      },
+      "organization": "jemaah-islamiyah",
+      "location": {
+        "country": "インドネシア"
+      },
+      "casualties": {
+        "note": "暴力事件ではない"
+      },
+      "type": "組織解散宣言",
+      "significance": "東南アジア最大のテロ組織の一つが公式に解散。歴史的転換点。",
+      "description": "JIの16人の指導者が組織の解散を発表。暴力を放棄し、インドネシア国家と法に従うと宣言。",
+      "aftermath": [
+        "対テロ圧力の成功例",
+        "分派グループへの懸念",
+        "東南アジアのテロ情勢の変化",
+        "継続的な監視の必要性"
+      ],
+      "credibility": "tier2",
+      "sources": ["East Asia Forum", "Counter Extremism Project", "Indonesian Officials"]
+    },
+    {
+      "id": "event-011",
+      "date": "2024-10-01",
+      "title": {
+        "ja": "イスラエルのレバノン侵攻",
+        "en": "2024 Israeli Invasion of Lebanon"
+      },
+      "organization": "hezbollah",
+      "location": {
+        "country": "レバノン",
+        "region": "レバノン南部"
+      },
+      "casualties": {
+        "hezbollahOfficialDeaths": 521,
+        "idfEstimate": 3800,
+        "israeliDeaths": 75,
+        "note": "ヒズボラ公式発表と IDF推定に大きな差"
+      },
+      "type": "軍事侵攻",
+      "duration": "2024年10月1日 - 2024年11月27日（停戦合意）",
+      "significance": "第6次レバノン侵攻。ヒズボラの大幅弱体化。",
+      "description": "2023年10月からの紛争激化を受け、イスラエルが地上侵攻。ヒズボラの主要指導者と兵器の多くを破壊。",
+      "economicImpact": "140億米ドル（物理的損害68億ドル、経済損失72億ドル）",
+      "aftermath": [
+        "2024年11月27日: 60日間停戦合意",
+        "ヒズボラのリタニ川以北撤退要求",
+        "イスラエルが5つの拠点を維持（2025年2月）",
+        "停戦違反が継続",
+        "2025年4月: ヒズボラが武装解除協議参加を表明"
+      ],
+      "credibility": "tier1",
+      "sources": ["UN", "Human Rights Watch", "FDD", "Al Jazeera"]
+    },
+    {
+      "id": "event-012",
+      "date": "2025-03-01",
+      "title": {
+        "ja": "PKK停戦・解散プロセス開始",
+        "en": "PKK Ceasefire and Dissolution Process"
+      },
+      "organization": "pkk",
+      "location": {
+        "country": "トルコ・イラク"
+      },
+      "casualties": {
+        "note": "40年の紛争で40,000人以上が死亡"
+      },
+      "type": "停戦宣言・和平プロセス",
+      "significance": "40年以上続いた紛争の歴史的終結。中東の主要紛争の一つが平和的解決へ。",
+      "description": "アブドゥラ・オジャラン議長の呼びかけを受けPKK執行委員会が即時停戦を宣言。",
+      "timeline": [
+        "2024年10月: バフチェリ党首がオジャラン釈放提案",
+        "2025年2月27日: オジャラン議長が紛争終結呼びかけ",
+        "2025年3月1日: PKK即時停戦宣言",
+        "2025年5月12日: PKK全面解散発表",
+        "2025年7月11日: 北イラクで武器破壊式典"
+      ],
+      "aftermath": [
+        "トルコとクルド勢力の歴史的和解",
+        "武装解除プロセス継続中",
+        "地域安定化への期待",
+        "シリア情勢への影響"
+      ],
+      "credibility": "tier1",
+      "sources": ["UN OHCHR", "International Crisis Group", "NPR", "CFR"]
+    },
+    {
+      "id": "event-013",
+      "date": "2025-06-09",
+      "title": {
+        "ja": "バシラン州ASGフリー宣言",
+        "en": "Basilan Declared ASG-Free"
+      },
+      "organization": "asg",
+      "location": {
+        "country": "フィリピン",
+        "region": "バシラン州"
+      },
+      "casualties": {
+        "note": "最後の8人が降伏"
+      },
+      "type": "組織壊滅宣言",
+      "significance": "ASGの歴史的拠点であるバシランでの完全排除。組織の事実上の終焉。",
+      "description": "タワッカル・バヤリ率いる最後の8人のメンバーが降伏。バシラン州が正式にASGフリーを宣言。",
+      "context": [
+        "2024年3月: フィリピン政府がASG完全解体を発表",
+        "2024年12月26日: 最後のメンバー降伏",
+        "2023年: スールー州もASGフリー宣言",
+        "軍事作戦と社会プログラムの組み合わせが成功"
+      ],
+      "aftermath": [
+        "ミンダナオ地域の治安改善",
+        "元メンバーの再統合プログラム",
+        "ISEAの残存勢力への警戒継続"
+      ],
+      "credibility": "tier1",
+      "sources": ["Philippine News Agency", "Philippine Army", "The Soufan Center"]
+    },
+    {
+      "id": "event-014",
+      "date": "2025-09-05",
+      "title": {
+        "ja": "ダルル・ジャマル攻撃",
+        "en": "Darul Jamal Attack"
+      },
+      "organization": "boko-haram",
+      "location": {
+        "country": "ナイジェリア",
+        "region": "ボルノ州ダルル・ジャマル"
+      },
+      "casualties": {
+        "deaths": 63,
+        "note": "兵士7人含む"
+      },
+      "type": "村落襲撃",
+      "significance": "2025年のボコ・ハラム活動再活性化の象徴的事件。",
+      "description": "ボコ・ハラムの戦闘員が村を襲撃し、民間人と兵士合わせて63人を殺害。",
+      "context2025": [
+        "2025年前半に2,266人以上が死亡（2024年全体を超える）",
+        "毎日のように攻撃が発生",
+        "ISWAPも同時期に攻撃を激化"
+      ],
+      "credibility": "tier1",
+      "sources": ["Amnesty International", "Human Rights Watch", "The Soufan Center"]
+    },
+    {
+      "id": "event-015",
+      "date": "2025-07-20",
+      "title": {
+        "ja": "アル・シャバブのサビード・アノレ奪還",
+        "en": "Al-Shabaab Recaptures Sabiid and Anole"
+      },
+      "organization": "al-shabaab",
+      "location": {
+        "country": "ソマリア",
+        "region": "下シャベレ地域"
+      },
+      "casualties": {
+        "note": "具体的死者数不明"
+      },
+      "type": "領土奪還作戦",
+      "significance": "アル・シャバブの2025年攻勢の象徴。モガディシュ包囲戦略の一環。",
+      "description": "アル・シャバブがモガディシュ南西40kmのサビードとアノレを奪還。自爆攻撃を駆使してモココリとグマレも奪取。",
+      "strategicImportance": "モココリ、タルド、ブク・アカブレを支配し、ヒランと中部シャベレを包囲する三角形の拠点を形成",
+      "context": [
+        "2025年3月: モハムド大統領暗殺未遂",
+        "2024年: 対政府攻勢が膠着",
+        "2025年: 大規模な領土奪還に成功"
+      ],
+      "credibility": "tier1",
+      "sources": ["The Soufan Center", "ACLED", "UN Security Council"]
+    }
+  ],
+  "statistics": {
+    "totalEvents": 15,
+    "timeSpan": "2001-2025",
+    "organizationsCovered": 10,
+    "majorAttacks": 11,
+    "organizationalChanges": 4
+  }
+}
