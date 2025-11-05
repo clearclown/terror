@@ -69,11 +69,16 @@
 - 🎨 **色分け**: 関係性ごとに色分け（分派=オレンジ、継承=青、提携=緑、対立=赤）
 - 🔍 **ズーム・パン**: マウス操作で自由に拡大・移動
 
-### 3. AI チャット機能（OpenAI API）
+### 3. AI チャット機能（マルチプロバイダー対応）
 - 💬 **リアルタイムチャット**: 組織に関する質問をAIに即座に質問可能
-- 🤖 **GPT-4o mini**: コスト効率の良いモデルで高速応答
+- 🤖 **4つのAIモデルをサポート**:
+  - **OpenAI** (GPT-4o-mini) - 高品質でバランスが良い
+  - **DeepSeek V3** - 最もコスト効率が良い（推奨）
+  - **Claude 3.5 Haiku** (Anthropic) - 高速で正確
+  - **Gemini 1.5 Flash** (Google) - 無料枠あり
 - 👶 **わかりやすい説明**: 「子供にもわかるように説明して」などの指示に対応
 - 📚 **専門的な回答**: 中立的かつ客観的な立場で正確な情報を提供
+- 🔄 **簡単な切り替え**: 環境変数 `AI_PROVIDER` で選択
 
 ### 4. 個別組織ページ
 - 組織の詳細情報（現状、背景、活動地域）
@@ -119,7 +124,11 @@ terror/
 - **Package Manager**: pnpm
 - **Visualization**: React Flow (組織関係図)
 - **Furigana**: Kuroshiro + Kuromoji (日本語ふりがな)
-- **AI**: OpenAI API (GPT-4o mini)
+- **AI (マルチプロバイダー対応)**:
+  - OpenAI SDK (GPT-4o-mini)
+  - DeepSeek API (OpenAI互換)
+  - Anthropic SDK (Claude 3.5 Haiku)
+  - Google Generative AI SDK (Gemini 1.5 Flash)
 - **Data Visualization**: D3.js (追加の可視化)
 
 ---
@@ -135,15 +144,26 @@ pnpm install
 
 ### 2. 環境変数の設定
 
-AIチャット機能を使用する場合は、OpenAI APIキーを設定してください：
+AIチャット機能を使用する場合は、使用したいAIプロバイダーのAPIキーを設定してください：
 
 ```bash
 # .env.example をコピー
 cp .env.example .env.local
 
-# .env.local を編集してAPIキーを設定
+# .env.local を編集
+AI_PROVIDER=deepseek  # openai, deepseek, claude, gemini から選択
+
+# 使用するプロバイダーのAPIキーを設定（1つだけでOK）
+DEEPSEEK_API_KEY=sk-your-deepseek-api-key-here
+# または
 OPENAI_API_KEY=sk-your-openai-api-key-here
+# または
+ANTHROPIC_API_KEY=sk-ant-your-anthropic-api-key-here
+# または
+GOOGLE_API_KEY=your-google-api-key-here
 ```
+
+**推奨**: DeepSeek V3（最もコスト効率が良い）
 
 ### 3. 開発サーバーの起動
 
@@ -181,12 +201,23 @@ pnpm dev
    Install Command: pnpm install (自動検出)
    ```
 
-4. **環境変数の設定**
-   - 「Environment Variables」セクションで以下を追加：
+4. **環境変数の設定（オプション）**
+   - 「Environment Variables」セクションで使用するAIプロバイダーを追加：
    ```
+   # プロバイダー選択（デフォルト: openai）
+   AI_PROVIDER=deepseek
+
+   # 選択したプロバイダーのAPIキー（1つだけでOK）
+   DEEPSEEK_API_KEY=sk-your-deepseek-api-key-here
+   # または
    OPENAI_API_KEY=sk-your-openai-api-key-here
+   # または
+   ANTHROPIC_API_KEY=sk-ant-your-anthropic-api-key-here
+   # または
+   GOOGLE_API_KEY=your-google-api-key-here
    ```
    - すべての環境（Production, Preview, Development）にチェック
+   - **推奨**: DeepSeek V3（コスト効率最高）
 
 5. **デプロイ**
    - 「Deploy」をクリックすると自動的にビルド・デプロイが開始されます
@@ -195,8 +226,9 @@ pnpm dev
 ### 注意事項
 
 - **pnpm サポート**: Vercel は pnpm を自動検出してサポートします
-- **環境変数**: OpenAI API キーは必須ではありません（未設定の場合はフォールバックメッセージを表示）
+- **環境変数**: AI API キーは必須ではありません（未設定の場合はフォールバックメッセージを表示）
 - **自動デプロイ**: GitHub へ push すると自動的に Vercel がビルド・デプロイします
+- **プロバイダー選択**: 環境変数 `AI_PROVIDER` で簡単に切り替え可能
 
 ### トラブルシューティング
 
@@ -204,6 +236,40 @@ pnpm dev
 1. Root Directory が `web` に設定されているか確認
 2. Node.js バージョンが 18 以上に設定されているか確認
 3. pnpm が選択されているか確認（Settings → General → Package Manager）
+
+---
+
+## 🤖 AIプロバイダー比較
+
+| プロバイダー | モデル | コスト | 速度 | 品質 | 無料枠 | 取得URL |
+|------------|--------|--------|------|------|--------|---------|
+| **DeepSeek** 🌟 | V3 | ★★★★★ | ★★★★☆ | ★★★★☆ | 少量あり | [API Keys](https://platform.deepseek.com/api-keys) |
+| **OpenAI** | GPT-4o-mini | ★★★☆☆ | ★★★★★ | ★★★★★ | $5 無料 | [API Keys](https://platform.openai.com/api-keys) |
+| **Anthropic** | Claude 3.5 Haiku | ★★★☆☆ | ★★★★★ | ★★★★★ | なし | [API Keys](https://console.anthropic.com/settings/keys) |
+| **Google** | Gemini 1.5 Flash | ★★★★☆ | ★★★★☆ | ★★★★☆ | **大量** | [API Key](https://aistudio.google.com/apikey) |
+
+### 推奨
+
+- **コスト重視**: DeepSeek V3（最安）
+- **品質重視**: Claude 3.5 Haiku または GPT-4o-mini
+- **無料で試したい**: Gemini 1.5 Flash（無料枠が大きい）
+- **バランス型**: DeepSeek V3（コスパ最強）
+
+### 使用例
+
+```bash
+# DeepSeek を使用（推奨）
+AI_PROVIDER=deepseek
+DEEPSEEK_API_KEY=sk-...
+
+# Claude を使用
+AI_PROVIDER=claude
+ANTHROPIC_API_KEY=sk-ant-...
+
+# Gemini を使用（無料枠あり）
+AI_PROVIDER=gemini
+GOOGLE_API_KEY=...
+```
 
 ---
 
