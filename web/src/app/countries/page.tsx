@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import countriesData from '../../../../data/countries.json'
+import countriesData from '@/data/countries.json'
 
 export default function CountriesPage() {
   const countries = countriesData.countries

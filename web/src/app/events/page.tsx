@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import eventsData from '../../../../data/events.json'
+import eventsData from '@/data/events.json'
 
 export default function EventsPage() {
   const events = eventsData.events.sort((a, b) => b.date.localeCompare(a.date))

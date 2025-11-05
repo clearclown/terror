@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
-import organizationsData from '../../../../../data/organizations.json'
-import relationshipsData from '../../../../../data/relationships.json'
+import organizationsData from '@/data/organizations.json'
+import relationshipsData from '@/data/relationships.json'
 import { ChatPanel } from '@/features/chat/ChatPanel'
 import { EnhancedDifficultyToggle } from '@/features/difficulty/EnhancedDifficultyToggle'
 import { OrganizationRelationshipCard } from '@/features/organizations/OrganizationRelationshipCard'

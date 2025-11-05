@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import organizationsData from '../../../../data/organizations.json'
+import organizationsData from '@/data/organizations.json'
 
 export default function OrganizationsPage() {
   const orgs = organizationsData.organizations

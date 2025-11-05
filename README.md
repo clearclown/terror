@@ -159,6 +159,54 @@ pnpm dev
 
 ---
 
+## 🚀 Vercel へのデプロイ
+
+このプロジェクトは Vercel に簡単にデプロイできます。
+
+### デプロイ手順
+
+1. **Vercel アカウント作成**
+   - https://vercel.com でアカウントを作成（GitHub 連携推奨）
+
+2. **プロジェクトをインポート**
+   - Vercel ダッシュボードで「New Project」をクリック
+   - GitHub リポジトリを選択
+
+3. **プロジェクト設定**
+   ```
+   Framework Preset: Next.js
+   Root Directory: web
+   Build Command: pnpm build (自動検出)
+   Output Directory: .next (自動検出)
+   Install Command: pnpm install (自動検出)
+   ```
+
+4. **環境変数の設定**
+   - 「Environment Variables」セクションで以下を追加：
+   ```
+   OPENAI_API_KEY=sk-your-openai-api-key-here
+   ```
+   - すべての環境（Production, Preview, Development）にチェック
+
+5. **デプロイ**
+   - 「Deploy」をクリックすると自動的にビルド・デプロイが開始されます
+   - 数分で完了し、URL が発行されます
+
+### 注意事項
+
+- **pnpm サポート**: Vercel は pnpm を自動検出してサポートします
+- **環境変数**: OpenAI API キーは必須ではありません（未設定の場合はフォールバックメッセージを表示）
+- **自動デプロイ**: GitHub へ push すると自動的に Vercel がビルド・デプロイします
+
+### トラブルシューティング
+
+**ビルドエラーが発生した場合:**
+1. Root Directory が `web` に設定されているか確認
+2. Node.js バージョンが 18 以上に設定されているか確認
+3. pnpm が選択されているか確認（Settings → General → Package Manager）
+
+---
+
 ## 📈 2024-2025年の重要な変化
 
 ### ✅ 壊滅・解散
