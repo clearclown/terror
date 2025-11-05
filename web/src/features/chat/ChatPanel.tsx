@@ -22,19 +22,49 @@ export function ChatPanel({ organizationName }: { organizationName: string }) {
     if (!input.trim() || isLoading) return
 
     const userMessage: Message = { role: 'user', content: input }
-    setMessages(prev => [...prev, userMessage])
+    const newMessages = [...messages, userMessage]
+    setMessages(newMessages)
     setInput('')
     setIsLoading(true)
 
-    // TODO: 実際のAPI呼び出しに置き換え
-    setTimeout(() => {
-      const assistantMessage: Message = {
-        role: 'assistant',
-        content: `「${input}」についてお答えします。（注: これはデモです。実装時にAI APIを統合してください）`
+    try {
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          messages: newMessages,
+          organizationName,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (data.error) {
+        // エラー時はフォールバックレスポンスを使用
+        const assistantMessage: Message = {
+          role: 'assistant',
+          content: data.fallbackResponse || data.error
+        }
+        setMessages(prev => [...prev, assistantMessage])
+      } else {
+        const assistantMessage: Message = {
+          role: 'assistant',
+          content: data.message
+        }
+        setMessages(prev => [...prev, assistantMessage])
       }
-      setMessages(prev => [...prev, assistantMessage])
+    } catch (error) {
+      console.error('Chat API error:', error)
+      const errorMessage: Message = {
+        role: 'assistant',
+        content: '申し訳ございません。接続エラーが発生しました。しばらく待ってから再度お試しください。'
+      }
+      setMessages(prev => [...prev, errorMessage])
+    } finally {
       setIsLoading(false)
-    }, 1000)
+    }
   }
 
   return (

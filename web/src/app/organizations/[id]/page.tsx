@@ -1,5 +1,9 @@
 import { notFound } from 'next/navigation'
 import organizationsData from '../../../../../data/organizations.json'
+import relationshipsData from '../../../../../data/relationships.json'
+import { ChatPanel } from '@/features/chat/ChatPanel'
+import { EnhancedDifficultyToggle } from '@/features/difficulty/EnhancedDifficultyToggle'
+import { OrganizationRelationshipCard } from '@/features/organizations/OrganizationRelationshipCard'
 
 export function generateStaticParams() {
   return organizationsData.organizations.map((org) => ({
@@ -39,10 +43,13 @@ export default function OrganizationPage({ params }: { params: { id: string } })
         </div>
       </div>
 
-      {/* 3行サマリー */}
-      <section className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-        <h2 className="text-xl font-bold mb-3">💡 わかりやすい解説</h2>
-        <p className="text-lg leading-relaxed">{org.currentStatus.summary}</p>
+      {/* わかりやすい解説 - 難易度切り替え */}
+      <section>
+        <h2 className="text-2xl font-bold mb-4">💡 わかりやすい解説</h2>
+        <EnhancedDifficultyToggle
+          simpleText={org.currentStatus.summary}
+          detailedText={`${org.background.origin} ${org.background.objectives}`}
+        />
       </section>
 
       {/* 現在の状況 */}
@@ -188,6 +195,29 @@ export default function OrganizationPage({ params }: { params: { id: string } })
           </div>
         </section>
       )}
+
+      {/* 組織間の関係性 */}
+      <section>
+        <h2 className="text-2xl font-bold mb-4">🔄 組織間の関係性</h2>
+        <OrganizationRelationshipCard
+          organizationId={org.id}
+          organizationName={org.name.ja}
+          relationships={relationshipsData.relationships}
+          relationshipTypes={relationshipsData.relationshipTypes}
+          organizations={organizationsData.organizations.map((o) => ({
+            id: o.id,
+            name: o.name,
+          }))}
+        />
+      </section>
+
+      {/* AIチャット */}
+      <section>
+        <h2 className="text-2xl font-bold mb-4">💬 AI アシスタント</h2>
+        <div className="h-[600px]">
+          <ChatPanel organizationName={org.name.ja} />
+        </div>
+      </section>
     </div>
   )
 }

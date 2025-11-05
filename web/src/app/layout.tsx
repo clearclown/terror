@@ -26,6 +26,7 @@ export default function RootLayout({
               <div className="flex gap-4">
                 <a href="/" className="hover:underline">ホーム</a>
                 <a href="/organizations" className="hover:underline">組織一覧</a>
+                <a href="/organizations/relationships" className="hover:underline">関係図</a>
                 <a href="/events" className="hover:underline">事件</a>
                 <a href="/countries" className="hover:underline">国別</a>
               </div>
