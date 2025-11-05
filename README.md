@@ -1,4 +1,140 @@
-# 世界のテロ情報をまとめてみた。
+# 世界安全情報プラットフォーム (Global Security Information Platform)
+
+**テロ組織・武装グループ・民間軍事会社の包括的情報プラットフォーム**
+
+[![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-97.4%25-blue)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+
+## 🌍 プロジェクト概要
+
+このプラットフォームは、[未来議会](https://github.com/team-mirai-volunteer/mirai-gikai)の「難しいものをわかりやすく教える」というコンセプトを、テロリズムと世界の安全情報分野に水平展開したものです。
+
+### 目的
+
+- **民間旅行者**: 渡航前の安全確認
+- **研究者・学生**: 学術研究と歴史理解
+- **インテリジェンス関係者**: 専門的分析
+- **ジャーナリスト**: 取材前調査
+- **企業**: 海外駐在員の安全管理
+- **一般市民**: 世界情勢の理解
+
+### 対象範囲
+
+- テロ組織（政府指定・非指定問わず）
+- 武装グループ・ミリシア・民兵組織
+- 民間軍事会社（PMC）
+- 反政府武装勢力
+- 駐在軍・外国軍
+- クーデタ勢力
+
+---
+
+## 📊 データベース概要
+
+### 掲載情報（2024-2025年最新）
+
+- **組織数**: 10組織
+- **主要事件**: 15件（2001-2025年）
+- **対象国**: 12カ国
+- **情報源**: 20以上の信頼できる機関
+
+### 信頼性評価システム
+
+**Tier 1（最高信頼性）**
+- 政府機関：UN Security Council, US State Department, US CENTCOM
+- 学術機関：Combating Terrorism Center (West Point), Brookings Institution
+- 人権団体：Human Rights Watch, Amnesty International
+
+**Tier 2（高信頼性）**
+- シンクタンク：The Soufan Center, ACLED, Counter Extremism Project
+- 報道機関：Al Jazeera, NPR, Reuters
+
+---
+
+## 🚀 主要機能（未来議会ベース）
+
+### 1. 難易度切り替え
+```
+😊 やさしく: わかりやすい表現で説明
+📚 詳しく: 専門的な情報も含めて詳細に説明
+```
+
+### 2. AI質問機能
+テキストを選択して質問できるAIアシスタント
+- 「子供にもわかるように説明して」などの指示に対応
+- 専門用語の解説
+- 背景情報の説明
+
+### 3. チャット機能
+- 左: 組織情報
+- 右: AIチャット
+- リアルタイムで質問・回答
+
+---
+
+## 📁 プロジェクト構造
+
+```
+terror/
+├── data/                    # JSONデータベース ✅
+│   ├── organizations.json   # 10組織の詳細情報
+│   ├── events.json          # 15件の主要事件
+│   ├── countries.json       # 12カ国の分析
+│   └── README.md            # データ仕様書
+│
+├── web/                     # Next.js フロントエンド 🚧
+│   ├── src/
+│   │   ├── app/             # ページ
+│   │   ├── features/        # 機能モジュール
+│   │   └── components/      # 共通コンポーネント
+│   └── package.json
+│
+└── README.md                # このファイル
+```
+
+---
+
+## 🛠️ 技術スタック
+
+- **Framework**: Next.js 14+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Package Manager**: pnpm
+
+---
+
+## 🎯 セットアップ
+
+```bash
+cd web
+pnpm install
+pnpm dev
+# http://localhost:3000
+```
+
+---
+
+## 📈 2024-2025年の重要な変化
+
+### ✅ 壊滅・解散
+- **ASG**: フィリピンで実質壊滅
+- **JI**: インドネシアで解散宣言
+- **PKK**: トルコと停戦・解散（歴史的）
+
+### 🔴 活動激化
+- **ISIS**: シリアで攻撃3倍増
+- **ボコ・ハラム**: 2025年激化
+- **アル・シャバブ**: 領土奪還攻勢
+
+---
+
+## 🙏 謝辞
+
+このプロジェクトは[チームみらい](https://team-mir.ai/)の[未来議会](https://github.com/team-mirai-volunteer/mirai-gikai)に触発されました。
+
+---
+
 ![terror.svg](./markmap.svg)
 
 # 中国
