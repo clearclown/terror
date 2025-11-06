@@ -3176,6 +3176,584 @@
         "conflictingReports": false
       },
       "relatedOrganizations": ["ISIS（勧誘標的）", "アルカイダ（イデオロギー類似）"]
+    },
+    {
+      "id": "al-shabaab",
+      "name": {
+        "ja": "アル・シャバブ",
+        "en": "Al-Shabaab",
+        "native": "حركة الشباب المجاهدين",
+        "aliases": ["Harakat al-Shabaab al-Mujahideen"]
+      },
+      "status": "活発・2025年大攻勢",
+      "founded": "2006",
+      "region": "アフリカ",
+      "primaryCountries": ["ソマリア"],
+      "activeLocations": ["モガディシュ周辺", "中央ソマリア", "南部ソマリア"],
+      "ideology": "イスラム過激主義（アルカイダ系）",
+      "affiliation": "アルカイダ",
+      "estimatedMembers": {
+        "current": "7,000-12,000人",
+        "peak": "7,000-12,000人",
+        "lastUpdated": "2025-07"
+      },
+      "currentStatus": {
+        "summary": "2025年に攻撃が50%増加。モガディシュ包囲作戦。7月にSabiid・Anole奪還。",
+        "keyDevelopments": [
+          "2025年2月20日: 大規模攻撃開始",
+          "2025年3月: 大統領暗殺未遂",
+          "2025年7月: Sabiid・Anole奪還",
+          "2025年: 攻撃50%増加"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["The Soufan Center", "UN Security Council", "CFR"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["アルカイダ", "AQAP"]
+    },
+    {
+      "id": "pkk",
+      "name": {
+        "ja": "クルド労働者党",
+        "en": "Kurdistan Workers' Party",
+        "abbreviation": "PKK"
+      },
+      "status": "解散（2025年5月12日）",
+      "founded": "1978",
+      "region": "中東",
+      "primaryCountries": ["トルコ", "イラク"],
+      "activeLocations": ["歴史的: 北イラク、トルコ南東部"],
+      "ideology": "クルド民族主義",
+      "affiliation": "独立組織（現在: 解散）",
+      "estimatedMembers": {
+        "current": "0人（解散）",
+        "peak": "数万人（1990年代）",
+        "lastUpdated": "2025-07"
+      },
+      "currentStatus": {
+        "summary": "2025年5月12日正式解散。40年間の反乱終結。7月11日武器破壊式典。",
+        "keyDevelopments": [
+          "2024年10月: 航空宇宙産業攻撃（5人死亡）",
+          "2025年3月1日: 停戦宣言",
+          "2025年5月12日: 正式解散",
+          "2025年7月11日: 武器破壊式典"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["UK Government", "US NCTC", "CFR"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["YPG（シリア）"]
+    },
+    {
+      "id": "boko-haram",
+      "name": {
+        "ja": "ボコ・ハラム",
+        "en": "Boko Haram",
+        "abbreviation": "JAS"
+      },
+      "status": "活発・2025年再興",
+      "founded": "2002",
+      "region": "アフリカ",
+      "primaryCountries": ["ナイジェリア"],
+      "activeLocations": ["チャド湖流域"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "数千人",
+        "peak": "数万人（2010年代半ば）",
+        "lastUpdated": "2025-06"
+      },
+      "currentStatus": {
+        "summary": "2021年Shekau死亡後も継続。2025年初頭再興。ISWAPからチャド湖諸島奪還。",
+        "keyDevelopments": [
+          "2021年5月: Shekau死亡",
+          "2025年6月21日: Konduga自爆攻撃（12人死亡）",
+          "2025年初頭: チャド湖諸島奪還"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["HRW", "ICG", "ACLED"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["ISWAP（敵対）"]
+    },
+    {
+      "id": "ansaru",
+      "name": {
+        "ja": "アンサル",
+        "en": "Ansaru",
+        "native": "Jama'atu Ansarul Muslimina fi Biladis Sudan",
+        "aliases": ["Vanguards for the Protection of Muslims in Black Africa"]
+      },
+      "status": "活発・2025年リーダー逮捕",
+      "founded": "2012",
+      "region": "アフリカ",
+      "primaryCountries": ["ナイジェリア"],
+      "activeLocations": ["北西部", "北中部"],
+      "ideology": "イスラム過激主義（アルカイダ系）",
+      "affiliation": "アルカイダ",
+      "estimatedMembers": {
+        "current": "不明",
+        "peak": "不明",
+        "lastUpdated": "2025-08"
+      },
+      "currentStatus": {
+        "summary": "2025年8月に2人のリーダー逮捕。2024年に287人の学生誘拐。誘拐・身代金が主要活動。",
+        "keyDevelopments": [
+          "2024年: Kaduna州で287人の学生誘拐（10億ナイラ身代金要求）",
+          "2025年8月16日: Mahmud Muhammad Usman・Mahmud al-Nigeri逮捕",
+          "2025年10月21日: 裁判延期（11月19日へ）",
+          "2018-2020年: 組織再興"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["ISS Africa", "DefenceWeb"],
+        "verificationLevel": "高"
+      },
+      "relatedOrganizations": ["アルカイダ", "Boko Haram（分裂元）"]
+    },
+    {
+      "id": "aqap",
+      "name": {
+        "ja": "アラビア半島のアルカイダ",
+        "en": "Al-Qaeda in the Arabian Peninsula",
+        "abbreviation": "AQAP"
+      },
+      "status": "活発・弱体化",
+      "founded": "2009",
+      "region": "中東",
+      "primaryCountries": ["イエメン"],
+      "activeLocations": ["Abyan", "Shabwa", "Hadramawt"],
+      "ideology": "イスラム過激主義（アルカイダ系）",
+      "affiliation": "アルカイダ",
+      "estimatedMembers": {
+        "current": "2,000-3,000人",
+        "peak": "数千人（2010年代）",
+        "lastUpdated": "2024-07"
+      },
+      "currentStatus": {
+        "summary": "2024年3月に新リーダーSa'ad bin Atef al-Awlaki就任。2025年10月自爆攻撃で兵士4人殺害。Houthiと協力。",
+        "keyDevelopments": [
+          "2024年3月: Khalid Batarfi死亡、Sa'ad bin Atef al-Awlaki就任",
+          "2024年8月16日: 自爆攻撃（兵士16人殺害）",
+          "2025年10月21日: Abyanで自爆攻撃（兵士4人殺害）",
+          "2024年: Houthiとの協力合意"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["Long War Journal", "ACLED", "UN Security Council"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["アルカイダ", "Houthi（協力）"]
+    },
+    {
+      "id": "kss",
+      "name": {
+        "ja": "殉教者指導者旅団",
+        "en": "Kata'ib Sayyid al-Shuhada",
+        "abbreviation": "KSS",
+        "native": "كتائب سيد الشهداء"
+      },
+      "status": "活発・イラン代理組織",
+      "founded": "2013",
+      "region": "中東",
+      "primaryCountries": ["イラク"],
+      "activeLocations": ["イラク全域"],
+      "ideology": "シーア派イスラム主義",
+      "affiliation": "イラン（IRGC）",
+      "estimatedMembers": {
+        "current": "不明",
+        "peak": "不明",
+        "lastUpdated": "2025-09"
+      },
+      "currentStatus": {
+        "summary": "2025年9月17日に米国がFTO指定。PMF第14旅団を運営。イラン支援の米軍攻撃に関与。",
+        "keyDevelopments": [
+          "2023年11月: SDGTに指定",
+          "2025年9月17日: FTO（外国テロ組織）指定",
+          "イラク・シリアで米軍標的攻撃"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["US State Department", "Counter Extremism Project"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["IRGC（イラン）", "Kataib Hezbollah", "AAH"]
+    },
+    {
+      "id": "eln",
+      "name": {
+        "ja": "民族解放軍",
+        "en": "National Liberation Army",
+        "abbreviation": "ELN",
+        "native": "Ejército de Liberación Nacional"
+      },
+      "status": "活発・和平交渉中断",
+      "founded": "1964",
+      "region": "南米",
+      "primaryCountries": ["コロンビア"],
+      "activeLocations": ["コロンビア全域"],
+      "ideology": "左翼・解放の神学",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "2,000-3,000人",
+        "peak": "数千人",
+        "lastUpdated": "2025-01"
+      },
+      "currentStatus": {
+        "summary": "2024年8月停戦崩壊。2025年1月Tibú虐殺後和平交渉中断。誘拐・課税継続。",
+        "keyDevelopments": [
+          "2024年2月: 停戦6ヶ月延長",
+          "2024年8月: 停戦終了",
+          "2024年11月: 和平プロセス再開合意",
+          "2025年1月17日: Tibú虐殺後和平交渉中断"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["Al Jazeera", "JURIST", "ACLED"],
+        "verificationLevel": "高"
+      },
+      "relatedOrganizations": ["FARC（歴史的）"]
+    },
+    {
+      "id": "hts",
+      "name": {
+        "ja": "シャーム解放機構",
+        "en": "Hay'at Tahrir al-Sham",
+        "abbreviation": "HTS",
+        "native": "هيئة تحرير الشام"
+      },
+      "status": "解散・シリア暫定政府へ移行（2025年1月）",
+      "founded": "2017",
+      "region": "中東",
+      "primaryCountries": ["シリア"],
+      "activeLocations": ["歴史的: イドリブ、現在: シリア全域統治"],
+      "ideology": "イスラム主義",
+      "affiliation": "独立組織（元アルカイダ、現在: 解散）",
+      "estimatedMembers": {
+        "current": "0人（解散、国家機構に統合）",
+        "peak": "10,000-30,000人（2024）",
+        "lastUpdated": "2025-01"
+      },
+      "currentStatus": {
+        "summary": "2024年12月8日にアサド政権打倒。2025年1月29日に解散、国家機構に統合。米英がテロ指定解除。",
+        "keyDevelopments": [
+          "2024年11月27日: 全国攻勢開始",
+          "2024年11月29日: アレッポ占領",
+          "2024年12月5日: ハマ占領",
+          "2024年12月8日: ダマスカス陥落、アサド政権崩壊（53年支配終了）",
+          "2025年1月29日: HTS解散、武装勢力を国家機構に統合",
+          "2025年3月: 新憲法宣言",
+          "2025年7月: 米国がテロ指定解除",
+          "2025年10月: 英国がテロ指定解除"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["Brandeis Crown Center", "UK Parliament", "GWU Program on Extremism"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["アルカイダ（歴史的）", "シリア暫定政府"]
+    },
+    {
+      "id": "al-aqsa-martyrs",
+      "name": {
+        "ja": "アル・アクサ殉教者旅団",
+        "en": "Al-Aqsa Martyrs Brigades",
+        "abbreviation": "AMB"
+      },
+      "status": "活発",
+      "founded": "2000",
+      "region": "中東",
+      "primaryCountries": ["パレスチナ"],
+      "activeLocations": ["西岸地区", "ガザ"],
+      "ideology": "パレスチナ民族主義",
+      "affiliation": "元ファタハ（2007年分離）",
+      "estimatedMembers": {
+        "current": "不明",
+        "peak": "不明",
+        "lastUpdated": "2024-10"
+      },
+      "currentStatus": {
+        "summary": "2023年10月のガザ攻撃に参加。2024年西岸地区で活発。Jenin Battalion傘下で活動。",
+        "keyDevelopments": [
+          "2023年10月: ガザからイスラエル攻撃",
+          "2024年10月: Tubas襲撃対応",
+          "2024年10月9日: Balata指導者がYamam部隊に殺害",
+          "Jenin Battalionで他組織と協力"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "reliabilitySources": ["CFR", "ECFR", "Al Mayadeen"],
+        "verificationLevel": "高"
+      },
+      "relatedOrganizations": ["Hamas", "PIJ", "ファタハ（歴史的）"]
+    },
+    {
+      "id": "pflp",
+      "name": {
+        "ja": "パレスチナ解放人民戦線",
+        "en": "Popular Front for the Liberation of Palestine",
+        "abbreviation": "PFLP"
+      },
+      "status": "活発",
+      "founded": "1967",
+      "region": "中東",
+      "primaryCountries": ["パレスチナ", "レバノン"],
+      "activeLocations": ["西岸地区", "ガザ", "レバノン"],
+      "ideology": "マルクス・レーニン主義・パレスチナ民族主義",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "不明",
+        "peak": "不明",
+        "lastUpdated": "2024-09"
+      },
+      "currentStatus": {
+        "summary": "ガザ戦争でHamas等と協力。2024年9月にイスラエルがレバノンで3人の指導者暗殺。",
+        "keyDevelopments": [
+          "2024年9月: イスラエルがレバノンでPFLP指導者3人暗殺",
+          "2023年10月以降: ガザ戦争に参加",
+          "PLO執行委員会・パレスチナ国民評議会をボイコット中"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "reliabilitySources": ["ECFR", "CFR", "Britannica"],
+        "verificationLevel": "高"
+      },
+      "relatedOrganizations": ["Hamas", "PIJ", "PFLP-GC"]
+    },
+    {
+      "id": "jamaat-e-islami-bangladesh",
+      "name": {
+        "ja": "ジャマート・エ・イスラミ（バングラデシュ）",
+        "en": "Bangladesh Jamaat-e-Islami",
+        "abbreviation": "BJI"
+      },
+      "status": "活発・2024年禁止後解除",
+      "founded": "1975",
+      "region": "南アジア",
+      "primaryCountries": ["バングラデシュ"],
+      "activeLocations": ["バングラデシュ全域"],
+      "ideology": "イスラム主義",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "不明",
+        "peak": "不明",
+        "lastUpdated": "2025-06"
+      },
+      "currentStatus": {
+        "summary": "2024年学生抗議運動支援。8月1日禁止、8月28日解除。Hasina辞任後暴力発生。2025年6月登録回復。",
+        "keyDevelopments": [
+          "2024年8月1日: テロ組織指定・禁止",
+          "2024年8月5日: Hasina辞任、その日に警官25人殺害",
+          "2024年8月28日: 禁止解除",
+          "2024年10月-2025年3月: BNPとの衝突多発",
+          "2025年6月1日: 最高裁命令で登録回復"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "reliabilitySources": ["CNN", "The Diplomat", "Business Today"],
+        "verificationLevel": "高"
+      },
+      "relatedOrganizations": ["Islami Chhatra Shibir（学生部門）"]
+    },
+    {
+      "id": "houthi",
+      "name": {
+        "ja": "フーシ派",
+        "en": "Houthi Movement",
+        "native": "أنصار الله",
+        "aliases": ["Ansar Allah", "Ansarallah"]
+      },
+      "status": "活発・紅海攻撃継続",
+      "founded": "1990年代",
+      "region": "中東",
+      "primaryCountries": ["イエメン"],
+      "activeLocations": ["北イエメン", "紅海", "バブ・エル・マンデブ海峡"],
+      "ideology": "ザイディー派シーア・イスラム主義",
+      "affiliation": "イラン支援",
+      "estimatedMembers": {
+        "current": "数万人",
+        "peak": "数万人",
+        "lastUpdated": "2025-06"
+      },
+      "currentStatus": {
+        "summary": "2023年10月から紅海で船舶攻撃。世界貿易に影響。2025年5月に米国と停戦合意もイスラエル標的攻撃は継続。",
+        "keyDevelopments": [
+          "2023年10月19日: 紅海攻撃開始",
+          "2024年1月12日: 米英がOperation Poseidon Archer開始",
+          "2024年2月19日: EU Operation Aspides開始",
+          "2024年: スエズ運河通航が90%減少",
+          "2025年5月6日: 米国と停戦合意（紅海攻撃停止、但しイスラエルは除外）",
+          "2025年7月29日: イスラエル港寄港船への攻撃拡大宣言"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["Washington Institute", "ICG", "UK Parliament"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["イラン（支援）", "AQAP（協力）"]
+    },
+    {
+      "id": "hezbollah",
+      "name": {
+        "ja": "ヒズボラ",
+        "en": "Hezbollah",
+        "native": "حزب الله",
+        "aliases": ["Party of God"]
+      },
+      "status": "活発・2024年大打撃",
+      "founded": "1985",
+      "region": "中東",
+      "primaryCountries": ["レバノン"],
+      "activeLocations": ["南レバノン", "ベカー高原"],
+      "ideology": "シーア派イスラム主義",
+      "affiliation": "イラン支援",
+      "estimatedMembers": {
+        "current": "数万人",
+        "peak": "数万人",
+        "lastUpdated": "2024-11"
+      },
+      "currentStatus": {
+        "summary": "2024年9月Nasrallah暗殺。11月停戦。Naim Qassem新リーダー。2025年武装解除拒否。",
+        "keyDevelopments": [
+          "2024年9月27日: Hassan Nasrallah暗殺",
+          "2024年10月3日: 後継者Hashem Safieddine暗殺",
+          "2024年10月: Naim Qassem新書記長就任",
+          "2024年11月: 停戦合意（13ヶ月紛争終了）",
+          "2025年: イスラエルが南レバノン占領継続、武装解除要求",
+          "2025年: Qassem武装解除拒否"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["Long War Journal", "Al Jazeera", "FDD"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["イラン（IRGC）", "Hamas"]
+    },
+    {
+      "id": "iswap",
+      "name": {
+        "ja": "西アフリカ・イスラム国",
+        "en": "Islamic State West Africa Province",
+        "abbreviation": "ISWAP"
+      },
+      "status": "活発・2025年エスカレーション",
+      "founded": "2016",
+      "region": "アフリカ",
+      "primaryCountries": ["ナイジェリア"],
+      "activeLocations": ["ボルノ州", "チャド湖流域"],
+      "ideology": "イスラム過激主義（ISIS系）",
+      "affiliation": "ISIS",
+      "estimatedMembers": {
+        "current": "数千人",
+        "peak": "数千人",
+        "lastUpdated": "2025-05"
+      },
+      "currentStatus": {
+        "summary": "2025年300件以上の攻撃（全テロ事件の88%）。武装ドローン使用開始。年間1億9100万ドル稼ぐ。",
+        "keyDevelopments": [
+          "2025年1月以降: 12回の軍基地襲撃",
+          "2025年前半: 300件の攻撃（全341件の88%）",
+          "2024年後半: 武装ドローン使用開始",
+          "2025年3月: ニジェールがMNJTF脱退、情報共有崩壊",
+          "年間収入: 1億9100万ドル以上（課税）"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["The Soufan Center", "ACLED", "The New Humanitarian"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["ISIS", "Boko Haram（敵対）"]
+    },
+    {
+      "id": "lashkar-e-jhangvi",
+      "name": {
+        "ja": "ラシュカレ・ジャングビ",
+        "en": "Lashkar-e-Jhangvi",
+        "abbreviation": "LeJ"
+      },
+      "status": "大幅弱体化・残党",
+      "founded": "1996",
+      "region": "南アジア",
+      "primaryCountries": ["パキスタン"],
+      "activeLocations": ["バロチスタン州", "旧連邦直轄部族地域"],
+      "ideology": "スンニ派過激主義・反シーア派",
+      "affiliation": "ISKP（同盟）",
+      "estimatedMembers": {
+        "current": "残党のみ",
+        "peak": "数百人",
+        "lastUpdated": "2024-02"
+      },
+      "currentStatus": {
+        "summary": "2024年2月に最後のリーダーAkram Lahoriイランで逮捕。残党はアフガニスタンに逃亡後撤退。",
+        "keyDevelopments": [
+          "2024年2月: Akram Lahoriイランで逮捕",
+          "2024年: 残党が南アフガニスタンに逃亡",
+          "2025年: アフガン政府取締まりで撤退",
+          "2024年11月: パキスタン北西部で宗派暴力130人死亡",
+          "ISKPと同盟してバロチスタンで活動"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "reliabilitySources": ["ResearchGate", "Hudson Institute", "ACLED"],
+        "verificationLevel": "高"
+      },
+      "relatedOrganizations": ["ISKP（同盟）", "TTP"]
+    },
+    {
+      "id": "harakat-al-nujaba",
+      "name": {
+        "ja": "高潔者運動",
+        "en": "Harakat Hezbollah al-Nujaba",
+        "abbreviation": "HaN",
+        "native": "حركة حزب الله النجباء",
+        "aliases": ["Harakat al-Nujaba", "Movement of the Noble Ones"]
+      },
+      "status": "活発・イラン代理組織",
+      "founded": "2013",
+      "region": "中東",
+      "primaryCountries": ["イラク", "シリア"],
+      "activeLocations": ["イラク全域", "シリア"],
+      "ideology": "シーア派イスラム主義",
+      "affiliation": "イラン（IRGC）",
+      "estimatedMembers": {
+        "current": "数千人",
+        "peak": "数千人",
+        "lastUpdated": "2025-09"
+      },
+      "currentStatus": {
+        "summary": "米軍攻撃の69%を実行。2024年1月に司令官殺害。2025年9月FTO指定。最も攻撃的な反米民兵。",
+        "keyDevelopments": [
+          "2024年1月4日: 米国がバグダッドで司令官Abu Taqwa殺害",
+          "2023年10月以降: 150回以上の米軍攻撃（IRI傘下）",
+          "攻撃の69%をHaNが実行（95/136件）",
+          "2025年9月: 米国がFTO指定",
+          "ガザ戦争終結まで攻撃継続を宣言"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": ["Washington Institute", "US State Department", "FDD"],
+        "verificationLevel": "非常に高い"
+      },
+      "relatedOrganizations": ["IRGC（イラン）", "Kataib Hezbollah", "AAH"]
     }
   ]
 }
