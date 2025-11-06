@@ -2117,6 +2117,574 @@
         "conflictingReports": false
       },
       "relatedOrganizations": ["Al-Qaeda", "JNIM", "Ansar Dine", "al-Mourabitoun", "Macina Liberation Front"]
+    },
+    {
+      "id": "hizbul-mujahideen",
+      "name": {
+        "ja": "ヒズブル・ムジャヒディン",
+        "en": "Hizbul Mujahideen",
+        "abbreviation": "HuM",
+        "aliases": ["Party of Holy Warriors"]
+      },
+      "status": "弱体化するも活動継続",
+      "founded": "1989",
+      "region": "南アジア",
+      "primaryCountries": ["インド", "パキスタン"],
+      "activeLocations": ["カシミール", "ジャンムー", "Muzaffarabad（本部）"],
+      "ideology": "イスラム民族主義",
+      "affiliation": "パキスタンISIの支援",
+      "estimatedMembers": {
+        "current": "徐々に減少中",
+        "peak": "不明",
+        "lastUpdated": "2025-05"
+      },
+      "currentStatus": {
+        "summary": "インド統治カシミールで最大の土着反乱組織。指揮官と戦闘員が定期的に治安部隊に排除され、徐々に消滅しつつある。",
+        "keyDevelopments": [
+          "2024年10月: Ganderbal地域Gagangir建設現場攻撃（7人死亡）",
+          "2025年5月7日: インドのOperation SindoorでMuzaffarabad等の訓練キャンプを空爆",
+          "2025年: インドがLeT、JeM、HuMに関連するインフラを標的に",
+          "指揮官と戦闘員が定期的に排除され弱体化"
+        ],
+        "lastMajorAttack": "2024年10月: Gagangir建設現場攻撃"
+      },
+      "background": {
+        "origin": "1989年にパキスタンISIの主導で設立。ムハンマド・ジア＝ウル＝ハク大統領時代の取り組みの一環。",
+        "objectives": "カシミール全体をパキスタンに編入（独立ではなく）",
+        "notableEvents": [
+          "1989年: 設立",
+          "1990年代-2000年代: カシミールでの多数の攻撃",
+          "2019年以降: Article 370廃止後に活動激化",
+          "2025年5月: インドの大規模空爆対象"
+        ]
+      },
+      "headquarters": "Muzaffarabad（パキスタン統治Azad Kashmirの首都）",
+      "distinguishingFeature": "独立ではなくパキスタンへの編入を主張",
+      "pakistanSupport": {
+        "isi": "設立以来パキスタンISI（三軍統合情報局）の支援",
+        "denial": "パキスタン政府は関与を否定"
+      },
+      "decline": "指揮官と幹部が定期的に治安部隊に殺害または逮捕され、徐々に消滅しつつある",
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "Al Jazeera",
+          "Combating Terrorism Center",
+          "New Lines Institute",
+          "Wikipedia"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["Lashkar-e-Taiba", "Jaish-e-Mohammed", "Pakistan ISI"]
+    },
+    {
+      "id": "bla",
+      "name": {
+        "ja": "バローチスタン解放軍",
+        "en": "Balochistan Liberation Army",
+        "abbreviation": "BLA"
+      },
+      "status": "活動激化中",
+      "founded": "2000年（再編）",
+      "region": "南アジア",
+      "primaryCountries": ["パキスタン"],
+      "activeLocations": ["バローチスタン州", "グワダル", "クエッタ"],
+      "ideology": "バローチ民族主義、分離独立主義",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "数百人から千人規模（推定）",
+        "peak": "不明",
+        "lastUpdated": "2025-04"
+      },
+      "currentStatus": {
+        "summary": "2024-2025年に活動激化。中国のCPEC投資に反対し、中国人と中国施設を標的に。2024年に302回の作戦で545人以上を殺害。",
+        "keyDevelopments": [
+          "2024年8月26日: Operation Herof（「暗黒の嵐」）で74人死亡（兵士14人含む）",
+          "2024年10月6日: カラチ空港高速道路攻撃（中国人2人死亡、10人負傷）",
+          "2024年11月9日: クエッタ鉄道駅自爆テロ（32人死亡、55人負傷）",
+          "2025年2月1日: Kalat地区Mangochar村を占領、軍事拠点攻撃",
+          "2025年3月11日: Jaffar Express旅客列車ハイジャック（400人乗車）",
+          "2025年4月25日: クエッタで軍護送隊へのIED攻撃（兵士10人死亡）",
+          "2025年8月: Majeed Brigade（BLA部門）が米国にFTO指定"
+        ],
+        "lastMajorAttack": "2025年4月25日: クエッタ軍護送隊IED攻撃"
+      },
+      "background": {
+        "origin": "2000年に再編。バローチスタンの分離独立を求める武装組織。",
+        "objectives": "パキスタンからの独立、バローチスタン主権国家樹立",
+        "notableEvents": [
+          "2000年: 再編",
+          "2018年以降: CPEC施設と中国人への攻撃激化",
+          "2024年: 302作戦実施、545人以上殺害"
+        ]
+      },
+      "majeedBrigade": {
+        "description": "BLAの自爆攻撃専門部門",
+        "activities": "パキスタン軍と中国パートナーへの自爆攻撃",
+        "2024casualties": "37人の作戦員が攻撃で死亡",
+        "usDesignation": "2025年8月に米国がFTO指定"
+      },
+      "antiChinaCampaign": {
+        "rationale": "中国をパキスタン政府による抑圧の共犯と見なす",
+        "targets": "CPEC（中国・パキスタン経済回廊）施設、グワダル港、中国人",
+        "since": "2018年から複数の攻撃"
+      },
+      "operations2024Report": {
+        "total": "302作戦",
+        "killed": "545人以上のパキスタン軍兵士",
+        "martyrs": "52人の戦闘員が死亡（Majeed Brigade 37人含む）"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "US State Department",
+          "Baluch Sarmachar",
+          "Jamestown Foundation",
+          "The Balochistan Post"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["Balochistan Liberation Front", "Baloch Republican Army"]
+    },
+    {
+      "id": "al-aqsa-martyrs",
+      "name": {
+        "ja": "アルアクサ殉教者旅団",
+        "en": "Al-Aqsa Martyrs Brigades",
+        "abbreviation": "AMB",
+        "aliases": ["AAMB"]
+      },
+      "status": "活動継続中",
+      "founded": "2000-2002",
+      "region": "中東",
+      "primaryCountries": ["パレスチナ自治区"],
+      "activeLocations": ["ヨルダン川西岸", "ガザ地区", "ジェニン"],
+      "ideology": "パレスチナ民族主義",
+      "affiliation": "ファタハに関連（公式には否定）",
+      "estimatedMembers": {
+        "current": "不明（分散的ネットワーク）",
+        "peak": "不明",
+        "lastUpdated": "2024-11"
+      },
+      "currentStatus": {
+        "summary": "ファタハと関連する軍事グループの緩やかなネットワーク。西岸とガザで活動。ジェニンでは他の組織と「ジェニン大隊」として協力。",
+        "keyDevelopments": [
+          "2023年1月28日: 東エルサレムで小火器攻撃（イスラエル民間人7人死亡）",
+          "2023年10月7日: ハマスと共にイスラエルへの攻撃に参加",
+          "2023-現在: ガザ戦争に参加（ハマス等と連合）",
+          "2024年11月5日: イスラエルが西岸でAMBメンバー60人以上逮捕"
+        ],
+        "lastMajorAttack": "2023年10月7日以降継続的な作戦"
+      },
+      "background": {
+        "origin": "2000-2002年の第二次インティファーダ中に形成。ファタハと関連する複数の武装グループから成る。",
+        "objectives": "パレスチナ解放、イスラエル占領の終結",
+        "notableEvents": [
+          "2000-2002年: 第二次インティファーダ中に形成",
+          "2000年代: 多数の自爆テロ",
+          "2023年10月: ガザ戦争に参加"
+        ]
+      },
+      "organizationalStructure": {
+        "nature": "高度に分散化",
+        "autonomy": "各派閥が独立して行動",
+        "coordination": "ジェニンではIslamic JihadとHamasと協力"
+      },
+      "jeninBattalion": {
+        "description": "ジェニンで他の武装組織と共同作戦",
+        "partners": "Islamic Jihadのal-Quds Brigades、HamasのIzz al-Din al-Qassam Brigades"
+      },
+      "fatahRelationship": {
+        "claim": "時々ファタハの武装部門を自称",
+        "denial": "ファタハ指導部はこの関連を否定",
+        "alignment": "政治的にはファタハと一致"
+      },
+      "leadership": {
+        "nominal": "Zakaria Zubeidi（名目上の指導者）",
+        "status": "現在イスラエルに投獄中"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "FDD",
+          "Council on Foreign Relations",
+          "Britannica",
+          "US National Counterterrorism Center"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["Fatah", "Hamas", "Palestinian Islamic Jihad", "PFLP"]
+    },
+    {
+      "id": "pflp",
+      "name": {
+        "ja": "パレスチナ解放人民戦線",
+        "en": "Popular Front for the Liberation of Palestine",
+        "abbreviation": "PFLP"
+      },
+      "status": "活動継続中",
+      "founded": "1967",
+      "region": "中東",
+      "primaryCountries": ["パレスチナ自治区"],
+      "activeLocations": ["ヨルダン川西岸", "ガザ地区", "レバノン"],
+      "ideology": "マルクス・レーニン主義、パレスチナ民族主義",
+      "affiliation": "PLO加盟組織",
+      "estimatedMembers": {
+        "current": "数百人から数千人（推定）",
+        "peak": "不明",
+        "lastUpdated": "2024-11"
+      },
+      "currentStatus": {
+        "summary": "パレスチナ第二の左派組織。ガザ戦争に参加。2024年に西岸で60人以上、レバノンで指導者3人が殺害・逮捕。",
+        "keyDevelopments": [
+          "2024年9月: レバノン空爆でPFLP指導者3人暗殺（Imad Audi、Mohammad Abdel Aal、Abdel Rahman Abdel Aal）",
+          "2024年11月5日: 西岸でPFLPメンバー60人以上逮捕（Ahmad Sa'adat書記長の妻Abla Sa'adat含む）",
+          "2023年10月以降: ガザ戦争に参加（ハマス等と連合）",
+          "継続的な西岸での軍事リクルート活動"
+        ],
+        "lastMajorAttack": "2023年10月7日以降継続的な作戦"
+      },
+      "background": {
+        "origin": "1967年にGeorge Habashが設立。Arab Nationalist Movement から発展。",
+        "objectives": "パレスチナ全土の解放、世俗的民主主義国家の樹立",
+        "notableEvents": [
+          "1967年: 設立",
+          "1968-1970年代: 複数の航空機ハイジャック",
+          "1970年: 4機同時ハイジャック",
+          "2001年: イスラエル観光大臣暗殺",
+          "2023年10月: ガザ戦争参加"
+        ]
+      },
+      "militaryWing": {
+        "name": "Abu Ali Mustafa Brigades",
+        "namedAfter": "2001年にイスラエルに暗殺された前書記長"
+      },
+      "leadership": {
+        "secretaryGeneral": "Ahmad Sa'adat",
+        "imprisoned": "2002年からイスラエルに投獄中",
+        "wifeArrested": "2024年11月にAbla Sa'adatが逮捕"
+      },
+      "september2024Assassinations": {
+        "location": "レバノン",
+        "victims": [
+          "Imad Audi（レバノンでの軍事指導者）",
+          "Mohammad Abdel Aal（政治局メンバー）",
+          "Abdel Rahman Abdel Aal（政治局メンバー）"
+        ]
+      },
+      "ideology": "マルクス・レーニン主義とパレスチナ民族主義を組み合わせた世俗的組織",
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "FDD",
+          "Council on Foreign Relations",
+          "Britannica",
+          "US National Counterterrorism Center"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["PLO", "Hamas", "DFLP", "Palestinian Islamic Jihad"]
+    },
+    {
+      "id": "m23",
+      "name": {
+        "ja": "3月23日運動",
+        "en": "March 23 Movement",
+        "abbreviation": "M23",
+        "aliases": ["Congolese Revolutionary Army"]
+      },
+      "status": "活動激化中",
+      "founded": "2012",
+      "region": "中央アフリカ",
+      "primaryCountries": ["コンゴ民主共和国"],
+      "activeLocations": ["北キブ州", "南キブ州", "ゴマ"],
+      "ideology": "ツチ系民兵組織、武装反乱",
+      "affiliation": "ルワンダ政府の支援",
+      "estimatedMembers": {
+        "current": "数千人（ルワンダ軍3,000-4,000人含む）",
+        "peak": "不明",
+        "lastUpdated": "2025-02"
+      },
+      "currentStatus": {
+        "summary": "2025年1月30日にゴマ占領。ルワンダの支援で東部DRCで大規模攻勢。世界最大級の人道危機の一因。",
+        "keyDevelopments": [
+          "2024年10月: 停戦後に作戦再開",
+          "2025年1月23-30日: ゴマ攻勢、地域拠点都市を占領",
+          "2025年1月30日: ゴマ占領完了",
+          "2025年2月4日: 一方的停戦宣言",
+          "2025年: 900-2,000人死亡（国連・政府推定）",
+          "2024年4月-12月: コルタン採掘で8億ドルの収益"
+        ],
+        "lastMajorAttack": "2025年1月30日: ゴマ占領"
+      },
+      "background": {
+        "origin": "2012年に元CNDP（National Congress for the Defence of the People）戦闘員が結成。2009年3月23日の和平合意にちなんで命名。",
+        "objectives": "東部コンゴでのツチ系住民の保護、DRC政府への反乱",
+        "notableEvents": [
+          "2012年: M23結成",
+          "2012-2013年: 最初のM23反乱",
+          "2022年10月: 作戦再開",
+          "2025年1月: ゴマ占領"
+        ]
+      },
+      "gomaOffensive2025": {
+        "dates": "2025年1月23-30日",
+        "duration": "8日間",
+        "casualties": "900-2,000人死亡",
+        "displaced": "数万人がゴマから避難",
+        "significance": "東部DRCの地域拠点都市占領"
+      },
+      "rwandanSupport": {
+        "denial": "ルワンダは公式には否定",
+        "evidence": "国連報告書はルワンダの軍事支援が「極めて重要」と指摘",
+        "troops": "3,000-4,000人のルワンダ地上軍がM23支援"
+      },
+      "resourceExploitation": {
+        "coltan": "2024年4月-12月に8億ドルの収益",
+        "export": "コルタンや他の鉱物をルワンダ経由で違法輸出",
+        "unReport": "国連がM23の違法鉱物取引を報告"
+      },
+      "humanitarianCrisis": {
+        "refugees": "100万人のコンゴ人が国外避難",
+        "needAid": "2,100万人が緊急の医療・食料・援助を必要",
+        "scale": "世界最大かつ最も致命的な人道危機の一つ"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "Human Rights Watch",
+          "Council on Foreign Relations",
+          "The New Humanitarian",
+          "ACLED"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["Rwanda Government", "CNDP (前身)"]
+    },
+    {
+      "id": "jad",
+      "name": {
+        "ja": "ダウラ支援者団",
+        "en": "Jamaah Ansharut Daulah",
+        "abbreviation": "JAD"
+      },
+      "status": "大幅弱体化",
+      "founded": "2015",
+      "region": "東南アジア",
+      "primaryCountries": ["インドネシア"],
+      "activeLocations": ["ジャワ島", "スマトラ島", "スラウェシ島"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "イスラム国（ISIS）",
+      "estimatedMembers": {
+        "current": "大幅減少（多数が投獄）",
+        "peak": "数百人（2017-2018年）",
+        "lastUpdated": "2024"
+      },
+      "currentStatus": {
+        "summary": "過去2年間攻撃なし。リーダーと多数のメンバーが投獄され、結束力を失う。国際的移動能力も喪失。",
+        "keyDevelopments": [
+          "2022年: バンドンのAstana Anyar警察本部自爆テロ（最後の成功攻撃）",
+          "2023年: 選挙妨害計画で42人以上逮捕（Abu Oemar派閥）",
+          "2023-2024年: 複数の計画がプランニング段階で阻止",
+          "2024年: 過去2年間で成功した攻撃はゼロ",
+          "多数のリーダーと幹部が投獄中"
+        ],
+        "lastMajorAttack": "2022年: Bandung警察本部自爆テロ"
+      },
+      "background": {
+        "origin": "2015年にISISに忠誠を誓う複数のインドネシアジハード組織が統合して形成。",
+        "objectives": "インドネシアにイスラム国家（カリフ国）を樹立",
+        "notableEvents": [
+          "2015年: 設立",
+          "2018年5月: スラバヤ教会連続爆破（家族自爆テロ、13人死亡）",
+          "2018年7月: インドネシア裁判所がJADを禁止",
+          "2022年: 最後の成功攻撃"
+        ]
+      },
+      "surabayaAttacks2018": {
+        "date": "2018年5月13-14日",
+        "method": "3つの家族による自爆テロ（子供を含む）",
+        "targets": "3つのキリスト教会と警察署",
+        "casualties": "28人死亡（実行犯13人含む）"
+      },
+      "currentWeakness": {
+        "leadership": "多数のリーダーと幹部が投獄",
+        "cohesion": "かつてほど結束していない",
+        "capability": "大規模攻撃を効果的に実行できない",
+        "travel": "国際移動能力を喪失（2014年のISIS急増時とは対照的）"
+      },
+      "recentDisruptions": {
+        "2023election": "2024年選挙妨害計画で42人以上逮捕（16都市/地区）",
+        "targets": "投票所、警察官、選挙管理委員会事務所",
+        "success": "過去2年間で複数のテロ計画を計画段階で阻止"
+      },
+      "expertAssessment": "インドネシアのテロ組織は現在最低水準だが、専門家はプロIS組織の活動を軽視すると再建を許すと警告",
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "ICCT",
+          "The Soufan Center",
+          "Counter Extremism Project",
+          "Al Jazeera"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["ISIS", "Jemaah Islamiyah (JI)"]
+    },
+    {
+      "id": "shining-path",
+      "name": {
+        "ja": "光る道",
+        "en": "Shining Path",
+        "native": "Sendero Luminoso",
+        "aliases": ["MPCP", "Militarized Communist Party of Peru"]
+      },
+      "status": "大幅弱体化・麻薬密売組織化",
+      "founded": "1980",
+      "region": "南米",
+      "primaryCountries": ["ペルー"],
+      "activeLocations": ["VRAEM地域（Apurímac、Ene、Mantaro川流域）"],
+      "ideology": "マオイスト共産主義",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "数百人（推定）",
+        "peak": "数千人（1980年代-1990年代初頭）",
+        "lastUpdated": "2024-10"
+      },
+      "currentStatus": {
+        "summary": "20世紀末のペルーゲリラ運動の最後の残存勢力。VRAEM地域で麻薬密売と結びついたナルコテロ組織に変容。",
+        "keyDevelopments": [
+          "2024年9月: 主要人物Octavio Vargas Ñahuicopa（Ciperian）逮捕",
+          "2024年10月: Iván Quispe Palomino逮捕（リーダーと誤報）",
+          "組織は衰退中だがVRAEMで麻薬密売同盟により影響力維持",
+          "コカイン密売を犯罪収益として依存"
+        ]
+      },
+      "background": {
+        "origin": "1980年にアビマエル・グズマンが設立。ペルー共産党の武装部門として武装闘争開始。",
+        "objectives": "マオイスト革命によるペルー政府打倒",
+        "notableEvents": [
+          "1980年: 武装闘争開始",
+          "1980年代-1990年代: ピーク時（最大69,000人死亡）",
+          "1992年: グズマン逮捕、組織大幅弱体化",
+          "2021年: 副司令官Jorge Quispe Palomino（Raúl）死亡"
+        ]
+      },
+      "leadership": {
+        "currentLeader": "Victor Quispe Palomino",
+        "alias": "Camarada José",
+        "region": "VRAEM派閥",
+        "note": "弟Jorge（Raúl）が2021年に死亡"
+      },
+      "narcoterrorism": {
+        "transformation": "ゲリラ組織からナルコテロ組織への変容",
+        "revenue": "コカイン密売が主要収益源",
+        "activities": "コカ栽培者への課税、麻薬輸送の保護（金銭・武器・装備と引き換え）",
+        "control": "VRAEM地域の大部分を支配（ペルーのコカ生産の大部分）"
+      },
+      "vraemRegion": {
+        "description": "Apurímac、Ene、Mantaro川流域",
+        "significance": "ペルーのコカの大部分が栽培され、大量のコカインが生産される地域",
+        "spControl": "VRAEM の多くを支配"
+      },
+      "resilience": "主要リーダーの喪失と組織弱体化にもかかわらず、麻薬密売者との同盟、VRAEM戦略地域の支配、数年間の軍事作戦への耐性により、この組織を終わらせることは容易ではない",
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "InsightCrime",
+          "Centro de Estudios Estratégicos del Ejército del Perú",
+          "Wikipedia"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["麻薬カルテル（同盟）"]
+    },
+    {
+      "id": "naxalites",
+      "name": {
+        "ja": "ナクサライト",
+        "en": "Naxalites",
+        "aliases": ["Maoists", "CPI (Maoist)", "Communist Party of India (Maoist)"]
+      },
+      "status": "大幅弱体化・終結間近",
+      "founded": "1967",
+      "region": "南アジア",
+      "primaryCountries": ["インド"],
+      "activeLocations": ["チャッティースガル州", "ジャールカンド州", "Dandakaranya森林地帯"],
+      "ideology": "マオイスト共産主義",
+      "affiliation": "CPI (Maoist)",
+      "estimatedMembers": {
+        "current": "大幅減少",
+        "peak": "数万人（2000年代-2010年代初頭）",
+        "lastUpdated": "2025-10"
+      },
+      "currentStatus": {
+        "summary": "2024-2025年に劇的に弱体化。影響地区が126（2018年）から11（2025年10月）に激減。大規模軍事作戦と大量降伏により終結間近。",
+        "keyDevelopments": [
+          "2025年5月14日: Operation Black Forest（Kagar）終了、31人の反乱者殺害",
+          "2025年: 255人死亡（2024年全体は301人）",
+          "2024年: 223人のマオイストが治安部隊に殺害されたと主張",
+          "2024年1月-2025年10月: 2,100人降伏、1,785人逮捕、477人無力化",
+          "2025年10月: 72時間で303人のマオイスト降伏",
+          "影響地区: 126（2018年）→12（2025年4月）→11（2025年10月）"
+        ],
+        "lastMajorAttack": "2025年: Bijapur地区IED攻撃（9人死亡）"
+      },
+      "background": {
+        "origin": "1967年に西ベンガル州Naxalbari村での農民蜂起から始まる。2004年にCPI (Maoist)として統合。",
+        "objectives": "武装革命によるインド政府打倒、マオイスト国家樹立",
+        "notableEvents": [
+          "1967年: Naxalbari蜂起",
+          "2004年: CPI (Maoist)統合",
+          "2010年: ピーク時（最大76地区に影響）",
+          "2025年: 終結間近"
+        ]
+      },
+      "operation2025": {
+        "name": "Operation Black Forest（Operation Kagar）",
+        "date": "2025年5月14日",
+        "location": "Karregutta Hills（チャッティースガル・テランガナ境界）",
+        "scale": "20,000人以上の人員、ドローンとヘリコプター使用",
+        "result": "31人の反乱者殺害",
+        "significance": "ナクサライトに対する史上最大規模の作戦の一つ"
+      },
+      "redCorridorDecline": {
+        "2018": "126地区が影響",
+        "2025april": "18地区（影響12、最影響6）",
+        "2025october": "11地区（高リスク3のみ）",
+        "concentration": "Dandakaranya森林地帯とジャールカンド・ビハール・西ベンガル境界"
+      },
+      "massSurrenders": {
+        "chhattisgarh": "2024年1月以降2,100人降伏",
+        "october2025": "72時間で303人降伏",
+        "overall": "1,785人逮捕、477人無力化"
+      },
+      "governmentTarget": "2026年3月31日までにナクサライトを根絶する政府目標",
+      "humanRightsConcerns": {
+        "region": "バスタール地域",
+        "period": "2024年以降",
+        "issues": "暴力、人権侵害、軍事化が急増",
+        "fakeEncounters": "PUCLが過去1年半で少なくとも11件を偽の遭遇戦と特定"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "ACLED",
+          "Al Jazeera",
+          "Indian Government PIB",
+          "Vision IAS"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["CPI (Maoist)"]
     }
   ]
 }
