@@ -2685,6 +2685,497 @@
         "conflictingReports": false
       },
       "relatedOrganizations": ["CPI (Maoist)"]
+    },
+    {
+      "id": "rsf",
+      "name": {
+        "ja": "即応支援部隊",
+        "en": "Rapid Support Forces",
+        "abbreviation": "RSF",
+        "aliases": ["Janjaweed"]
+      },
+      "status": "活発・ジェノサイド実行中",
+      "founded": "2013",
+      "region": "アフリカ",
+      "primaryCountries": ["スーダン"],
+      "activeLocations": ["ダルフール", "ハルツーム", "北キブ州", "南キブ州"],
+      "ideology": "民族主義・権力維持",
+      "affiliation": "独立組織（UAE支援）",
+      "estimatedMembers": {
+        "current": "100,000人以上（推定）",
+        "peak": "100,000人以上",
+        "lastUpdated": "2025-01"
+      },
+      "currentStatus": {
+        "summary": "2025年1月7日に米国がRSFによるジェノサイドを正式認定。2025年10月にエルファシェル占領後、数万人を虐殺。",
+        "keyDevelopments": [
+          "2025年1月7日: 米国がRSFによるジェノサイドを正式認定、Hemedtiに制裁",
+          "2025年1月末: ゴマ陥落、2012年以来最大の激化",
+          "2025年10月27日: 18ヶ月の包囲後エルファシェル占領",
+          "2025年10月29日: エルファシェル産科病院で460人殺害",
+          "2025年10月末: 数万人殺害（専門家推計）",
+          "UAEの7社に制裁（資産凍結・渡航禁止）"
+        ],
+        "lastMajorAttack": "2025年10月: エルファシェルでの大量虐殺"
+      },
+      "background": {
+        "origin": "2013年にオマル・アル＝バシールがジャンジャウィードを正規化してRSFを設立。Mohamed Hamdan Dagalo（Hemedti）を司令官に任命。",
+        "objectives": "スーダンでの権力掌握、民族浄化",
+        "notableEvents": [
+          "2013年: RSF正式設立",
+          "2019年: バシール政権崩壊に関与",
+          "2023年4月15日: スーダン軍との内戦開始",
+          "2025年1月: 米国がジェノサイド認定",
+          "2025年10月: エルファシェル大量虐殺"
+        ]
+      },
+      "leadership": {
+        "currentLeader": "Mohamed Hamdan Dagalo",
+        "alias": "Hemedti",
+        "background": "数十億ドル規模の家族帝国（金、武器、不動産、持株会社）を統括",
+        "sanctions": "2025年1月7日に米国が制裁（資産凍結、渡航禁止）"
+      },
+      "genocideDeclaration": {
+        "date": "2025年1月7日",
+        "declaredBy": "米国政府",
+        "evidence": "民族的根拠に基づく男性、少年、幼児の組織的殺害、女性や少女へのレイプと性的暴力",
+        "scale": "広範囲な暴力、民族浄化、強制移住"
+      },
+      "elFasherMassacre": {
+        "date": "2025年10月",
+        "siege": "18ヶ月",
+        "victims": "数万人殺害（専門家推計）",
+        "hospital": "産科病院で460人殺害確認（UNFPA）",
+        "warCrimes": "人道に対する罪と戦争犯罪（Human Rights Watch）"
+      },
+      "humanitarianCrisis": {
+        "population": "5,000万人の国家",
+        "famine": "拡大する飢餓",
+        "refugees": "世界最大の難民危機",
+        "foreignFighters": "近隣諸国からの戦闘員流入"
+      },
+      "internationalSupport": {
+        "UAE": "主要支援国、7社が2025年1月に制裁対象",
+        "sanctions": "資産凍結と渡航禁止"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "US State Department",
+          "Human Rights Watch",
+          "UNFPA",
+          "CNN",
+          "Washington Post"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["スーダン軍（SAF、敵対）", "M23（地域紛争）"]
+    },
+    {
+      "id": "aah",
+      "name": {
+        "ja": "正義者同盟",
+        "en": "Asaib Ahl al-Haq",
+        "abbreviation": "AAH",
+        "native": "عصائب أهل الحق",
+        "aliases": ["League of the Righteous"]
+      },
+      "status": "活発・イラン代理組織",
+      "founded": "2006",
+      "region": "中東",
+      "primaryCountries": ["イラク"],
+      "activeLocations": ["バグダッド", "バスラ", "イラク全域"],
+      "ideology": "シーア派イスラム主義",
+      "affiliation": "イラン（IRGC Qods Force）",
+      "estimatedMembers": {
+        "current": "10,000人以上（推定）",
+        "peak": "10,000人以上",
+        "lastUpdated": "2024-03"
+      },
+      "currentStatus": {
+        "summary": "2024年3月に米国がFTOに指定。イランの暴力的代理組織として100回以上の米国標的攻撃。2024年半ばに役割が議論の的。2025年はイラク国内政治に注力。",
+        "keyDevelopments": [
+          "2024年3月: 米国がFTO（外国テロ組織）に指定",
+          "2024年1月: イラク・シリアで米国標的に100回以上攻撃（IRI傘下）",
+          "2024年6月: HaNがAAHは連合軍攻撃せずと主張（議論）",
+          "2024年6月: Qais al-Khazaliがイスラエルとヒズボラ全面戦争時に米国標的攻撃を脅迫",
+          "2025年: Faleh al-Fayadをトルコ利益推進と非難、11月11日議会選挙準備"
+        ],
+        "lastMajorAttack": "2024年1月: イラク・シリアでの米軍標的攻撃（IRI）"
+      },
+      "background": {
+        "origin": "2006年にQais al-Khazaliがマフディ軍から分離して設立。Muqtada al-Sadrと対立。",
+        "objectives": "イラクでのイラン影響力拡大、シーア派イスラム国家樹立、米国勢力排除",
+        "notableEvents": [
+          "2006年: マフディ軍から分離、AAH設立",
+          "2007年: Karbala攻撃（米兵5人殺害）",
+          "2011-2014年: イラク政府との和解プロセス",
+          "2014年以降: 対ISIS戦闘に参加",
+          "2024年3月: 米国FTO指定"
+        ]
+      },
+      "leadership": {
+        "currentLeader": "Qais al-Khazali",
+        "background": "元マフディ軍幹部、ムクタダ・アル＝サドルの元副官",
+        "political": "2018年以降イラク議会で政治活動"
+      },
+      "iranConnection": {
+        "funding": "IRGC Qods Forceから広範な資金提供",
+        "designation": "米国務省: 「イラン・イスラム共和国の暴力的代理組織」",
+        "role": "イランの軸of抵抗の一部"
+      },
+      "islamicResistanceInIraq": {
+        "umbrella": "IRI（Islamic Resistance in Iraq）傘下で活動",
+        "partners": ["Kataib Hezbollah (KH)", "Kataib Sayyid al-Shuhada (KSS)", "Harakat Hezbollah al-Nujaba (HHN)"],
+        "targets": "イラク・シリアの米軍標的",
+        "motivation": "ガザ戦争における米国の役割への報復"
+      },
+      "disputedRole2024": {
+        "claim": "2024年6月にHaN報道官がAAHは連合軍やイスラエル標的を攻撃しないと主張",
+        "exclusivity": "「戦場」はHaN、KH、KSSの3組織のみと主張",
+        "counter": "同時期にQais al-KhazaliがイスラエルVSヒズボラ全面戦争時の米国攻撃を脅迫"
+      },
+      "politicalActivities2025": {
+        "focus": "イラク国内政治対立",
+        "campaign": "Faleh al-Fayadをトルコ利益推進と非難",
+        "context": "11月11日議会選挙準備、Coordination Framework内の亀裂深化"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "US State Department",
+          "Counter Extremism Project",
+          "Washington Institute",
+          "FDD"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": true,
+        "note": "2024年半ばの攻撃役割について異なる報告あり"
+      },
+      "relatedOrganizations": ["IRGC Qods Force（イラン）", "Kataib Hezbollah", "Harakat Hezbollah al-Nujaba", "Kataib Sayyid al-Shuhada"]
+    },
+    {
+      "id": "fdlr",
+      "name": {
+        "ja": "ルワンダ解放民主軍",
+        "en": "Democratic Forces for the Liberation of Rwanda",
+        "abbreviation": "FDLR",
+        "native": "Forces démocratiques de libération du Rwanda",
+        "aliases": ["FOCA", "ALIR"]
+      },
+      "status": "活発・大幅弱体化",
+      "founded": "2000",
+      "region": "アフリカ",
+      "primaryCountries": ["コンゴ民主共和国", "ルワンダ"],
+      "activeLocations": ["北キブ州", "南キブ州", "カレンガ", "Rutshuru領域"],
+      "ideology": "フツ族民族主義",
+      "affiliation": "コンゴ政府（非公式支援）",
+      "estimatedMembers": {
+        "current": "数百人（推定）",
+        "peak": "数千人（2000年代）",
+        "lastUpdated": "2025-06"
+      },
+      "currentStatus": {
+        "summary": "2025年6月の米国仲介和平条約でコンゴがFDLR支援終了に合意。M23が幹部逮捕。2025年7月に319人の民間人が殺害されたFDLR拠点への攻撃。",
+        "keyDevelopments": [
+          "2025年6月: 米国仲介和平条約、コンゴがFDLR支援終了に合意",
+          "2025年9月: ルワンダ軍未撤退（90日撤退期限違反）",
+          "2025年7月9-21日: M23/RDFがFDLR拠点攻撃、民間人319人殺害",
+          "2025年3月: M23が14人のFDLR幹部逮捕、ルワンダ引き渡し",
+          "2025年1月末: ゴマ陥落、2012年以来最大激化",
+          "2024年10月: Bukomboでの頻繁な衝突"
+        ],
+        "lastMajorAttack": "2025年7月: M23/RDFによるFDLR拠点攻撃"
+      },
+      "background": {
+        "origin": "2000年に亡命ルワンダ・フツ族が設立。1994年ルワンダ・ジェノサイドの実行者が創設。",
+        "objectives": "ルワンダ政府打倒、フツ族政権復活",
+        "notableEvents": [
+          "1994年: ルワンダ・ジェノサイド（80万人以上のツチ族虐殺）",
+          "2000年: FDLR設立",
+          "2009年: コンゴ・ルワンダ共同軍事作戦で大幅弱体化",
+          "2012年: M23がゴマ占領",
+          "2025年1月: M23が再びゴマ占領"
+        ]
+      },
+      "leadership": {
+        "note": "2025年3月にM23が14人の幹部を逮捕してルワンダに引き渡し",
+        "historicalLeaders": ["Paul Rwarakabije（元）", "Sylvestre Mudacumura（元、2019年死亡）"]
+      },
+      "genocideConnection": {
+        "origin": "1994年ルワンダ・ジェノサイドの実行者によって創設",
+        "victims": "80万人以上のツチ族と穏健派フツ族",
+        "current": "カレンガはFDLRの拠点とされる"
+      },
+      "conflictWithM23": {
+        "overview": "2022年以降のM23攻勢でFDLRは主要標的",
+        "july2025": "7月9-21日にRutshuru領域4村で民間人319人殺害（女性48人、子供19人）",
+        "arrests": "2025年3月に14人のFDLR幹部逮捕、初の高位幹部大量逮捕",
+        "clashes": "2024年10月にBukomboでWazalendo戦士と頻繁に衝突"
+      },
+      "peaceTreaty2025": {
+        "date": "2025年6月",
+        "mediator": "米国",
+        "terms": "ルワンダ軍90日以内撤退、コンゴがFDLR支援終了",
+        "status": "2025年9月時点でルワンダ軍未撤退"
+      },
+      "internationalResponse": {
+        "unsc": "決議2773（2025）でルワンダのM23支援停止とコンゴのFDLR支援停止を要求",
+        "chapterVII": "国連憲章第7章に基づく決議",
+        "withdrawal": "ルワンダ軍の無条件即時撤退を要求"
+      },
+      "humanitarianImpact": {
+        "civilians": "2025年7月に319人殺害（女性48人、子供19人）",
+        "context": "M23/RDFによるFDLR伝統的拠点への軍事作戦"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "UN Security Council",
+          "Human Rights Watch",
+          "Critical Threats",
+          "Al Jazeera"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["M23（敵対）", "ルワンダ国防軍（敵対）", "コンゴ軍（FARDC、支援）"]
+    },
+    {
+      "id": "ji",
+      "name": {
+        "ja": "ジェマ・イスラミア",
+        "en": "Jemaah Islamiyah",
+        "abbreviation": "JI",
+        "native": "Jemaah Islamiyah",
+        "aliases": ["Jamaah Islamiyah"]
+      },
+      "status": "解散（2024年6月30日）",
+      "founded": "1993",
+      "region": "東南アジア",
+      "primaryCountries": ["インドネシア", "マレーシア", "シンガポール", "フィリピン"],
+      "activeLocations": ["歴史的: ジャワ島、スマトラ島、スラウェシ島"],
+      "ideology": "イスラム過激主義（元アルカイダ系）",
+      "affiliation": "元アルカイダ（現在: 解散）",
+      "estimatedMembers": {
+        "current": "0人（解散）",
+        "peak": "数千人（2000年代初頭）",
+        "lastUpdated": "2024-06-30"
+      },
+      "currentStatus": {
+        "summary": "2024年6月30日に正式解散を発表。16年間の脱過激化プロセスの結果。武器を引き渡し、会員名簿を提供し、インドネシア国家への忠誠を誓約。",
+        "keyDevelopments": [
+          "2024年6月30日: 16人の幹部がビデオで正式解散発表",
+          "2024年: 武器庫を引き渡し、武装部門会員リストを提供",
+          "2024年: シリアで訓練を受けた会員の名前を提供",
+          "2024年: JI系列ペサントレン（イスラム寄宿学校）への政府介入を許可",
+          "2008年以降: ダクワ優先戦略へ転換、インドネシア国内での暴力放棄",
+          "過去5年: インドネシア対テロ作戦の主要焦点（2023年逮捕者の59%）"
+        ],
+        "lastMajorAttack": "2009年: ジャカルタ・リッツカールトン＆マリオット爆破（9人死亡）"
+      },
+      "background": {
+        "origin": "1993年にアブドラ・スンカル（Abdullah Sungkar）とアブ・バカル・バシル（Abu Bakar Bashir）がマレーシアで設立。アルカイダと連携。",
+        "objectives": "東南アジアでのイスラム国家（カリフ制）樹立",
+        "notableEvents": [
+          "1993年: JI設立",
+          "2002年10月12日: バリ島爆破（202人死亡）",
+          "2003年8月5日: ジャカルタ・マリオット爆破（12人死亡）",
+          "2004年9月9日: オーストラリア大使館爆破（9人死亡）",
+          "2005年10月1日: 第2次バリ島爆破（20人死亡）",
+          "2009年7月17日: リッツカールトン＆マリオット爆破（9人死亡）",
+          "2008-2024年: 脱過激化プロセス（16年間）",
+          "2024年6月30日: 正式解散"
+        ]
+      },
+      "leadership": {
+        "founders": ["Abdullah Sungkar（創設者、2000年死去）", "Abu Bakar Bashir（共同創設者）"],
+        "note": "2024年6月30日に16人の幹部が解散を発表"
+      },
+      "disbandment": {
+        "date": "2024年6月30日",
+        "announcement": "16人の幹部がビデオ声明で発表",
+        "verification": "IPAC（Institute for Policy Analysis of Conflict）が声明の真正性を確認",
+        "process": "16年間の脱過激化プロセスの結果",
+        "timeline": "2008年から暴力使用に関する見解修正開始"
+      },
+      "actionsToProveCommitment": {
+        "weapons": "武器庫を引き渡し",
+        "members": "武装部門会員リストを当局に提供",
+        "syria": "シリアで訓練を受けた会員の名前を提供",
+        "schools": "JI系列ペサントレンへの政府介入を許可",
+        "pledge": "インドネシア国家への忠誠を誓約"
+      },
+      "deradicalizationProcess": {
+        "start": "2008年",
+        "duration": "16年間",
+        "strategy": "ダクワ（宣教）優先戦略へ転換",
+        "violence": "インドネシア国内での暴力を放棄",
+        "result": "2024年6月30日の正式解散"
+      },
+      "counterterrorismFocus": {
+        "2019": "逮捕されたテロ容疑者の8%がJI会員",
+        "2023": "逮捕されたテロ容疑者の59%がJI会員",
+        "trend": "過去5年間でインドネシア対テロ作戦の主要焦点に"
+      },
+      "distinctionFromJAD": {
+        "JI": "元アルカイダ系列",
+        "JAD": "別組織、インドネシアの親ISグループ（Jamaah Ansharut Daulah）",
+        "note": "一部の個人が組織間を移動"
+      },
+      "majorAttacks": {
+        "bali2002": {
+          "date": "2002年10月12日",
+          "location": "バリ島",
+          "deaths": "202人",
+          "description": "JI史上最悪のテロ攻撃"
+        },
+        "marriott2003": {
+          "date": "2003年8月5日",
+          "location": "ジャカルタ・マリオットホテル",
+          "deaths": "12人"
+        },
+        "embassy2004": {
+          "date": "2004年9月9日",
+          "location": "オーストラリア大使館",
+          "deaths": "9人"
+        },
+        "bali2005": {
+          "date": "2005年10月1日",
+          "location": "バリ島",
+          "deaths": "20人"
+        },
+        "hotels2009": {
+          "date": "2009年7月17日",
+          "location": "リッツカールトン＆マリオット",
+          "deaths": "9人",
+          "significance": "JI最後の大規模攻撃"
+        }
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "The Soufan Center",
+          "RSIS (S. Rajaratnam School of International Studies)",
+          "IPAC (Institute for Policy Analysis of Conflict)",
+          "Al Jazeera",
+          "The Diplomat"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false,
+        "note": "IPACが解散声明の真正性を確認"
+      },
+      "relatedOrganizations": ["アルカイダ（歴史的）", "JAD/Jamaah Ansharut Daulah（別組織）", "Abu Sayyaf（地域連携）"]
+    },
+    {
+      "id": "hizb-ut-tahrir",
+      "name": {
+        "ja": "ヒズブ・タハリール",
+        "en": "Hizb ut-Tahrir",
+        "abbreviation": "HuT",
+        "native": "حزب التحرير",
+        "aliases": ["Party of Liberation", "HT"]
+      },
+      "status": "活発・多数国で禁止",
+      "founded": "1953",
+      "region": "中央アジア・グローバル",
+      "primaryCountries": ["ウズベキスタン", "キルギス", "タジキスタン", "カザフスタン", "パキスタン", "インドネシア"],
+      "activeLocations": ["中央アジア全域", "中東", "南アジア", "ヨーロッパ"],
+      "ideology": "汎イスラム主義・カリフ制復活",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "数万人（世界中、推定）",
+        "peak": "不明",
+        "lastUpdated": "2024-10"
+      },
+      "currentStatus": {
+        "summary": "2024年10月10日にインドが禁止、2024年1月19日に英国が禁止。世界中で過激化とISIS勧誘に関与。中央アジアで1990年代半ばから活動。",
+        "keyDevelopments": [
+          "2024年10月10日: インド政府がテロ組織に指定（UAPA法）",
+          "2024年1月19日: 英国がテロ組織に指定、禁止発効",
+          "2024年: インドでISISへの若者勧誘と過激化に関与",
+          "2024年: テロ活動資金調達に関与",
+          "中央アジア全域で禁止（ドイツ、エジプト、複数のアラブ・中央アジア諸国）",
+          "1990年代半ば: 中央アジアで活動開始、ウズベキスタンで強固な支持基盤"
+        ],
+        "lastMajorAttack": "直接的テロ攻撃なし（イデオロギー・勧誘組織）"
+      },
+      "background": {
+        "origin": "1953年にパレスチナのエルサレムでTaqiuddin al-Nabhaniが設立。汎イスラム政治運動。",
+        "objectives": "世界的カリフ制の樹立、イスラム法（シャリーア）に基づく統治",
+        "notableEvents": [
+          "1953年: エルサレムで設立",
+          "1990年代半ば: 中央アジア進出",
+          "2000年代: 世界中で禁止が拡大",
+          "2024年1月19日: 英国で禁止",
+          "2024年10月10日: インドで禁止"
+        ]
+      },
+      "leadership": {
+        "founder": "Taqiuddin al-Nabhani（1953年）",
+        "structure": "中央指導部、地域支部",
+        "current": "中央指導部の詳細は非公開"
+      },
+      "indiaBan2024": {
+        "date": "2024年10月10日",
+        "announcedBy": "内務大臣Amit Shah",
+        "law": "UAPA（不法活動防止法）",
+        "reasons": [
+          "世界的カリフ制樹立を目指す",
+          "ジハードとテロ活動を通じてインドを含む世界的カリフ制を確立",
+          "若者の過激化と動機付け",
+          "ISISなどテロ組織への勧誘",
+          "テロ活動資金調達"
+        ],
+        "quote": "ナレンドラ・モディ首相のテロに対するゼロ寛容政策を追求"
+      },
+      "ukBan2024": {
+        "date": "2024年1月19日",
+        "status": "テロ組織として禁止",
+        "effectiveDate": "2024年1月19日"
+      },
+      "centralAsiaPresence": {
+        "entry": "1990年代半ば",
+        "strongholds": "ウズベキスタン（最強の支持基盤）",
+        "presence": "キルギス、タジキスタン、カザフスタン",
+        "status": "中央アジア全域で禁止"
+      },
+      "globalBans": {
+        "countries": ["ドイツ", "エジプト", "英国", "インド", "複数の中央アジア・アラブ諸国"],
+        "trend": "2000年代以降禁止が拡大"
+      },
+      "ideology": {
+        "goal": "世界的カリフ制の復活",
+        "governance": "イスラム法（シャリーア）に基づく統治",
+        "method": "政治活動、イデオロギー普及、勧誘",
+        "violence": "直接的テロ攻撃は実行せず、イデオロギーと勧誘に焦点"
+      },
+      "radicalizationRole": {
+        "target": "若者",
+        "recruitment": "ISISなどテロ組織への勧誘",
+        "funding": "テロ活動資金調達",
+        "method": "イデオロギー普及、過激化"
+      },
+      "organizationalStructure": {
+        "type": "政治組織",
+        "focus": "イデオロギー普及と政治活動",
+        "violence": "直接的暴力は避けるが、他組織への勧誘を促進",
+        "branches": "世界中に地域支部"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "Indian Ministry of Home Affairs",
+          "UK Government",
+          "Counter Extremism Project",
+          "GWU Program on Extremism",
+          "Business Standard"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["ISIS（勧誘標的）", "アルカイダ（イデオロギー類似）"]
     }
   ]
 }
