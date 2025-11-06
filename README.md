@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-97.4%25-blue)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![CI](https://github.com/clearclown/terror/actions/workflows/ci.yml/badge.svg)](https://github.com/clearclown/terror/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/clearclown/terror/branch/main/graph/badge.svg)](https://codecov.io/gh/clearclown/terror)
 
 ## 🌍 プロジェクト概要
 
@@ -172,10 +174,24 @@ pnpm dev
 # http://localhost:3000
 ```
 
+### 4. テストの実行
+
+```bash
+# 全テストを実行
+pnpm test
+
+# カバレッジレポート付きで実行
+pnpm test:coverage
+
+# テストUIで実行
+pnpm test:ui
+```
+
 ### 注意事項
 
-- AIチャット機能は `OPENAI_API_KEY` が設定されていない場合、フォールバックメッセージを表示します
+- AIチャット機能は `AI_PROVIDER` と対応するAPIキーが未設定の場合、フォールバックメッセージを表示します
 - ふりがな機能はクライアントサイドで動作し、初回読み込み時に辞書データをダウンロードします
+- テストカバレッジ目標: 70%以上（lines, functions, branches, statements）
 
 ---
 
