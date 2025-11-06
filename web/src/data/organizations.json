@@ -1,0 +1,666 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-11-05",
+    "sources": [
+      "UN Security Council Reports",
+      "US State Department",
+      "Combating Terrorism Center at West Point",
+      "The Soufan Center",
+      "International Crisis Group",
+      "Human Rights Watch",
+      "ACLED",
+      "Counter Extremism Project"
+    ],
+    "credibilityTiers": {
+      "tier1": "政府機関・国際機関・主要学術機関",
+      "tier2": "シンクタンク・人権団体・報道機関",
+      "tier3": "地域メディア・補足情報源"
+    }
+  },
+  "organizations": [
+    {
+      "id": "asg",
+      "name": {
+        "ja": "アブ・サヤフ・グループ",
+        "en": "Abu Sayyaf Group",
+        "abbreviation": "ASG"
+      },
+      "status": "実質壊滅",
+      "founded": "1991",
+      "region": "東南アジア",
+      "primaryCountries": ["フィリピン"],
+      "activeLocations": ["ミンダナオ島", "スールー諸島", "バシラン州"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "ISIL東アジア (ISEA)",
+      "estimatedMembers": {
+        "current": "ほぼ壊滅",
+        "peak": "1,000-2,000人 (2000年代)",
+        "lastUpdated": "2025-06"
+      },
+      "currentStatus": {
+        "summary": "2024年3月にフィリピン政府が「完全解体」を宣言。2024年12月にバシラン州が最後のメンバー降伏によりASGフリーを宣言。",
+        "keyDevelopments": [
+          "2024年3月: フィリピン政府が完全解体を発表",
+          "2024年12月26日: バシラン州で最後の8人が降伏",
+          "2025年6月9日: バシラン州が正式にASGフリーを宣言",
+          "2023年: スールー州でもASGフリーを宣言"
+        ],
+        "lastMajorAttack": "2024年12月23日: バシランで情報部隊3人が待ち伏せ攻撃で死亡"
+      },
+      "background": {
+        "origin": "1991年にMNLF(モロ民族解放戦線)から分派。アブドゥラジャク・ジャンジャラニが設立。",
+        "objectives": "フィリピン南部にイスラム国家を樹立",
+        "notableEvents": [
+          "2000年: シパダン島リゾート襲撃",
+          "2017年: マラウィ占拠事件に参加",
+          "2019-2020年: 複数の自爆テロを実行"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "Philippine News Agency (政府公式)",
+          "US CENTCOM",
+          "Counter Extremism Project"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["ISEA", "MILF", "MNLF", "BIFF"]
+    },
+    {
+      "id": "isis",
+      "name": {
+        "ja": "イスラム国",
+        "en": "Islamic State",
+        "abbreviation": "ISIS/ISIL",
+        "aliases": ["Da'esh", "IS", "イラク・レバントのイスラム国"]
+      },
+      "status": "活動継続中",
+      "founded": "2013-2014",
+      "region": "中東・アフリカ・アジア",
+      "primaryCountries": ["イラク", "シリア", "アフガニスタン", "コンゴ民主共和国"],
+      "activeLocations": [
+        "シリア東部",
+        "イラク",
+        "アフガニスタン (IS-K)",
+        "コンゴ民主共和国",
+        "サヘル地域"
+      ],
+      "ideology": "極端なサラフィー・ジハード主義",
+      "affiliation": "なし（独立組織）",
+      "estimatedMembers": {
+        "current": "1,500-3,000人 (シリア・イラク)、4,000-6,000人 (IS-K)",
+        "peak": "30,000人以上 (2015年)",
+        "lastUpdated": "2025-02"
+      },
+      "currentStatus": {
+        "summary": "2024年末時点で世界で最も致命的なテロ組織。領土は失ったがゲリラ戦を継続。シリアとコンゴで最も高い死者数を記録。",
+        "keyDevelopments": [
+          "2024年: シリアでの攻撃数が前年比3倍近くに急増（約700件）",
+          "2025年: シリアでの攻撃ペースがさらに加速",
+          "2025年5月18日: シリア・マヤディンで自動車爆弾攻撃（5人死亡）",
+          "2025年1月1日: ニューオーリンズでISIS触発型攻撃",
+          "2024年12月11日: IS-Kがタリバン難民大臣を自爆攻撃で殺害"
+        ],
+        "lastMajorAttack": "2025年5月18日: シリア・マヤディンでの自動車爆弾攻撃"
+      },
+      "background": {
+        "origin": "2013-2014年にアルカイダ・イラクから発展。2014年6月に「カリフ国家」を宣言。",
+        "objectives": "世界規模のカリフ国家の樹立",
+        "notableEvents": [
+          "2014年6月: カリフ国家宣言、イラク・シリアで広大な領土を支配",
+          "2015-2017年: 世界各地でテロ攻撃を実行",
+          "2019年3月: 最後の領土を喪失",
+          "2024年3月22日: モスクワ・クロッカス・シティ・ホール攻撃（140人死亡）"
+        ]
+      },
+      "branches": [
+        {
+          "name": "IS-Khorasan (IS-K)",
+          "region": "アフガニスタン・パキスタン",
+          "status": "最も活発な支部の一つ",
+          "members": "4,000-6,000人",
+          "activity": "2024年に60件の攻撃（前年比40%増）"
+        },
+        {
+          "name": "ISIL East Asia (ISEA)",
+          "region": "フィリピン",
+          "status": "弱体化",
+          "activity": "再興を試みているが圧力下"
+        }
+      ],
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "UN Security Council",
+          "US CENTCOM",
+          "International Centre for Counter-Terrorism",
+          "The Soufan Center"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["IS-K", "ISEA", "Al-Qaeda"]
+    },
+    {
+      "id": "taliban",
+      "name": {
+        "ja": "タリバン",
+        "en": "Taliban",
+        "aliases": ["アフガニスタン・イスラム首長国"]
+      },
+      "status": "アフガニスタン実効支配中",
+      "founded": "1994",
+      "region": "南アジア",
+      "primaryCountries": ["アフガニスタン"],
+      "activeLocations": ["アフガニスタン全土"],
+      "ideology": "イスラム原理主義（デオバンディ派）",
+      "affiliation": "歴史的にアルカイダと関係",
+      "estimatedMembers": {
+        "current": "政府軍として数万人",
+        "peak": "現在が最大",
+        "lastUpdated": "2025-07"
+      },
+      "currentStatus": {
+        "summary": "2021年8月にアフガニスタンを再征服し、事実上の政府として統治。2025年7月にロシアが正式承認。米国は「外国テロ組織」指定を検討中。",
+        "keyDevelopments": [
+          "2024年8月14日: 3周年記念式典をバグラム空軍基地で開催",
+          "2025年5月: 米国が外国テロ組織指定を検討中と発表",
+          "2025年7月: ロシアがタリバン政権を正式承認",
+          "2024年12月: 女子の医療機関教育を禁止する指令発令",
+          "IS-Kに対する効果的な掃討作戦を実施"
+        ],
+        "governance": "最高指導者ハイバトゥラ・アクンザダが権力を中央集権化。南部パシュトゥン人を優遇する排他的政策。"
+      },
+      "background": {
+        "origin": "1994年にムラー・オマールが設立。1996-2001年にアフガニスタンを支配。",
+        "objectives": "アフガニスタンにシャリア法に基づくイスラム国家を樹立",
+        "notableEvents": [
+          "1996-2001年: 第一次政権",
+          "2001年: 9.11攻撃後に米国が侵攻、政権崩壊",
+          "2021年8月15日: カブール再征服、第二次政権樹立"
+        ]
+      },
+      "humanRightsIssues": [
+        "女性の教育・就労の厳格な制限",
+        "表現の自由の抑圧",
+        "少数民族への差別",
+        "90%以上の国民が貧困状態"
+      ],
+      "terrorismConcerns": {
+        "summary": "テロ組織に安全な避難所を提供し続けている懸念。",
+        "details": [
+          "アルカイダ幹部（アブ・イクラス・アル・マスリなど）がアフガニスタンに居住",
+          "IS-Kに対しては積極的に掃討作戦を実施",
+          "国際的な検証が困難なため対テロ努力の確認が課題"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "UN Security Council",
+          "US State Department",
+          "Brookings Institution",
+          "Stimson Center"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": true,
+        "controversies": [
+          "対テロ活動の有効性について評価が分かれる"
+        ]
+      },
+      "relatedOrganizations": ["Al-Qaeda", "IS-K", "Haqqani Network"]
+    },
+    {
+      "id": "hamas",
+      "name": {
+        "ja": "ハマス",
+        "en": "Hamas",
+        "fullName": "Islamic Resistance Movement"
+      },
+      "status": "大幅弱体化",
+      "founded": "1987",
+      "region": "中東",
+      "primaryCountries": ["パレスチナ自治区"],
+      "activeLocations": ["ガザ地区", "ヨルダン川西岸"],
+      "ideology": "パレスチナ・イスラム民族主義",
+      "affiliation": "イランの支援",
+      "estimatedMembers": {
+        "current": "大幅減少（具体数不明）",
+        "peak": "15,000-20,000人（軍事部門）",
+        "lastUpdated": "2025-01"
+      },
+      "currentStatus": {
+        "summary": "2023年10月7日のイスラエル攻撃以降、14ヶ月以上の戦闘で軍事・統治能力が大幅に低下。指導部の多くが殺害されたが完全排除は困難。",
+        "keyDevelopments": [
+          "2023年10月7日: イスラエルへの大規模攻撃を実行",
+          "2024年以降: イスラエルの軍事作戦で大きな損失",
+          "2024年末まで: 1,600件以上の戦闘・待ち伏せ攻撃を実行",
+          "2025年1月15日: 停戦合意（脆弱な状態が続く）",
+          "2025年: ガザ統治から退く意思を表明（パレスチナ国家樹立が条件）"
+        ],
+        "casualties": "政治・軍事指導部の大部分が殺害された"
+      },
+      "background": {
+        "origin": "1987年第一次インティファーダ時にムスリム同胞団のパレスチナ支部から発展。",
+        "objectives": "パレスチナ国家の樹立、イスラエルの破壊",
+        "notableEvents": [
+          "2006年: パレスチナ自治政府選挙で勝利",
+          "2007年: ガザ地区を実効支配",
+          "2023年10月7日: イスラエルへの攻撃（1,200人以上死亡）"
+        ]
+      },
+      "humanitarianImpact": {
+        "gazaCasualties": "68,000人以上のパレスチナ人が死亡（約半数が女性と子供）、170,000人以上が負傷",
+        "infrastructure": "ガザ地区の建造物の69%が破壊・損傷",
+        "displacement": "ガザ住民のほぼ全員が強制避難を経験",
+        "westBankViolence": "ヨルダン川西岸で607人以上のパレスチナ人、25人以上のイスラエル人が死亡"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "UN Security Council",
+          "Human Rights Watch",
+          "ACLED",
+          "Al Jazeera",
+          "NPR"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": true,
+        "controversies": [
+          "死者数の正確性について異なる報告",
+          "ジェノサイド認定について国際的に議論"
+        ]
+      },
+      "relatedOrganizations": ["Palestinian Islamic Jihad", "Hezbollah", "Iran"]
+    },
+    {
+      "id": "hezbollah",
+      "name": {
+        "ja": "ヒズボラ",
+        "en": "Hezbollah",
+        "aliases": ["Party of God", "神の党"]
+      },
+      "status": "大幅弱体化",
+      "founded": "1985",
+      "region": "中東",
+      "primaryCountries": ["レバノン"],
+      "activeLocations": ["レバノン南部", "ベカー高原"],
+      "ideology": "シーア派イスラム主義",
+      "affiliation": "イランの支援",
+      "estimatedMembers": {
+        "current": "大幅減少",
+        "peak": "20,000-50,000人（民兵・予備役含む）",
+        "deaths": "521人の公式発表（IDF推定3,800人）",
+        "lastUpdated": "2025-04"
+      },
+      "currentStatus": {
+        "summary": "2024年のイスラエルとの紛争で主要指導者と兵器の大部分を失い大幅弱体化。2024年11月に停戦合意も違反が続く。",
+        "keyDevelopments": [
+          "2023年10月8日: イスラエルへのロケット攻撃開始",
+          "2024年10月1日: イスラエルがレバノン侵攻（第6次レバノン侵攻）",
+          "2024年11月27日: 60日間停戦合意（リタニ川以北への撤退要求）",
+          "2025年2月17日: イスラエルが5つの軍事拠点を維持すると発表",
+          "2025年4月: 武装解除協議への参加意思を表明",
+          "2025年10月: イスラエル軍との散発的衝突が継続"
+        ],
+        "economicImpact": "紛争によりレバノンに140億米ドルの損失（物理的損害68億ドル）"
+      },
+      "background": {
+        "origin": "1985年にイスラエルのレバノン占領への抵抗運動として設立。イランの支援を受ける。",
+        "objectives": "イスラエルからのレバノン解放、シーア派コミュニティの保護",
+        "notableEvents": [
+          "2006年: イスラエルとの34日間戦争",
+          "2013年以降: シリア内戦に介入",
+          "2023-2024年: イスラエルとの大規模紛争"
+        ]
+      },
+      "israeliCasualties": "46人の民間人、28人の兵士、1人の治安職員が死亡",
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "United Nations",
+          "Human Rights Watch",
+          "FDD's Long War Journal",
+          "Al Jazeera"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": true,
+        "controversies": [
+          "死者数についてヒズボラとIDFで大きく異なる報告"
+        ]
+      },
+      "relatedOrganizations": ["Iran", "Hamas", "Palestinian Islamic Jihad"]
+    },
+    {
+      "id": "boko-haram",
+      "name": {
+        "ja": "ボコ・ハラム",
+        "en": "Boko Haram",
+        "fullName": "Jama'atu Ahlis Sunna Lidda'awati wal-Jihad"
+      },
+      "status": "活動再活性化",
+      "founded": "2002",
+      "region": "西アフリカ",
+      "primaryCountries": ["ナイジェリア", "カメルーン", "チャド", "ニジェール"],
+      "activeLocations": ["ボルノ州", "チャド湖流域"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "ISWAPと競合関係",
+      "estimatedMembers": {
+        "current": "不明（数千人規模）",
+        "peak": "不明",
+        "lastUpdated": "2025-06"
+      },
+      "currentStatus": {
+        "summary": "2025年に活動が大幅に激化。毎日のように民間人と治安部隊への攻撃を実行。ISWAPとともに地域の主要な脅威。",
+        "keyDevelopments": [
+          "2025年前半: 2,266人以上が死亡（2024年全体を超える）",
+          "2025年9月5日: ダルル・ジャマルで63人殺害（兵士7人含む）",
+          "2025年6月21日: ボルノ州の魚市場で自爆テロ（12人死亡、30人負傷）",
+          "2025年5月15日: マラム・カラムティとクワタンダシ村で約100人虐殺",
+          "2025年1月12日: ボルノ州の農村で40人以上殺害",
+          "2025年7-8月: カメルーン北部で144件中101件の攻撃を実行"
+        ],
+        "lastMajorAttack": "2025年9月5日: ダルル・ジャマル攻撃"
+      },
+      "background": {
+        "origin": "2002年にムハンマド・ユスフが設立。2009年の政府との衝突後に武装蜂起。",
+        "objectives": "ナイジェリアにシャリア法に基づくイスラム国家を樹立",
+        "notableEvents": [
+          "2014年: チボク女学生276人拉致事件",
+          "2015年: ISILに忠誠を誓う（後に分裂）",
+          "2016年: ISWAPが分派"
+        ]
+      },
+      "humanitarianImpact": {
+        "displaced": "290万人の国内避難民、27.2万人の難民",
+        "needsAssistance": "780万人が緊急支援を必要（80%が女性と子供）"
+      },
+      "relatedGroup": {
+        "name": "Islamic State West Africa Province (ISWAP)",
+        "status": "2025年に攻撃を大幅に激化",
+        "activity": "2025年5月12-13日に軍事施設への最も洗練された攻撃を実行"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "Amnesty International",
+          "Human Rights Watch",
+          "The Soufan Center",
+          "Global R2P"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["ISWAP", "ISIS"]
+    },
+    {
+      "id": "al-shabaab",
+      "name": {
+        "ja": "アル・シャバブ",
+        "en": "Al-Shabaab",
+        "fullName": "Harakat al-Shabaab al-Mujahideen"
+      },
+      "status": "活動継続・領土奪還",
+      "founded": "2006",
+      "region": "東アフリカ",
+      "primaryCountries": ["ソマリア", "ケニア"],
+      "activeLocations": ["ソマリア中南部", "モガディシュ周辺"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "アルカイダ",
+      "estimatedMembers": {
+        "current": "5,000-10,000人（推定）",
+        "peak": "不明",
+        "lastUpdated": "2025-07"
+      },
+      "currentStatus": {
+        "summary": "2025年に大規模な攻勢を展開し、失った領土を奪還。モガディシュ包囲を目指す戦略。政府軍との戦いは膠着状態。",
+        "keyDevelopments": [
+          "2025年7月20日: サビードとアノレの町を奪還（モガディシュ南西40km）",
+          "2025年7月初旬: モココリとグマレを自爆攻撃で奪取",
+          "2025年3月: モハムド大統領暗殺未遂（首都内でIED使用）",
+          "2024年8月2日: モガディシュのビーチレストラン攻撃（37人死亡、200人以上負傷）",
+          "2024-2025年: 政府から奪った領土を再占領",
+          "現在: モココリ、タルド、ブク・アカブレを支配し、ヒランと中部シャベレを包囲"
+        ],
+        "lastMajorAttack": "2025年7月: サビード・アノレ奪還作戦"
+      },
+      "background": {
+        "origin": "2006年にイスラム法廷連合(ICU)の青年民兵部門として形成。",
+        "objectives": "ソマリアにシャリア法に基づくイスラム国家を樹立、外国勢力の排除",
+        "notableEvents": [
+          "2010年: ウガンダ・カンパラで連続爆弾テロ（74人死亡）",
+          "2013年: ケニア・ウェストゲート・ショッピングモール攻撃（67人死亡）",
+          "2019年: ナイロビのDusitD2ホテル攻撃（21人死亡）",
+          "2024年: 対政府攻勢の膠着"
+        ]
+      },
+      "tactics": [
+        "即席爆発装置（IED）",
+        "自爆攻撃",
+        "迫撃砲攻撃",
+        "標的暗殺"
+      ],
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "UN Security Council",
+          "The Soufan Center",
+          "ACLED",
+          "Human Rights Watch",
+          "Combating Terrorism Center"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["Al-Qaeda"]
+    },
+    {
+      "id": "al-qaeda",
+      "name": {
+        "ja": "アルカイダ",
+        "en": "Al-Qaeda",
+        "aliases": ["AQ", "The Base"]
+      },
+      "status": "活動継続",
+      "founded": "1988-1989",
+      "region": "グローバル（特にアフリカ・中東）",
+      "primaryCountries": ["イエメン", "シリア", "アフガニスタン", "サヘル地域"],
+      "activeLocations": [
+        "イエメン",
+        "シリア",
+        "アフガニスタン",
+        "サヘル地域（マリ、ブルキナファソ等）",
+        "ソマリア"
+      ],
+      "ideology": "サラフィー・ジハード主義",
+      "affiliation": "多数の地域支部・提携組織",
+      "estimatedMembers": {
+        "current": "アラビア半島のアルカイダ(AQAP)が2,000-3,000人、全体数は不明",
+        "peak": "不明",
+        "lastUpdated": "2024-07"
+      },
+      "currentStatus": {
+        "summary": "事実上の指導者はサイフ・アル・アドル（イラン在住）。アフリカが「スンニ派グローバル・ジハードの重心」。AQAPが活発な宣伝活動を展開。",
+        "keyDevelopments": [
+          "2022年: ザワヒリ指導者が米国のドローン攻撃で死亡",
+          "現在: サイフ・アル・アドルが事実上の指導者（イラン居住）",
+          "2024年: AQAPのサアド・アティフ・アル・アウラキが新指導者に",
+          "2025年7月: アウラキへの賞金が600万ドルから1,000万ドルに増額",
+          "2025年7月: AQAP「Inspireガイド」第10版発行（米国でのテロ呼びかけ）",
+          "2025年6月: アウラキがトランプ大統領、イーロン・マスク等を脅迫",
+          "2025年5月: シリアがトルキスタン・イスラム党(TIP)を軍に統合"
+        ]
+      },
+      "background": {
+        "origin": "1988-1989年にオサマ・ビン・ラディンが設立。アフガニスタンのムジャヒディンから発展。",
+        "objectives": "西洋勢力の中東撤退、イスラム国家の樹立、世界的ジハード",
+        "notableEvents": [
+          "1998年: ケニア・タンザニア米国大使館同時爆破（224人死亡）",
+          "2000年: USSコール攻撃（17人死亡）",
+          "2001年9月11日: 米国同時多発テロ（約3,000人死亡）",
+          "2011年: ビン・ラディン殺害",
+          "2022年: ザワヒリ殺害"
+        ]
+      },
+      "majorBranches": [
+        {
+          "name": "Al-Qaeda in the Arabian Peninsula (AQAP)",
+          "region": "イエメン",
+          "leader": "サアド・アティフ・アル・アウラキ",
+          "members": "2,000-3,000人",
+          "activity": "最も活発な支部の一つ。米国への攻撃を呼びかける宣伝活動を展開。"
+        },
+        {
+          "name": "Al-Qaeda in the Islamic Maghreb (AQIM)",
+          "region": "北アフリカ・サヘル",
+          "activity": "サヘル地域で活動"
+        },
+        {
+          "name": "Al-Shabaab",
+          "region": "東アフリカ",
+          "activity": "ソマリアで最も強力なAQ関連組織"
+        }
+      ],
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "US Congress Research Service",
+          "US State Department",
+          "UN Security Council",
+          "Combating Terrorism Center",
+          "Brookings Institution"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false
+      },
+      "relatedOrganizations": ["Al-Shabaab", "AQAP", "AQIM", "Taliban"]
+    },
+    {
+      "id": "jemaah-islamiyah",
+      "name": {
+        "ja": "ジェマー・イスラミア",
+        "en": "Jemaah Islamiyah",
+        "abbreviation": "JI"
+      },
+      "status": "解散宣言（2024年6月）",
+      "founded": "1993",
+      "region": "東南アジア",
+      "primaryCountries": ["インドネシア", "マレーシア"],
+      "activeLocations": ["歴史的に活動していた地域"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "歴史的にアルカイダと関係",
+      "estimatedMembers": {
+        "current": "組織として解散",
+        "peak": "数千人（推定）",
+        "lastUpdated": "2024-06"
+      },
+      "currentStatus": {
+        "summary": "2024年6月30日に16人の指導者が解散を発表し、暴力を放棄して布教活動に専念すると宣言。ただし分派の可能性に懸念。",
+        "keyDevelopments": [
+          "2024年6月30日: 公式に解散を発表、インドネシア国家と法に従うと宣言",
+          "解散の理由: 対テロ圧力の増大による指導部の大きな損失",
+          "2019年: 逮捕者のわずか8%がJIメンバー",
+          "2023年: 逮捕者の59%がJIメンバー（取締り強化）",
+          "現在: 多くのメンバーが宗教教育と政治活動に従事"
+        ],
+        "concerns": "分派グループ、特に暴力的路線を維持する勢力への懸念が残る"
+      },
+      "background": {
+        "origin": "1993年にアブ・バカル・バシールらがマレーシアで設立。東南アジアでのイスラム国家樹立を目指す。",
+        "objectives": "東南アジアにシャリア法に基づくイスラム国家を樹立",
+        "notableEvents": [
+          "2002年10月: バリ島爆弾テロ（202人死亡、日本人2人含む）",
+          "2003年: ジャカルタのマリオットホテル爆破（12人死亡）",
+          "2004年: オーストラリア大使館爆破（9人死亡）",
+          "2005年: 第2次バリ島爆弾テロ（20人死亡）",
+          "2019-2021年: 指導部が相次いで逮捕"
+        ]
+      },
+      "historicalActivities": [
+        "2012-2018年: シリアのヌスラ戦線等に軍事訓練のためメンバーを派遣",
+        "寄宿学校・高校等でリクルート活動",
+        "2020年12月: 西ジャワ州で軍事訓練実施が発覚",
+        "2021年8月: 独立記念日テロ計画で50人逮捕"
+      ],
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "reliabilitySources": [
+          "East Asia Forum",
+          "Counter Extremism Project",
+          "International Centre for Counter-Terrorism",
+          "US National Counterterrorism Center"
+        ],
+        "verificationLevel": "高",
+        "conflictingReports": false,
+        "note": "解散の真正性と持続性については継続的な監視が必要"
+      },
+      "relatedOrganizations": ["Al-Qaeda", "Jemaah Ansharut Daulah (JAD)"]
+    },
+    {
+      "id": "pkk",
+      "name": {
+        "ja": "クルディスタン労働者党",
+        "en": "Kurdistan Workers' Party",
+        "abbreviation": "PKK",
+        "native": "Partiya Karkerên Kurdistanê"
+      },
+      "status": "解散・武装解除プロセス中（2025年）",
+      "founded": "1978",
+      "region": "中東",
+      "primaryCountries": ["トルコ", "イラク", "シリア"],
+      "activeLocations": ["歴史的に北イラク山岳地帯に拠点"],
+      "ideology": "クルド民族主義、元々はマルクス・レーニン主義",
+      "affiliation": "独立組織",
+      "estimatedMembers": {
+        "current": "武装解除中",
+        "peak": "数千～数万人（推定）",
+        "lastUpdated": "2025-07"
+      },
+      "currentStatus": {
+        "summary": "40年以上の紛争に終止符。2025年3月1日に停戦、5月12日に解散宣言、7月11日に象徴的武器破壊式典を実施。歴史的和平プロセス進行中。",
+        "keyDevelopments": [
+          "2024年10月: トルコ航空宇宙産業施設攻撃（5人死亡、22人負傷）",
+          "2024年10月: 民族主義者バフチェリ党首がオジャラン釈放を提案",
+          "2025年2月27日: オジャラン議長が40年の紛争終結を呼びかけ",
+          "2025年3月1日: PKK執行委員会が即時停戦を宣言",
+          "2025年5月12日: PKK全面解散を発表、政治的手段を選択",
+          "2025年7月11日: 北イラクで象徴的武器破壊式典開催",
+          "武装解除プロセス継続中"
+        ]
+      },
+      "background": {
+        "origin": "1978年にアブドゥラ・オジャランが設立。当初はマルクス・レーニン主義を標榜。",
+        "objectives": "トルコ南東部でのクルド人の権利擁護、自治権獲得",
+        "conflictHistory": "1984年から武装闘争開始。40,000人以上が死亡した長期紛争。",
+        "notableEvents": [
+          "1984年: 武装闘争開始",
+          "1999年: オジャラン逮捕・投獄",
+          "2013-2015年: 最初の和平プロセス（失敗）",
+          "2024-2025年: 第二次和平プロセス（進行中）"
+        ]
+      },
+      "peaceProcessContext": [
+        "ウクライナ、シリア、イスラエルの紛争によりトルコ周辺が不安定化",
+        "2024年12月: アサド政権崩壊によりトルコ・クルド勢力間の緊張増大",
+        "国内支持基盤の強化を求める政治的圧力"
+      ],
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "reliabilitySources": [
+          "UN Human Rights (OHCHR)",
+          "International Crisis Group",
+          "NPR",
+          "Council on Foreign Relations",
+          "UK Government"
+        ],
+        "verificationLevel": "非常に高い",
+        "conflictingReports": false,
+        "historicSignificance": "40年以上の紛争の平和的解決として歴史的"
+      },
+      "relatedOrganizations": ["People's Defense Units (YPG)", "Kurdistan Communities Union (KCK)"]
+    }
+  ]
+}

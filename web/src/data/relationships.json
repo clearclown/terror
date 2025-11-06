@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-11-05",
+    "description": "テロ組織間の関係性（継承、分派、対立、提携など）"
+  },
+  "relationships": [
+    {
+      "id": "rel-001",
+      "from": "mnlf",
+      "to": "milf",
+      "type": "split",
+      "year": 1977,
+      "description": "MNLFから路線対立により分派。イスラム国家樹立を主張"
+    },
+    {
+      "id": "rel-002",
+      "from": "mnlf",
+      "to": "asg",
+      "type": "split",
+      "year": 1991,
+      "description": "MNLFメンバーのジャンジャラニが分派してASG設立"
+    },
+    {
+      "id": "rel-003",
+      "from": "milf",
+      "to": "biff",
+      "type": "split",
+      "year": 2010,
+      "description": "和平合意に反発した強硬派がBIFF設立"
+    },
+    {
+      "id": "rel-004",
+      "from": "asg",
+      "to": "isea",
+      "type": "alliance",
+      "year": 2014,
+      "description": "ASGの一部派閥がISILバグダディに忠誠を誓う"
+    },
+    {
+      "id": "rel-005",
+      "from": "maute-group",
+      "to": "isea",
+      "type": "alliance",
+      "year": 2014,
+      "description": "マウテ・グループがISEA結成に参加"
+    },
+    {
+      "id": "rel-006",
+      "from": "isis",
+      "to": "isea",
+      "type": "succession",
+      "year": 2017,
+      "description": "ISILがISEAの存在を公式に認め、東アジア支部として位置づけ"
+    },
+    {
+      "id": "rel-007",
+      "from": "isis",
+      "to": "is-k",
+      "type": "succession",
+      "year": 2015,
+      "description": "ISILのホラサン州（IS-K）として支部設立"
+    },
+    {
+      "id": "rel-008",
+      "from": "al-qaeda",
+      "to": "isis",
+      "type": "split",
+      "year": 2013,
+      "description": "アルカイダ・イラクから分離し、ISILとして独立"
+    },
+    {
+      "id": "rel-009",
+      "from": "al-qaeda",
+      "to": "aqap",
+      "type": "succession",
+      "year": 2009,
+      "description": "アラビア半島のアルカイダ（AQAP）として支部設立"
+    },
+    {
+      "id": "rel-010",
+      "from": "al-qaeda",
+      "to": "al-shabaab",
+      "type": "alliance",
+      "year": 2012,
+      "description": "アル・シャバブがアルカイダに忠誠を誓う"
+    },
+    {
+      "id": "rel-011",
+      "from": "isis",
+      "to": "al-qaeda",
+      "type": "conflict",
+      "year": 2014,
+      "description": "ISILとアルカイダが対立、競合関係に"
+    },
+    {
+      "id": "rel-012",
+      "from": "boko-haram",
+      "to": "isis",
+      "type": "alliance",
+      "year": 2015,
+      "description": "ボコ・ハラムがISILに忠誠を誓う"
+    },
+    {
+      "id": "rel-013",
+      "from": "boko-haram",
+      "to": "iswap",
+      "type": "split",
+      "year": 2016,
+      "description": "ISWAPがボコ・ハラムから分派"
+    },
+    {
+      "id": "rel-014",
+      "from": "iswap",
+      "to": "boko-haram",
+      "type": "conflict",
+      "year": 2016,
+      "description": "ISWAPとボコ・ハラムが対立、武力衝突"
+    },
+    {
+      "id": "rel-015",
+      "from": "jemaah-islamiyah",
+      "to": "jad",
+      "type": "split",
+      "year": 2014,
+      "description": "JI元メンバーがJAD（ジャマー・アンシャルット・ダウラ）設立"
+    },
+    {
+      "id": "rel-016",
+      "from": "jad",
+      "to": "isis",
+      "type": "alliance",
+      "year": 2014,
+      "description": "JADがISILに忠誠を誓う"
+    },
+    {
+      "id": "rel-017",
+      "from": "hamas",
+      "to": "hezbollah",
+      "type": "alliance",
+      "year": 2000,
+      "description": "ハマスとヒズボラがイランを通じて協力関係"
+    },
+    {
+      "id": "rel-018",
+      "from": "taliban",
+      "to": "al-qaeda",
+      "type": "alliance",
+      "year": 1996,
+      "description": "タリバンがアルカイダに庇護を提供"
+    },
+    {
+      "id": "rel-019",
+      "from": "taliban",
+      "to": "is-k",
+      "type": "conflict",
+      "year": 2015,
+      "description": "タリバンとIS-Kが激しく対立、武力衝突"
+    }
+  ],
+  "relationshipTypes": {
+    "split": {
+      "ja": "分派",
+      "en": "Split",
+      "color": "#f59e0b",
+      "description": "元の組織から分裂して新組織を設立"
+    },
+    "succession": {
+      "ja": "継承・支部",
+      "en": "Succession",
+      "color": "#3b82f6",
+      "description": "正式な支部や後継組織として設立"
+    },
+    "alliance": {
+      "ja": "提携・忠誠",
+      "en": "Alliance",
+      "color": "#10b981",
+      "description": "協力関係または忠誠関係"
+    },
+    "conflict": {
+      "ja": "対立",
+      "en": "Conflict",
+      "color": "#ef4444",
+      "description": "敵対関係、武力衝突"
+    },
+    "merger": {
+      "ja": "統合",
+      "en": "Merger",
+      "color": "#8b5cf6",
+      "description": "複数組織が統合して新組織設立"
+    }
+  },
+  "timeline": {
+    "1960s": ["mnlf設立"],
+    "1970s": ["milf分派 (1977)"],
+    "1980s": ["al-qaeda設立 (1988)"],
+    "1990s": ["asg分派 (1991)", "jemaah-islamiyah設立 (1993)", "taliban設立 (1994)"],
+    "2000s": ["boko-haram設立 (2002)", "aqap設立 (2009)"],
+    "2010s": [
+      "biff分派 (2010)",
+      "al-shabaab→al-qaeda提携 (2012)",
+      "isis分派 (2013)",
+      "isea設立 (2014)",
+      "jad設立 (2014)",
+      "is-k設立 (2015)",
+      "boko-haram→isis忠誠 (2015)",
+      "iswap分派 (2016)"
+    ],
+    "2020s": [
+      "jemaah-islamiyah解散 (2024)",
+      "pkk停戦・解散 (2025)",
+      "asg壊滅 (2025)"
+    ]
+  }
+}

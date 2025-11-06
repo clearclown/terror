@@ -1,4 +1,314 @@
-# 世界のテロ情報をまとめてみた。
+# 世界安全情報プラットフォーム (Global Security Information Platform)
+
+**テロ組織・武装グループ・民間軍事会社の包括的情報プラットフォーム**
+
+[![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-97.4%25-blue)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![CI](https://github.com/clearclown/terror/actions/workflows/ci.yml/badge.svg)](https://github.com/clearclown/terror/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/clearclown/terror/branch/main/graph/badge.svg)](https://codecov.io/gh/clearclown/terror)
+
+## 🌍 プロジェクト概要
+
+このプラットフォームは、[未来議会](https://github.com/team-mirai-volunteer/mirai-gikai)の「難しいものをわかりやすく教える」というコンセプトを、テロリズムと世界の安全情報分野に水平展開したものです。
+
+### 目的
+
+- **民間旅行者**: 渡航前の安全確認
+- **研究者・学生**: 学術研究と歴史理解
+- **インテリジェンス関係者**: 専門的分析
+- **ジャーナリスト**: 取材前調査
+- **企業**: 海外駐在員の安全管理
+- **一般市民**: 世界情勢の理解
+
+### 対象範囲
+
+- テロ組織（政府指定・非指定問わず）
+- 武装グループ・ミリシア・民兵組織
+- 民間軍事会社（PMC）
+- 反政府武装勢力
+- 駐在軍・外国軍
+- クーデタ勢力
+
+---
+
+## 📊 データベース概要
+
+### 掲載情報（2024-2025年最新）
+
+- **組織数**: 10組織
+- **主要事件**: 15件（2001-2025年）
+- **対象国**: 12カ国
+- **情報源**: 20以上の信頼できる機関
+
+### 信頼性評価システム
+
+**Tier 1（最高信頼性）**
+- 政府機関：UN Security Council, US State Department, US CENTCOM
+- 学術機関：Combating Terrorism Center (West Point), Brookings Institution
+- 人権団体：Human Rights Watch, Amnesty International
+
+**Tier 2（高信頼性）**
+- シンクタンク：The Soufan Center, ACLED, Counter Extremism Project
+- 報道機関：Al Jazeera, NPR, Reuters
+
+---
+
+## 🚀 主要機能（未来議会ベース）
+
+### 1. 難易度切り替え + ふりがな
+```
+😊 やさしく: わかりやすい表現で説明
+📚 詳しく: 専門的な情報も含めて詳細に説明
+あ ふりがな: 難しい漢字にふりがなを表示
+```
+- **Kuroshiro** による自動ふりがな生成機能
+- 日本語学習者や子供にも読みやすく
+
+### 2. 組織関係図（React Flow）
+- 📊 **インタラクティブな関係図**: 組織間の継承、分派、対立、提携を視覚化
+- 🗓️ **タイムライン表示**: 横軸に年代、縦軸に組織配置
+- 🎨 **色分け**: 関係性ごとに色分け（分派=オレンジ、継承=青、提携=緑、対立=赤）
+- 🔍 **ズーム・パン**: マウス操作で自由に拡大・移動
+
+### 3. AI チャット機能（マルチプロバイダー対応）
+- 💬 **リアルタイムチャット**: 組織に関する質問をAIに即座に質問可能
+- 🤖 **4つのAIモデルをサポート**:
+  - **OpenAI** (GPT-4o-mini) - 高品質でバランスが良い
+  - **DeepSeek V3** - 最もコスト効率が良い（推奨）
+  - **Claude 3.5 Haiku** (Anthropic) - 高速で正確
+  - **Gemini 1.5 Flash** (Google) - 無料枠あり
+- 👶 **わかりやすい説明**: 「子供にもわかるように説明して」などの指示に対応
+- 📚 **専門的な回答**: 中立的かつ客観的な立場で正確な情報を提供
+- 🔄 **簡単な切り替え**: 環境変数 `AI_PROVIDER` で選択
+
+### 4. 個別組織ページ
+- 組織の詳細情報（現状、背景、活動地域）
+- 信頼性評価と情報源
+- 関連組織への直接リンク
+- その組織に関連する関係図
+
+---
+
+## 📁 プロジェクト構造
+
+```
+terror/
+├── data/                    # JSONデータベース ✅
+│   ├── organizations.json   # 10組織の詳細情報
+│   ├── events.json          # 15件の主要事件
+│   ├── countries.json       # 12カ国の分析
+│   ├── relationships.json   # 19件の組織間関係（NEW）
+│   └── README.md            # データ仕様書
+│
+├── web/                     # Next.js フロントエンド ✅
+│   ├── src/
+│   │   ├── app/             # ページ（組織一覧、組織詳細、関係図等）
+│   │   ├── features/        # 機能モジュール
+│   │   │   ├── chat/        # AIチャット機能
+│   │   │   ├── difficulty/  # 難易度切り替え
+│   │   │   ├── furigana/    # ふりがな機能
+│   │   │   └── organizations/ # 組織関係図
+│   │   └── components/      # 共通コンポーネント
+│   ├── .env.example         # 環境変数のサンプル
+│   └── package.json
+│
+└── README.md                # このファイル
+```
+
+---
+
+## 🛠️ 技術スタック
+
+- **Framework**: Next.js 14+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Package Manager**: pnpm
+- **Visualization**: React Flow (組織関係図)
+- **Furigana**: Kuroshiro + Kuromoji (日本語ふりがな)
+- **AI (マルチプロバイダー対応)**:
+  - OpenAI SDK (GPT-4o-mini)
+  - DeepSeek API (OpenAI互換)
+  - Anthropic SDK (Claude 3.5 Haiku)
+  - Google Generative AI SDK (Gemini 1.5 Flash)
+- **Data Visualization**: D3.js (追加の可視化)
+
+---
+
+## 🎯 セットアップ
+
+### 1. 依存関係のインストール
+
+```bash
+cd web
+pnpm install
+```
+
+### 2. 環境変数の設定
+
+AIチャット機能を使用する場合は、使用したいAIプロバイダーのAPIキーを設定してください：
+
+```bash
+# .env.example をコピー
+cp .env.example .env.local
+
+# .env.local を編集
+AI_PROVIDER=deepseek  # openai, deepseek, claude, gemini から選択
+
+# 使用するプロバイダーのAPIキーを設定（1つだけでOK）
+DEEPSEEK_API_KEY=sk-your-deepseek-api-key-here
+# または
+OPENAI_API_KEY=sk-your-openai-api-key-here
+# または
+ANTHROPIC_API_KEY=sk-ant-your-anthropic-api-key-here
+# または
+GOOGLE_API_KEY=your-google-api-key-here
+```
+
+**推奨**: DeepSeek V3（最もコスト効率が良い）
+
+### 3. 開発サーバーの起動
+
+```bash
+pnpm dev
+# http://localhost:3000
+```
+
+### 4. テストの実行
+
+```bash
+# 全テストを実行
+pnpm test
+
+# カバレッジレポート付きで実行
+pnpm test:coverage
+
+# テストUIで実行
+pnpm test:ui
+```
+
+### 注意事項
+
+- AIチャット機能は `AI_PROVIDER` と対応するAPIキーが未設定の場合、フォールバックメッセージを表示します
+- ふりがな機能はクライアントサイドで動作し、初回読み込み時に辞書データをダウンロードします
+- テストカバレッジ目標: 70%以上（lines, functions, branches, statements）
+
+---
+
+## 🚀 Vercel へのデプロイ
+
+このプロジェクトは Vercel に簡単にデプロイできます。
+
+### デプロイ手順
+
+1. **Vercel アカウント作成**
+   - https://vercel.com でアカウントを作成（GitHub 連携推奨）
+
+2. **プロジェクトをインポート**
+   - Vercel ダッシュボードで「New Project」をクリック
+   - GitHub リポジトリを選択
+
+3. **プロジェクト設定**
+   ```
+   Framework Preset: Next.js
+   Root Directory: web
+   Build Command: pnpm build (自動検出)
+   Output Directory: .next (自動検出)
+   Install Command: pnpm install (自動検出)
+   ```
+
+4. **環境変数の設定（オプション）**
+   - 「Environment Variables」セクションで使用するAIプロバイダーを追加：
+   ```
+   # プロバイダー選択（デフォルト: openai）
+   AI_PROVIDER=deepseek
+
+   # 選択したプロバイダーのAPIキー（1つだけでOK）
+   DEEPSEEK_API_KEY=sk-your-deepseek-api-key-here
+   # または
+   OPENAI_API_KEY=sk-your-openai-api-key-here
+   # または
+   ANTHROPIC_API_KEY=sk-ant-your-anthropic-api-key-here
+   # または
+   GOOGLE_API_KEY=your-google-api-key-here
+   ```
+   - すべての環境（Production, Preview, Development）にチェック
+   - **推奨**: DeepSeek V3（コスト効率最高）
+
+5. **デプロイ**
+   - 「Deploy」をクリックすると自動的にビルド・デプロイが開始されます
+   - 数分で完了し、URL が発行されます
+
+### 注意事項
+
+- **pnpm サポート**: Vercel は pnpm を自動検出してサポートします
+- **環境変数**: AI API キーは必須ではありません（未設定の場合はフォールバックメッセージを表示）
+- **自動デプロイ**: GitHub へ push すると自動的に Vercel がビルド・デプロイします
+- **プロバイダー選択**: 環境変数 `AI_PROVIDER` で簡単に切り替え可能
+
+### トラブルシューティング
+
+**ビルドエラーが発生した場合:**
+1. Root Directory が `web` に設定されているか確認
+2. Node.js バージョンが 18 以上に設定されているか確認
+3. pnpm が選択されているか確認（Settings → General → Package Manager）
+
+---
+
+## 🤖 AIプロバイダー比較
+
+| プロバイダー | モデル | コスト | 速度 | 品質 | 無料枠 | 取得URL |
+|------------|--------|--------|------|------|--------|---------|
+| **DeepSeek** 🌟 | V3 | ★★★★★ | ★★★★☆ | ★★★★☆ | 少量あり | [API Keys](https://platform.deepseek.com/api-keys) |
+| **OpenAI** | GPT-4o-mini | ★★★☆☆ | ★★★★★ | ★★★★★ | $5 無料 | [API Keys](https://platform.openai.com/api-keys) |
+| **Anthropic** | Claude 3.5 Haiku | ★★★☆☆ | ★★★★★ | ★★★★★ | なし | [API Keys](https://console.anthropic.com/settings/keys) |
+| **Google** | Gemini 1.5 Flash | ★★★★☆ | ★★★★☆ | ★★★★☆ | **大量** | [API Key](https://aistudio.google.com/apikey) |
+
+### 推奨
+
+- **コスト重視**: DeepSeek V3（最安）
+- **品質重視**: Claude 3.5 Haiku または GPT-4o-mini
+- **無料で試したい**: Gemini 1.5 Flash（無料枠が大きい）
+- **バランス型**: DeepSeek V3（コスパ最強）
+
+### 使用例
+
+```bash
+# DeepSeek を使用（推奨）
+AI_PROVIDER=deepseek
+DEEPSEEK_API_KEY=sk-...
+
+# Claude を使用
+AI_PROVIDER=claude
+ANTHROPIC_API_KEY=sk-ant-...
+
+# Gemini を使用（無料枠あり）
+AI_PROVIDER=gemini
+GOOGLE_API_KEY=...
+```
+
+---
+
+## 📈 2024-2025年の重要な変化
+
+### ✅ 壊滅・解散
+- **ASG**: フィリピンで実質壊滅
+- **JI**: インドネシアで解散宣言
+- **PKK**: トルコと停戦・解散（歴史的）
+
+### 🔴 活動激化
+- **ISIS**: シリアで攻撃3倍増
+- **ボコ・ハラム**: 2025年激化
+- **アル・シャバブ**: 領土奪還攻勢
+
+---
+
+## 🙏 謝辞
+
+このプロジェクトは[チームみらい](https://team-mir.ai/)の[未来議会](https://github.com/team-mirai-volunteer/mirai-gikai)に触発されました。
+
+---
+
 ![terror.svg](./markmap.svg)
 
 # 中国
