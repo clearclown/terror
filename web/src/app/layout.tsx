@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import 'leaflet/dist/leaflet.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,10 +24,11 @@ export default function RootLayout({
               <h1 className="text-2xl font-bold">
                 🌍 世界安全情報
               </h1>
-              <div className="flex gap-4">
+              <div className="flex gap-4 text-sm">
                 <a href="/" className="hover:underline">ホーム</a>
                 <a href="/organizations" className="hover:underline">組織一覧</a>
                 <a href="/organizations/relationships" className="hover:underline">関係図</a>
+                <a href="/organizations/map" className="hover:underline">🗺️ 世界地図</a>
                 <a href="/events" className="hover:underline">事件</a>
                 <a href="/countries" className="hover:underline">国別</a>
               </div>
