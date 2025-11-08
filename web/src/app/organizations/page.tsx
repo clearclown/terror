@@ -27,7 +27,7 @@ export default function OrganizationsPage() {
           {active.map(org => (
             <Link
               key={org.id}
-              href={`/organizations/${org.id}`}
+              href={`/organizations/${org.id}` as any}
               className="block p-4 border rounded-lg hover:shadow-lg transition"
             >
               <h3 className="font-bold text-lg mb-2">{org.name.ja}</h3>

@@ -28,6 +28,10 @@ export function ChatPanel({ organizationName }: { organizationName: string }) {
     setIsLoading(true)
 
     try {
+      // タイムアウト付きfetch
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 35000) // 35秒でタイムアウト
+
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
@@ -37,7 +41,16 @@ export function ChatPanel({ organizationName }: { organizationName: string }) {
           messages: newMessages,
           organizationName,
         }),
+        signal: controller.signal,
       })
+
+      clearTimeout(timeoutId)
+
+      // HTTPステータスコードの確認
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}))
+        throw new Error(errorData.error || `HTTP ${response.status}: ${response.statusText}`)
+      }
 
       const data = await response.json()
 
@@ -45,23 +58,36 @@ export function ChatPanel({ organizationName }: { organizationName: string }) {
         // エラー時はフォールバックレスポンスを使用
         const assistantMessage: Message = {
           role: 'assistant',
-          content: data.fallbackResponse || data.error
+          content: data.fallbackResponse || data.error || 'エラーが発生しました。',
+        }
+        setMessages(prev => [...prev, assistantMessage])
+      } else if (data.message) {
+        const assistantMessage: Message = {
+          role: 'assistant',
+          content: data.message,
         }
         setMessages(prev => [...prev, assistantMessage])
       } else {
-        const assistantMessage: Message = {
-          role: 'assistant',
-          content: data.message
-        }
-        setMessages(prev => [...prev, assistantMessage])
+        throw new Error('予期しないレスポンス形式です')
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('Chat API error:', error)
-      const errorMessage: Message = {
-        role: 'assistant',
-        content: '申し訳ございません。接続エラーが発生しました。しばらく待ってから再度お試しください。'
+      
+      let errorMessage = '申し訳ございません。接続エラーが発生しました。しばらく待ってから再度お試しください。'
+      
+      if (error.name === 'AbortError') {
+        errorMessage = 'リクエストがタイムアウトしました。しばらく待ってから再度お試しください。'
+      } else if (error.message) {
+        errorMessage = error.message
+      } else if (error instanceof TypeError && error.message.includes('fetch')) {
+        errorMessage = 'ネットワークエラーが発生しました。インターネット接続を確認してください。'
       }
-      setMessages(prev => [...prev, errorMessage])
+
+      const errorMsg: Message = {
+        role: 'assistant',
+        content: errorMessage,
+      }
+      setMessages(prev => [...prev, errorMsg])
     } finally {
       setIsLoading(false)
     }

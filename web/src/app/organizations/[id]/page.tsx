@@ -23,7 +23,7 @@ export default function OrganizationPage({ params }: { params: { id: string } })
 
   return (
     <OrganizationDetailClient
-      organization={org}
+      organization={org as any}
       relationships={relevantRelationships}
       allOrganizations={organizationsData.organizations.map((o) => ({
         id: o.id,

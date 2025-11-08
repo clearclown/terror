@@ -129,7 +129,7 @@ export function OrganizationRelationshipCard({
               return (
                 <Link
                   key={rel.id}
-                  href={`/organizations/${rel.to}`}
+                  href={`/organizations/${rel.to}` as any}
                   className="block p-3 bg-gray-50 hover:bg-gray-100 rounded transition"
                 >
                   <div className="flex items-start gap-2">

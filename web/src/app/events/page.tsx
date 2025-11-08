@@ -17,7 +17,7 @@ export default function EventsPage() {
         {events.map(event => (
           <Link
             key={event.id}
-            href={`/events/${event.id}`}
+            href={`/events/${event.id}` as any}
             className="block p-6 border rounded-lg hover:shadow-lg transition"
           >
             <div className="flex items-start justify-between mb-3">

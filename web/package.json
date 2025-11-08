@@ -4,9 +4,9 @@
   "private": true,
   "description": "Global Security Information Platform - Web Frontend",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H ${HOST:-0.0.0.0} -p ${PORT:-3005}",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -H ${HOST:-0.0.0.0} -p ${PORT:-3005}",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "test": "vitest",

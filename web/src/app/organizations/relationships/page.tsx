@@ -1,10 +1,43 @@
+'use client'
+
+import { useState } from 'react'
 import { OrganizationGraph } from '@/features/organizations/OrganizationGraph'
 import relationshipsData from '@/data/relationships.json'
 import organizationsData from '@/data/organizations.json'
+import { ChevronDown, ChevronUp } from 'lucide-react'
 
-export const metadata = {
-  title: '組織間の関係図 | Global Security Info',
-  description: 'テロ組織や武装グループ間の関係性（分派、継承、対立、提携など）を視覚的に表示',
+function CollapsibleTimeline({ timeline }: { timeline: Record<string, string[]> }) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <div className="mt-8 bg-white border rounded-lg p-6">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center justify-between w-full font-bold text-lg mb-4 hover:text-blue-600 transition-colors"
+      >
+        <span>📅 年代別の主な出来事</span>
+        {isOpen ? (
+          <ChevronUp className="w-5 h-5" />
+        ) : (
+          <ChevronDown className="w-5 h-5" />
+        )}
+      </button>
+      {isOpen && (
+        <div className="space-y-4">
+          {Object.entries(timeline).map(([decade, events]) => (
+            <div key={decade}>
+              <h4 className="font-bold text-blue-600 mb-1">{decade}</h4>
+              <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                {(events as string[]).map((event, idx) => (
+                  <li key={idx}>{event}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
 }
 
 export default function RelationshipsPage() {
@@ -39,7 +72,7 @@ export default function RelationshipsPage() {
 
       {/* グラフ */}
       <OrganizationGraph
-        relationships={relationshipsData.relationships}
+        relationships={relationshipsData.relationships as any}
         relationshipTypes={relationshipsData.relationshipTypes}
         organizations={organizationsData.organizations.map((org) => ({
           id: org.id,
@@ -83,22 +116,8 @@ export default function RelationshipsPage() {
         </div>
       </div>
 
-      {/* タイムライン */}
-      <div className="mt-8 bg-white border rounded-lg p-6">
-        <h3 className="font-bold text-lg mb-4">📅 年代別の主な出来事</h3>
-        <div className="space-y-4">
-          {Object.entries(relationshipsData.timeline).map(([decade, events]) => (
-            <div key={decade}>
-              <h4 className="font-bold text-blue-600 mb-1">{decade}</h4>
-              <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                {(events as string[]).map((event, idx) => (
-                  <li key={idx}>{event}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </div>
+      {/* タイムライン（折りたたみ可能） */}
+      <CollapsibleTimeline timeline={relationshipsData.timeline} />
 
       {/* 注意事項 */}
       <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-4">

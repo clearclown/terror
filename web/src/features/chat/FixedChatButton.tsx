@@ -55,7 +55,7 @@ export const FixedChatButton = forwardRef<FixedChatButtonRef, FixedChatButtonPro
 
     return (
       <div
-        className={`fixed left-1/2 -translate-x-1/2 z-30 transition-all duration-300 ease-out
+        className={`fixed left-1/2 -translate-x-1/2 z-[80] transition-all duration-300 ease-out
           ${isVisible ? 'bottom-4 md:bottom-8 opacity-100' : 'bottom-0 opacity-0'}
           ${isExpanded ? 'w-[calc(100%-48px)] max-w-[460px]' : 'w-[120px]'}
           pc:hidden`}

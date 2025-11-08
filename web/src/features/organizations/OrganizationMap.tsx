@@ -73,6 +73,18 @@ export function OrganizationMap({
 
   useEffect(() => {
     setIsClient(true)
+    
+    // Leafletのデフォルトアイコンのパスを修正（クライアントサイドのみ）
+    if (typeof window !== 'undefined') {
+      import('leaflet').then((L) => {
+        delete (L.default.Icon.Default.prototype as any)._getIconUrl
+        L.default.Icon.Default.mergeOptions({
+          iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
+          iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
+          shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+        })
+      })
+    }
   }, [])
 
   // 座標を持つ組織のみフィルタリング
@@ -196,7 +208,7 @@ export function OrganizationMap({
                     📍 {org.location?.label || org.primaryCountries.join(', ')}
                   </div>
                   <a
-                    href={`/organizations/${org.id}`}
+                    href={`/organizations/${org.id}` as any}
                     className="inline-block mt-2 text-xs text-blue-600 hover:text-blue-800 font-medium"
                   >
                     詳細を見る →

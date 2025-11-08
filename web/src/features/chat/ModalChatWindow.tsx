@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 import { X, Send } from 'lucide-react'
 
 interface Message {
@@ -13,6 +13,7 @@ interface ModalChatWindowProps {
   onClose: () => void
   organizationName: string
   initialMessage?: string
+  contextType?: 'organization' | 'event'
 }
 
 export function ModalChatWindow({
@@ -20,6 +21,7 @@ export function ModalChatWindow({
   onClose,
   organizationName,
   initialMessage,
+  contextType = 'organization',
 }: ModalChatWindowProps) {
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -31,20 +33,9 @@ export function ModalChatWindow({
   const [isLoading, setIsLoading] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const textareaRef = useRef<HTMLTextAreaElement>(null)
+  const hasSentInitialMessage = useRef(false)
 
-  // 初期メッセージがある場合は自動送信
-  useEffect(() => {
-    if (initialMessage && isOpen) {
-      handleSendMessage(initialMessage)
-    }
-  }, [initialMessage, isOpen])
-
-  // メッセージが追加されたら自動スクロール
-  useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
-  }, [messages])
-
-  const handleSendMessage = async (messageText?: string) => {
+  const handleSendMessage = useCallback(async (messageText?: string) => {
     const textToSend = messageText || input.trim()
     if (!textToSend || isLoading) return
 
@@ -55,41 +46,91 @@ export function ModalChatWindow({
     setIsLoading(true)
 
     try {
+      // タイムアウト付きfetch
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 35000) // 35秒でタイムアウト
+
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           messages: newMessages,
           organizationName,
+          contextType,
         }),
+        signal: controller.signal,
       })
+
+      clearTimeout(timeoutId)
+
+      // HTTPステータスコードの確認
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}))
+        throw new Error(errorData.error || `HTTP ${response.status}: ${response.statusText}`)
+      }
 
       const data = await response.json()
 
       if (data.error) {
         const errorMessage: Message = {
           role: 'assistant',
-          content: data.fallbackResponse || data.error,
+          content: data.fallbackResponse || data.error || 'エラーが発生しました。',
         }
         setMessages((prev) => [...prev, errorMessage])
-      } else {
+      } else if (data.message) {
         const assistantMessage: Message = {
           role: 'assistant',
           content: data.message,
         }
         setMessages((prev) => [...prev, assistantMessage])
+      } else {
+        throw new Error('予期しないレスポンス形式です')
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('Chat error:', error)
-      const errorMessage: Message = {
-        role: 'assistant',
-        content: '接続エラーが発生しました。しばらく待ってから再度お試しください。',
+      
+      let errorMessage = '接続エラーが発生しました。しばらく待ってから再度お試しください。'
+      
+      if (error.name === 'AbortError') {
+        errorMessage = 'リクエストがタイムアウトしました。しばらく待ってから再度お試しください。'
+      } else if (error.message) {
+        errorMessage = error.message
+      } else if (error instanceof TypeError && error.message.includes('fetch')) {
+        errorMessage = 'ネットワークエラーが発生しました。インターネット接続を確認してください。'
       }
-      setMessages((prev) => [...prev, errorMessage])
+
+      const errorMsg: Message = {
+        role: 'assistant',
+        content: errorMessage,
+      }
+      setMessages((prev) => [...prev, errorMsg])
     } finally {
       setIsLoading(false)
     }
-  }
+  }, [messages, input, isLoading, organizationName])
+
+  // 初期メッセージがある場合は自動送信（1回のみ）
+  useEffect(() => {
+    if (initialMessage && isOpen && !hasSentInitialMessage.current) {
+      hasSentInitialMessage.current = true
+      handleSendMessage(initialMessage)
+    }
+    // チャットが閉じられたらリセット
+    if (!isOpen) {
+      hasSentInitialMessage.current = false
+      setMessages([
+        {
+          role: 'assistant',
+          content: `${organizationName}について、わからないことを質問してください。`,
+        },
+      ])
+    }
+  }, [initialMessage, isOpen, organizationName, handleSendMessage])
+
+  // メッセージが追加されたら自動スクロール
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }, [messages])
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -105,13 +146,13 @@ export function ModalChatWindow({
       {/* オーバーレイ */}
       <button
         onClick={onClose}
-        className="fixed inset-0 z-40 bg-black/50 transition-opacity"
+        className="fixed inset-0 z-[90] bg-black/50 transition-opacity"
         aria-label="チャットを閉じる"
       />
 
       {/* チャットウィンドウ */}
       <div
-        className={`fixed z-50 bg-white shadow-2xl transition-all duration-300
+        className={`fixed z-[100] bg-white shadow-2xl transition-all duration-300
           ${isOpen ? 'visible opacity-100' : 'invisible opacity-0'}
           bottom-0 left-0 right-0 rounded-t-2xl h-[80vh]
           md:bottom-4 md:right-4 md:left-auto md:rounded-2xl md:w-[450px] md:h-[70vh]

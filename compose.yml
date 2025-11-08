@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: terror-web
+    ports:
+      - "3005:3005"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3005
+      - NODE_ENV=production
+      # AI Provider設定（必要に応じて環境変数を追加）
+      - AI_PROVIDER=${AI_PROVIDER:-openai}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY:-}
+    volumes:
+      # データファイルをマウント
+      - ./data:/app/src/data:ro
+      - ./web/src/data:/app/src/data:ro
+    restart: unless-stopped
+    networks:
+      - terror-network
+
+networks:
+  terror-network:
+    driver: bridge

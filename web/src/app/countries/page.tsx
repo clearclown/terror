@@ -55,7 +55,7 @@ export default function CountriesPage() {
         {sortedCountries.map(country => (
           <Link
             key={country.id}
-            href={`/countries/${country.id}`}
+            href={`/countries/${country.id}` as any}
             className="block p-4 border rounded-lg hover:shadow-lg transition"
           >
             <div className="flex items-start justify-between mb-3">

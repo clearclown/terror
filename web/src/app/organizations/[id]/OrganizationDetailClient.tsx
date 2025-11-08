@@ -110,7 +110,7 @@ export function OrganizationDetailClient({
             <h2 className="text-2xl font-bold mb-4">💡 わかりやすい解説</h2>
             <EnhancedDifficultyToggle
               simpleText={org.currentStatus.summary}
-              detailedText={`${org.background.origin} ${org.background.objectives}`}
+              detailedText={org.background ? `${org.background.origin} ${org.background.objectives}` : org.currentStatus.summary}
             />
           </section>
 
@@ -146,32 +146,34 @@ export function OrganizationDetailClient({
           </section>
 
           {/* 背景情報 */}
-          <section className="my-8">
-            <h2 className="text-2xl font-bold mb-4">📖 背景情報</h2>
-            <div className="space-y-4">
-              <div className="p-4 border rounded-lg">
-                <h3 className="font-bold mb-2">起源</h3>
-                <p className="text-gray-700">{org.background.origin}</p>
-              </div>
-              <div className="p-4 border rounded-lg">
-                <h3 className="font-bold mb-2">目的</h3>
-                <p className="text-gray-700">{org.background.objectives}</p>
-              </div>
-              {org.background.notableEvents && (
+          {org.background && (
+            <section className="my-8">
+              <h2 className="text-2xl font-bold mb-4">📖 背景情報</h2>
+              <div className="space-y-4">
                 <div className="p-4 border rounded-lg">
-                  <h3 className="font-bold mb-2">主要な出来事</h3>
-                  <ul className="space-y-2">
-                    {org.background.notableEvents.map((event, i) => (
-                      <li key={i} className="flex items-start gap-2">
-                        <span className="text-gray-400 mt-1">▸</span>
-                        <span className="text-gray-700">{event}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <h3 className="font-bold mb-2">起源</h3>
+                  <p className="text-gray-700">{org.background.origin}</p>
                 </div>
-              )}
-            </div>
-          </section>
+                <div className="p-4 border rounded-lg">
+                  <h3 className="font-bold mb-2">目的</h3>
+                  <p className="text-gray-700">{org.background.objectives}</p>
+                </div>
+                {org.background.notableEvents && (
+                  <div className="p-4 border rounded-lg">
+                    <h3 className="font-bold mb-2">主要な出来事</h3>
+                    <ul className="space-y-2">
+                      {org.background.notableEvents.map((event, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <span className="text-gray-400 mt-1">▸</span>
+                          <span className="text-gray-700">{event}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
 
           {/* 活動地域 */}
           <section className="my-8">
@@ -214,7 +216,7 @@ export function OrganizationDetailClient({
                   return (
                     <Link
                       key={rel.id}
-                      href={`/organizations/${otherOrgId}`}
+                      href={`/organizations/${otherOrgId}` as any}
                       className="block p-3 bg-gray-50 hover:bg-gray-100 rounded transition"
                     >
                       <div className="flex items-center gap-2 mb-1">
