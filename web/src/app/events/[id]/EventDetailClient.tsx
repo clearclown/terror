@@ -15,6 +15,7 @@ interface Event {
     en: string
   }
   organization: string
+  branch?: string
   location: {
     country: string
     cities?: string[]
@@ -22,33 +23,33 @@ interface Event {
   }
   casualties?: {
     deaths?: number
-    injured?: number
+    injured?: number | string
     kidnapped?: number
     hostages?: number
     note?: string
+    hezbollahOfficialDeaths?: number
+    idfEstimate?: number
+    israeliDeaths?: number
   }
   type: string
+  duration?: string
   significance: string
-  description: string
+  description?: string
   aftermath?: string[]
   credibility: string
   sources: string[]
-  duration?: string
-  branch?: string
+  strategicImportance?: string
+  context?: string[]
+  context2025?: string[]
+  timeline?: string[]
+  economicImpact?: string
 }
 
 interface EventDetailClientProps {
   event: Event
-  relatedOrganization?: {
-    id: string
-    name: { ja: string; en: string }
-  }
 }
 
-export function EventDetailClient({
-  event,
-  relatedOrganization,
-}: EventDetailClientProps) {
+export function EventDetailClient({ event }: EventDetailClientProps) {
   const [isChatOpen, setIsChatOpen] = useState(false)
   const [initialMessage, setInitialMessage] = useState<string | undefined>()
   const chatButtonRef = useRef<FixedChatButtonRef>(null)
@@ -109,36 +110,38 @@ export function EventDetailClient({
             )}
           </div>
 
-          {/* 関連組織 */}
-          {relatedOrganization && (
-            <section className="my-8">
-              <h2 className="text-2xl font-bold mb-4">🏢 関連組織</h2>
-              <Link
-                href={`/organizations/${relatedOrganization.id}` as any}
-                className="block p-4 bg-gray-50 hover:bg-gray-100 border rounded-lg transition"
-              >
-                <div className="font-bold text-lg">{relatedOrganization.name.ja}</div>
-                <div className="text-gray-600">{relatedOrganization.name.en}</div>
-              </Link>
-            </section>
-          )}
-
           {/* わかりやすい解説 */}
           <section className="my-8">
             <h2 className="text-2xl font-bold mb-4">💡 わかりやすい解説</h2>
             <EnhancedDifficultyToggle
               simpleText={event.significance}
-              detailedText={`${event.description} ${event.significance}`}
+              detailedText={event.description || '情報なし'}
             />
           </section>
 
-          {/* 事件の詳細 */}
+          {/* 関連組織 */}
           <section className="my-8">
-            <h2 className="text-2xl font-bold mb-4">📋 事件の詳細</h2>
-            <div className="p-4 bg-gray-50 rounded-lg">
-              <p className="text-gray-700 leading-relaxed">{event.description}</p>
-            </div>
+            <h2 className="text-2xl font-bold mb-4">🏢 関連組織</h2>
+            <Link
+              href={`/organizations/${event.organization}` as any}
+              className="block p-4 bg-gray-50 hover:bg-gray-100 border rounded-lg transition"
+            >
+              <div className="font-bold text-lg">組織の詳細を見る →</div>
+              {event.branch && (
+                <div className="text-sm text-gray-600 mt-1">支部/分派: {event.branch}</div>
+              )}
+            </Link>
           </section>
+
+          {/* 事件の詳細 */}
+          {event.description && (
+            <section className="my-8">
+              <h2 className="text-2xl font-bold mb-4">📋 事件の詳細</h2>
+              <div className="p-4 bg-gray-50 rounded-lg">
+                <p className="text-gray-700 leading-relaxed">{event.description}</p>
+              </div>
+            </section>
+          )}
 
           {/* 犠牲者情報 */}
           {event.casualties && (
@@ -154,7 +157,11 @@ export function EventDetailClient({
                 {event.casualties.injured !== undefined && (
                   <div className="p-4 bg-orange-50 border border-orange-200 rounded-lg">
                     <h3 className="font-bold text-orange-800 mb-2">負傷者</h3>
-                    <p className="text-2xl font-bold text-orange-600">{event.casualties.injured.toLocaleString()}人</p>
+                    <p className="text-2xl font-bold text-orange-600">
+                      {typeof event.casualties.injured === 'number'
+                        ? `${event.casualties.injured.toLocaleString()}人`
+                        : event.casualties.injured}
+                    </p>
                   </div>
                 )}
                 {event.casualties.kidnapped !== undefined && (
@@ -199,6 +206,78 @@ export function EventDetailClient({
                     </div>
                   </div>
                 ))}
+              </div>
+            </section>
+          )}
+
+          {/* タイムライン */}
+          {event.timeline && event.timeline.length > 0 && (
+            <section className="my-8">
+              <h2 className="text-2xl font-bold mb-4">⏱️ タイムライン</h2>
+              <div className="p-4 border rounded-lg">
+                <ul className="space-y-2">
+                  {event.timeline.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="text-gray-400 mt-1">▸</span>
+                      <span className="text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+          )}
+
+          {/* 文脈情報 */}
+          {((event.context && event.context.length > 0) ||
+            (event.context2025 && event.context2025.length > 0)) && (
+            <section className="my-8">
+              <h2 className="text-2xl font-bold mb-4">🌍 文脈情報</h2>
+              <div className="space-y-4">
+                {event.context && event.context.length > 0 && (
+                  <div className="p-4 border rounded-lg">
+                    <ul className="space-y-2">
+                      {event.context.map((item, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <span className="text-gray-400 mt-1">•</span>
+                          <span className="text-gray-700">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {event.context2025 && event.context2025.length > 0 && (
+                  <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <h3 className="font-bold mb-2">2025年の状況</h3>
+                    <ul className="space-y-2">
+                      {event.context2025.map((item, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <span className="text-blue-500 mt-1">•</span>
+                          <span className="text-gray-700">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
+
+          {/* 戦略的重要性 */}
+          {event.strategicImportance && (
+            <section className="my-8">
+              <h2 className="text-2xl font-bold mb-4">🎯 戦略的重要性</h2>
+              <div className="p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+                <p className="text-gray-700">{event.strategicImportance}</p>
+              </div>
+            </section>
+          )}
+
+          {/* 経済的影響 */}
+          {event.economicImpact && (
+            <section className="my-8">
+              <h2 className="text-2xl font-bold mb-4">💰 経済的影響</h2>
+              <div className="p-4 bg-purple-50 border border-purple-200 rounded-lg">
+                <p className="text-gray-700">{event.economicImpact}</p>
               </div>
             </section>
           )}
@@ -269,7 +348,6 @@ export function EventDetailClient({
         }}
         organizationName={event.title.ja}
         initialMessage={initialMessage}
-        contextType="event"
       />
     </>
   )

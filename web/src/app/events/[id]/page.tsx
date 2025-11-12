@@ -1,33 +1,30 @@
 import { notFound } from 'next/navigation'
 import eventsData from '@/data/events.json'
-import organizationsData from '@/data/organizations.json'
 import { EventDetailClient } from './EventDetailClient'
 
+/**
+ * 静的パラメータの生成
+ * すべてのイベントIDを返して、ビルド時に静的ページを生成します
+ */
 export function generateStaticParams() {
   return eventsData.events.map((event) => ({
     id: event.id,
   }))
 }
 
+/**
+ * イベント詳細ページ
+ * @param params - URLパラメータ（イベントID）
+ */
 export default function EventPage({ params }: { params: { id: string } }) {
+  // イベントIDに一致するデータを検索
   const event = eventsData.events.find((e) => e.id === params.id)
 
+  // イベントが見つからない場合は404ページを表示
   if (!event) {
     notFound()
   }
 
-  // 関連する組織を取得
-  const relatedOrganization = organizationsData.organizations.find(
-    (org) => org.id === event.organization
-  )
-
-  return (
-    <EventDetailClient
-      event={event as any}
-      relatedOrganization={relatedOrganization ? {
-        id: relatedOrganization.id,
-        name: relatedOrganization.name,
-      } : undefined}
-    />
-  )
+  // イベントデータをクライアントコンポーネントに渡す
+  return <EventDetailClient event={event as any} />
 }
