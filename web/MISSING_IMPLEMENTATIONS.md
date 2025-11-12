@@ -2,19 +2,20 @@
 
 ## 📄 存在しないページ
 
-### 1. `/events/[id]` - イベント詳細ページ
-**状況**: ページが存在しない  
-**参照箇所**:
-- `web/src/app/events/page.tsx` (20行目) - リンクが存在
-- `web/src/app/layout.tsx` (32行目) - ナビゲーションに含まれている
+### 1. ✅ `/events/[id]` - イベント詳細ページ（実装済み）
+**状況**: ✅ 実装完了
+**実装箇所**:
+- `web/src/app/events/[id]/page.tsx` - サーバーコンポーネント（SSG対応）
+- `web/src/app/events/[id]/EventDetailClient.tsx` - クライアントコンポーネント
+- `web/src/app/events/[id]/EventDetailClient.test.tsx` - テストファイル
 
-**必要な実装**:
-```
-web/src/app/events/[id]/page.tsx
-```
-- イベントIDを受け取り、詳細情報を表示
+**実装内容**:
+- generateStaticParams による静的ページ生成
+- イベントIDでの詳細情報表示（日付、場所、被害者数、影響、関連組織など）
 - データソース: `web/src/data/events.json`
-- 表示内容: 日付、場所、被害者数、影響、関連組織など
+- notFound() による404ハンドリング
+- チャット機能統合（FixedChatButton, ModalChatWindow）
+- 難易度切替機能（EnhancedDifficultyToggle）
 
 ### 2. `/countries/[id]` - 国詳細ページ
 **状況**: ページが存在しない  
@@ -101,7 +102,7 @@ ls -la web/.env
 ## 🎯 優先度別の実装推奨順序
 
 ### 高優先度
-1. **`/events/[id]`ページの実装** - ユーザーがクリックすると404エラーになる
+1. ✅ **`/events/[id]`ページの実装** - 実装完了（2025-11-12）
 2. **`/countries/[id]`ページの実装** - ユーザーがクリックすると404エラーになる
 3. **API環境変数の設定確認** - AIチャット機能が動作しない
 
