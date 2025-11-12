@@ -347,8 +347,8 @@ async function callDeepSeek(messages: any[], systemPrompt: string): Promise<stri
 async function callClaude(messages: any[], systemPrompt: string): Promise<string> {
   try {
     if (!Anthropic) {
-      const module = await import('@anthropic-ai/sdk')
-      Anthropic = module.default
+      const anthropicModule = await import('@anthropic-ai/sdk')
+      Anthropic = anthropicModule.default
     }
 
     const anthropic = new Anthropic({
@@ -388,8 +388,8 @@ async function callClaude(messages: any[], systemPrompt: string): Promise<string
 async function callGemini(messages: any[], systemPrompt: string): Promise<string> {
   try {
     if (!GoogleGenerativeAI) {
-      const module = await import('@google/generative-ai')
-      GoogleGenerativeAI = module.GoogleGenerativeAI
+      const geminiModule = await import('@google/generative-ai')
+      GoogleGenerativeAI = geminiModule.GoogleGenerativeAI
     }
 
     const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '')

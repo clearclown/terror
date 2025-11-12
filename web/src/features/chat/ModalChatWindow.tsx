@@ -107,7 +107,7 @@ export function ModalChatWindow({
     } finally {
       setIsLoading(false)
     }
-  }, [messages, input, isLoading, organizationName])
+  }, [messages, input, isLoading, organizationName, contextType])
 
   // 初期メッセージがある場合は自動送信（1回のみ）
   useEffect(() => {
