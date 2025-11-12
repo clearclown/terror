@@ -18,18 +18,19 @@
 - 難易度切替機能（EnhancedDifficultyToggle）
 
 ### 2. `/countries/[id]` - 国詳細ページ
-**状況**: ページが存在しない  
-**参照箇所**:
-- `web/src/app/countries/page.tsx` (58行目) - リンクが存在
-- `web/src/app/layout.tsx` (33行目) - ナビゲーションに含まれている
+**状況**: ✅ 実装済み（2025-11-12）
+**実装ファイル**:
+- `web/src/app/countries/[id]/page.tsx` - データ取得とSSG
+- `web/src/app/countries/[id]/CountryDetailClient.tsx` - UIコンポーネント
+- `web/src/lib/dataUtils.ts` - 共通データ取得関数
 
-**必要な実装**:
-```
-web/src/app/countries/[id]/page.tsx
-```
-- 国IDを受け取り、詳細情報を表示
-- データソース: `web/src/data/countries.json`
-- 表示内容: 脅威レベル、活動組織、主要事件、対テロ対策など
+**実装内容**:
+- ✅ 国IDを受け取り、詳細情報を表示
+- ✅ データソース: `web/src/data/countries.json`
+- ✅ generateStaticParams を使用したSSG
+- ✅ notFound() による404ハンドリング
+- ✅ 脅威レベル、活動組織、主要事件、対テロ対策を表示
+- ✅ テストファイル作成とテスト実装
 
 ## 🔌 API接続の問題
 
@@ -98,8 +99,8 @@ web/src/app/countries/[id]/page.tsx
 ## 🎯 優先度別の実装推奨順序
 
 ### 高優先度
-1. ✅ **`/events/[id]`ページの実装** - 実装完了（2025-11-12）
-2. **`/countries/[id]`ページの実装** - ユーザーがクリックすると404エラーになる
+1. ~~**`/events/[id]`ページの実装**~~ - ✅ 実装完了（2025-11-12）
+2. ~~**`/countries/[id]`ページの実装**~~ - ✅ 実装済み（2025-11-12）
 3. ~~**API環境変数の設定確認** - AIチャット機能が動作しない~~ ✅ **解決済み**
 
 ### 中優先度
