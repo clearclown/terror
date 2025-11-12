@@ -52,16 +52,48 @@ PORT=3005
 2. **設定の変更**（必要に応じて）:
    `.env`ファイルを編集して、`HOST`と`PORT`を設定します。
 
-3. **サーバーの起動**:
+3. **AIチャット機能の設定** (重要):
+   AIチャット機能を使用するには、`.env`ファイルで以下の環境変数を設定してください：
+
+   ```bash
+   # 使用するAIプロバイダーを選択（openai, deepseek, claude, gemini のいずれか）
+   AI_PROVIDER=openai
+
+   # 選択したプロバイダーのAPIキーを設定
+   # OpenAI の場合:
+   OPENAI_API_KEY=sk-your-openai-api-key-here
+
+   # DeepSeek の場合:
+   # DEEPSEEK_API_KEY=sk-your-deepseek-api-key-here
+
+   # Anthropic Claude の場合:
+   # ANTHROPIC_API_KEY=sk-ant-your-anthropic-api-key-here
+
+   # Google Gemini の場合:
+   # GOOGLE_API_KEY=your-google-api-key-here
+   ```
+
+   APIキーの取得方法：
+   - **OpenAI**: https://platform.openai.com/api-keys
+   - **DeepSeek**: https://platform.deepseek.com/api-keys
+   - **Anthropic**: https://console.anthropic.com/settings/keys
+   - **Google Gemini**: https://aistudio.google.com/apikey
+
+   注意：
+   - 少なくとも1つのプロバイダーのAPIキーを設定してください
+   - APIキーは機密情報です。`.env`ファイルは`.gitignore`に含まれており、Gitリポジトリにコミットされません
+   - APIキーが未設定の場合、チャット機能はフォールバックメッセージを返します
+
+4. **サーバーの起動**:
    ```bash
    # 開発サーバー
    pnpm dev
-   
+
    # 本番サーバー
    pnpm start
    ```
 
-4. **VPN経由でのアクセス**:
+5. **VPN経由でのアクセス**:
    - TailscaleなどのVPNが有効な場合、VPNのIPアドレスでアクセスできます
    - 例: `http://100.x.x.x:3005`（TailscaleのIPアドレス）
 
@@ -166,10 +198,10 @@ touch src/features/your-feature/YourFeature.tsx
 
 ## 🚧 TODO
 
-- [ ] AI API統合（OpenAI / Claude）
+- [x] AI API統合（OpenAI / Claude / DeepSeek / Gemini） ✅
 - [ ] ふりがな機能実装
 - [ ] テキスト選択機能
-- [ ] 地図表示（Leaflet / Mapbox）
+- [x] 地図表示（Leaflet / Mapbox） ✅
 - [ ] タイムライン可視化
 - [ ] ダークモード対応
 - [ ] 多言語対応（i18n）
