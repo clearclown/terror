@@ -33,36 +33,32 @@ web/src/app/countries/[id]/page.tsx
 
 ## 🔌 API接続の問題
 
-### 1. `/api/chat` - AIチャットAPI
-**状況**: APIエンドポイントは存在するが、環境変数が未設定の可能性が高い
+### 1. `/api/chat` - AIチャットAPI ✅ **解決済み**
+**状況**: 環境設定が完了し、正常に動作可能
 
 **ファイル**: `web/src/app/api/chat/route.ts`
 
-**問題点**:
-- 環境変数が設定されていない場合、フォールバックメッセージが返される
-- 以下の環境変数のいずれかが必要:
-  - `OPENAI_API_KEY` (OpenAI用)
-  - `DEEPSEEK_API_KEY` (DeepSeek用)
-  - `ANTHROPIC_API_KEY` (Claude用)
-  - `GOOGLE_API_KEY` (Gemini用)
-  - `AI_PROVIDER` (使用するプロバイダーを指定)
+**実装内容**:
+- ✅ `web/.env.example` を `web/.env` にコピー
+- ✅ 環境変数設定のドキュメントを `web/README.md` に追記
+- ✅ エラーハンドリングが適切に実装されている（タイムアウト、レート制限、認証エラーなど）
+- ✅ 4つのAIプロバイダーに対応:
+  - OpenAI (GPT-4o-mini)
+  - DeepSeek (DeepSeek V3)
+  - Anthropic Claude (Claude 3.5 Haiku)
+  - Google Gemini (Gemini 1.5 Flash)
+
+**使用方法**:
+1. `web/.env` ファイルを開く
+2. 使用したいAIプロバイダーを `AI_PROVIDER` に設定（例: `openai`）
+3. 対応するAPIキーを設定（例: `OPENAI_API_KEY=sk-...`）
+4. 開発サーバーを起動: `pnpm dev`
+
+詳細は `web/README.md` の「AIチャット機能の設定」セクションを参照してください。
 
 **参照箇所**:
 - `web/src/features/chat/ModalChatWindow.tsx` (47行目)
 - `web/src/features/chat/ChatPanel.tsx` (31行目)
-
-**確認方法**:
-```bash
-# .envファイルが存在するか確認
-ls -la web/.env
-
-# 環境変数が設定されているか確認（開発サーバー起動時）
-```
-
-**対処法**:
-1. `web/.env.example`をコピーして`.env`を作成
-2. 使用するAIプロバイダーのAPIキーを設定
-3. `AI_PROVIDER`環境変数でプロバイダーを指定
 
 ## 🔗 リンクエラーの可能性
 
@@ -104,7 +100,7 @@ ls -la web/.env
 ### 高優先度
 1. ✅ **`/events/[id]`ページの実装** - 実装完了（2025-11-12）
 2. **`/countries/[id]`ページの実装** - ユーザーがクリックすると404エラーになる
-3. **API環境変数の設定確認** - AIチャット機能が動作しない
+3. ~~**API環境変数の設定確認** - AIチャット機能が動作しない~~ ✅ **解決済み**
 
 ### 中優先度
 4. エラーハンドリングの強化（404ページなど）
