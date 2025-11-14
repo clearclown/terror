@@ -29,8 +29,14 @@
       "status": "実質壊滅",
       "founded": "1991",
       "region": "東南アジア",
-      "primaryCountries": ["フィリピン"],
-      "activeLocations": ["ミンダナオ島", "スールー諸島", "バシラン州"],
+      "primaryCountries": [
+        "フィリピン"
+      ],
+      "activeLocations": [
+        "ミンダナオ島",
+        "スールー諸島",
+        "バシラン州"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "ISIL東アジア (ISEA)",
       "estimatedMembers": {
@@ -67,7 +73,12 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["ISEA", "MILF", "MNLF", "BIFF"]
+      "relatedOrganizations": [
+        "ISEA",
+        "MILF",
+        "MNLF",
+        "BIFF"
+      ]
     },
     {
       "id": "isis",
@@ -75,12 +86,21 @@
         "ja": "イスラム国",
         "en": "Islamic State",
         "abbreviation": "ISIS/ISIL",
-        "aliases": ["Da'esh", "IS", "イラク・レバントのイスラム国"]
+        "aliases": [
+          "Da'esh",
+          "IS",
+          "イラク・レバントのイスラム国"
+        ]
       },
       "status": "活動継続中",
       "founded": "2013-2014",
       "region": "中東・アフリカ・アジア",
-      "primaryCountries": ["イラク", "シリア", "アフガニスタン", "コンゴ民主共和国"],
+      "primaryCountries": [
+        "イラク",
+        "シリア",
+        "アフガニスタン",
+        "コンゴ民主共和国"
+      ],
       "activeLocations": [
         "シリア東部",
         "イラク",
@@ -142,20 +162,30 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["IS-K", "ISEA", "Al-Qaeda"]
+      "relatedOrganizations": [
+        "IS-K",
+        "ISEA",
+        "Al-Qaeda"
+      ]
     },
     {
       "id": "taliban",
       "name": {
         "ja": "タリバン",
         "en": "Taliban",
-        "aliases": ["アフガニスタン・イスラム首長国"]
+        "aliases": [
+          "アフガニスタン・イスラム首長国"
+        ]
       },
       "status": "アフガニスタン実効支配中",
       "founded": "1994",
       "region": "南アジア",
-      "primaryCountries": ["アフガニスタン"],
-      "activeLocations": ["アフガニスタン全土"],
+      "primaryCountries": [
+        "アフガニスタン"
+      ],
+      "activeLocations": [
+        "アフガニスタン全土"
+      ],
       "ideology": "イスラム原理主義（デオバンディ派）",
       "affiliation": "歴史的にアルカイダと関係",
       "estimatedMembers": {
@@ -211,7 +241,11 @@
           "対テロ活動の有効性について評価が分かれる"
         ]
       },
-      "relatedOrganizations": ["Al-Qaeda", "IS-K", "Haqqani Network"]
+      "relatedOrganizations": [
+        "Al-Qaeda",
+        "IS-K",
+        "Haqqani Network"
+      ]
     },
     {
       "id": "hamas",
@@ -223,8 +257,13 @@
       "status": "大幅弱体化",
       "founded": "1987",
       "region": "中東",
-      "primaryCountries": ["パレスチナ自治区"],
-      "activeLocations": ["ガザ地区", "ヨルダン川西岸"],
+      "primaryCountries": [
+        "パレスチナ自治区"
+      ],
+      "activeLocations": [
+        "ガザ地区",
+        "ヨルダン川西岸"
+      ],
       "ideology": "パレスチナ・イスラム民族主義",
       "affiliation": "イランの支援",
       "estimatedMembers": {
@@ -274,20 +313,32 @@
           "ジェノサイド認定について国際的に議論"
         ]
       },
-      "relatedOrganizations": ["Palestinian Islamic Jihad", "Hezbollah", "Iran"]
+      "relatedOrganizations": [
+        "Palestinian Islamic Jihad",
+        "Hezbollah",
+        "Iran"
+      ]
     },
     {
       "id": "hezbollah",
       "name": {
         "ja": "ヒズボラ",
         "en": "Hezbollah",
-        "aliases": ["Party of God", "神の党"]
+        "aliases": [
+          "Party of God",
+          "神の党"
+        ]
       },
       "status": "大幅弱体化",
       "founded": "1985",
       "region": "中東",
-      "primaryCountries": ["レバノン"],
-      "activeLocations": ["レバノン南部", "ベカー高原"],
+      "primaryCountries": [
+        "レバノン"
+      ],
+      "activeLocations": [
+        "レバノン南部",
+        "ベカー高原"
+      ],
       "ideology": "シーア派イスラム主義",
       "affiliation": "イランの支援",
       "estimatedMembers": {
@@ -332,7 +383,11 @@
           "死者数についてヒズボラとIDFで大きく異なる報告"
         ]
       },
-      "relatedOrganizations": ["Iran", "Hamas", "Palestinian Islamic Jihad"]
+      "relatedOrganizations": [
+        "Iran",
+        "Hamas",
+        "Palestinian Islamic Jihad"
+      ]
     },
     {
       "id": "boko-haram",
@@ -344,8 +399,16 @@
       "status": "活動再活性化",
       "founded": "2002",
       "region": "西アフリカ",
-      "primaryCountries": ["ナイジェリア", "カメルーン", "チャド", "ニジェール"],
-      "activeLocations": ["ボルノ州", "チャド湖流域"],
+      "primaryCountries": [
+        "ナイジェリア",
+        "カメルーン",
+        "チャド",
+        "ニジェール"
+      ],
+      "activeLocations": [
+        "ボルノ州",
+        "チャド湖流域"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "ISWAPと競合関係",
       "estimatedMembers": {
@@ -394,7 +457,10 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["ISWAP", "ISIS"]
+      "relatedOrganizations": [
+        "ISWAP",
+        "ISIS"
+      ]
     },
     {
       "id": "al-shabaab",
@@ -406,8 +472,14 @@
       "status": "活動継続・領土奪還",
       "founded": "2006",
       "region": "東アフリカ",
-      "primaryCountries": ["ソマリア", "ケニア"],
-      "activeLocations": ["ソマリア中南部", "モガディシュ周辺"],
+      "primaryCountries": [
+        "ソマリア",
+        "ケニア"
+      ],
+      "activeLocations": [
+        "ソマリア中南部",
+        "モガディシュ周辺"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "アルカイダ",
       "estimatedMembers": {
@@ -455,19 +527,29 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Al-Qaeda"]
+      "relatedOrganizations": [
+        "Al-Qaeda"
+      ]
     },
     {
       "id": "al-qaeda",
       "name": {
         "ja": "アルカイダ",
         "en": "Al-Qaeda",
-        "aliases": ["AQ", "The Base"]
+        "aliases": [
+          "AQ",
+          "The Base"
+        ]
       },
       "status": "活動継続",
       "founded": "1988-1989",
       "region": "グローバル（特にアフリカ・中東）",
-      "primaryCountries": ["イエメン", "シリア", "アフガニスタン", "サヘル地域"],
+      "primaryCountries": [
+        "イエメン",
+        "シリア",
+        "アフガニスタン",
+        "サヘル地域"
+      ],
       "activeLocations": [
         "イエメン",
         "シリア",
@@ -536,7 +618,12 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Al-Shabaab", "AQAP", "AQIM", "Taliban"]
+      "relatedOrganizations": [
+        "Al-Shabaab",
+        "AQAP",
+        "AQIM",
+        "Taliban"
+      ]
     },
     {
       "id": "jemaah-islamiyah",
@@ -548,8 +635,13 @@
       "status": "解散宣言（2024年6月）",
       "founded": "1993",
       "region": "東南アジア",
-      "primaryCountries": ["インドネシア", "マレーシア"],
-      "activeLocations": ["歴史的に活動していた地域"],
+      "primaryCountries": [
+        "インドネシア",
+        "マレーシア"
+      ],
+      "activeLocations": [
+        "歴史的に活動していた地域"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "歴史的にアルカイダと関係",
       "estimatedMembers": {
@@ -597,7 +689,10 @@
         "conflictingReports": false,
         "note": "解散の真正性と持続性については継続的な監視が必要"
       },
-      "relatedOrganizations": ["Al-Qaeda", "Jemaah Ansharut Daulah (JAD)"]
+      "relatedOrganizations": [
+        "Al-Qaeda",
+        "Jemaah Ansharut Daulah (JAD)"
+      ]
     },
     {
       "id": "pkk",
@@ -610,8 +705,14 @@
       "status": "解散・武装解除プロセス中（2025年）",
       "founded": "1978",
       "region": "中東",
-      "primaryCountries": ["トルコ", "イラク", "シリア"],
-      "activeLocations": ["歴史的に北イラク山岳地帯に拠点"],
+      "primaryCountries": [
+        "トルコ",
+        "イラク",
+        "シリア"
+      ],
+      "activeLocations": [
+        "歴史的に北イラク山岳地帯に拠点"
+      ],
       "ideology": "クルド民族主義、元々はマルクス・レーニン主義",
       "affiliation": "独立組織",
       "estimatedMembers": {
@@ -660,7 +761,10 @@
         "conflictingReports": false,
         "historicSignificance": "40年以上の紛争の平和的解決として歴史的"
       },
-      "relatedOrganizations": ["People's Defense Units (YPG)", "Kurdistan Communities Union (KCK)"]
+      "relatedOrganizations": [
+        "People's Defense Units (YPG)",
+        "Kurdistan Communities Union (KCK)"
+      ]
     },
     {
       "id": "houthis",
@@ -668,13 +772,23 @@
         "ja": "フーシ派",
         "en": "Houthis",
         "fullName": "Ansar Allah",
-        "aliases": ["アンサール・アッラー", "神の支援者"]
+        "aliases": [
+          "アンサール・アッラー",
+          "神の支援者"
+        ]
       },
       "status": "活動継続・領土支配中",
       "founded": "1990-1992",
       "region": "中東",
-      "primaryCountries": ["イエメン"],
-      "activeLocations": ["イエメン北部", "サアダ県", "サナア（首都）", "紅海"],
+      "primaryCountries": [
+        "イエメン"
+      ],
+      "activeLocations": [
+        "イエメン北部",
+        "サアダ県",
+        "サナア（首都）",
+        "紅海"
+      ],
       "ideology": "ザイド派シーア派イスラム主義、イエメン民族主義",
       "affiliation": "イランの支援（完全なプロキシではないとの議論あり）",
       "estimatedMembers": {
@@ -726,7 +840,11 @@
           "イランとの関係の性質（プロキシか同盟か）について議論"
         ]
       },
-      "relatedOrganizations": ["Iran", "Hezbollah", "Hamas"]
+      "relatedOrganizations": [
+        "Iran",
+        "Hezbollah",
+        "Hamas"
+      ]
     },
     {
       "id": "hts",
@@ -734,13 +852,19 @@
         "ja": "シリア解放機構",
         "en": "Hayat Tahrir al-Sham",
         "abbreviation": "HTS",
-        "aliases": ["Tahrir al-Sham"]
+        "aliases": [
+          "Tahrir al-Sham"
+        ]
       },
       "status": "シリア政府として統治中（組織としては解散）",
       "founded": "2017",
       "region": "中東",
-      "primaryCountries": ["シリア"],
-      "activeLocations": ["シリア全土（2024年12月から）"],
+      "primaryCountries": [
+        "シリア"
+      ],
+      "activeLocations": [
+        "シリア全土（2024年12月から）"
+      ],
       "ideology": "スンニ派イスラム主義",
       "affiliation": "元アルカイダ関連（2017年に断絶）",
       "estimatedMembers": {
@@ -791,7 +915,11 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Al-Qaeda (元)", "Syrian National Army", "Ahrar al-Sham"]
+      "relatedOrganizations": [
+        "Al-Qaeda (元)",
+        "Syrian National Army",
+        "Ahrar al-Sham"
+      ]
     },
     {
       "id": "pij",
@@ -803,8 +931,13 @@
       "status": "活動継続中",
       "founded": "1981",
       "region": "中東",
-      "primaryCountries": ["パレスチナ自治区"],
-      "activeLocations": ["ガザ地区", "ヨルダン川西岸"],
+      "primaryCountries": [
+        "パレスチナ自治区"
+      ],
+      "activeLocations": [
+        "ガザ地区",
+        "ヨルダン川西岸"
+      ],
       "ideology": "パレスチナ・イスラム民族主義、ジハード主義",
       "affiliation": "イランの支援",
       "estimatedMembers": {
@@ -855,7 +988,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Hamas", "Hezbollah", "Iran"]
+      "relatedOrganizations": [
+        "Hamas",
+        "Hezbollah",
+        "Iran"
+      ]
     },
     {
       "id": "is-k",
@@ -863,13 +1000,22 @@
         "ja": "イスラム国ホラサン州",
         "en": "Islamic State Khorasan Province",
         "abbreviation": "IS-K",
-        "aliases": ["ISKP", "ISIS-K"]
+        "aliases": [
+          "ISKP",
+          "ISIS-K"
+        ]
       },
       "status": "活動継続・拡大中",
       "founded": "2015",
       "region": "南アジア",
-      "primaryCountries": ["アフガニスタン", "パキスタン"],
-      "activeLocations": ["アフガニスタン東部", "パキスタン北西部"],
+      "primaryCountries": [
+        "アフガニスタン",
+        "パキスタン"
+      ],
+      "activeLocations": [
+        "アフガニスタン東部",
+        "パキスタン北西部"
+      ],
       "ideology": "極端なサラフィー・ジハード主義",
       "affiliation": "イスラム国（ISIS）",
       "estimatedMembers": {
@@ -920,7 +1066,11 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["ISIS", "Taliban (敵対)", "Al-Qaeda (敵対)"]
+      "relatedOrganizations": [
+        "ISIS",
+        "Taliban (敵対)",
+        "Al-Qaeda (敵対)"
+      ]
     },
     {
       "id": "ttp",
@@ -928,13 +1078,23 @@
         "ja": "パキスタン・タリバン運動",
         "en": "Tehrik-i-Taliban Pakistan",
         "abbreviation": "TTP",
-        "aliases": ["Pakistani Taliban"]
+        "aliases": [
+          "Pakistani Taliban"
+        ]
       },
       "status": "活動激化中",
       "founded": "2007",
       "region": "南アジア",
-      "primaryCountries": ["パキスタン", "アフガニスタン"],
-      "activeLocations": ["パキスタン北西部", "カイバル・パクトゥンクワ州", "バロチスタン州", "アフガニスタン"],
+      "primaryCountries": [
+        "パキスタン",
+        "アフガニスタン"
+      ],
+      "activeLocations": [
+        "パキスタン北西部",
+        "カイバル・パクトゥンクワ州",
+        "バロチスタン州",
+        "アフガニスタン"
+      ],
       "ideology": "デオバンディ派イスラム原理主義",
       "affiliation": "アフガニスタン・タリバンの支援",
       "estimatedMembers": {
@@ -992,7 +1152,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Afghan Taliban", "Al-Qaeda", "IS-K (敵対)"]
+      "relatedOrganizations": [
+        "Afghan Taliban",
+        "Al-Qaeda",
+        "IS-K (敵対)"
+      ]
     },
     {
       "id": "iswap",
@@ -1004,8 +1168,16 @@
       "status": "活動激化中",
       "founded": "2016",
       "region": "西アフリカ",
-      "primaryCountries": ["ナイジェリア", "チャド", "ニジェール", "カメルーン"],
-      "activeLocations": ["ボルノ州", "チャド湖流域"],
+      "primaryCountries": [
+        "ナイジェリア",
+        "チャド",
+        "ニジェール",
+        "カメルーン"
+      ],
+      "activeLocations": [
+        "ボルノ州",
+        "チャド湖流域"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "イスラム国（ISIS）",
       "estimatedMembers": {
@@ -1061,7 +1233,10 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["ISIS", "Boko Haram (競合)"]
+      "relatedOrganizations": [
+        "ISIS",
+        "Boko Haram (競合)"
+      ]
     },
     {
       "id": "jnim",
@@ -1069,13 +1244,26 @@
         "ja": "イスラムとムスリムの支援団",
         "en": "Jama'at Nusrat al-Islam wal Muslimin",
         "abbreviation": "JNIM",
-        "aliases": ["Group for the Support of Islam and Muslims"]
+        "aliases": [
+          "Group for the Support of Islam and Muslims"
+        ]
       },
       "status": "活動拡大中",
       "founded": "2017",
       "region": "西アフリカ・サヘル",
-      "primaryCountries": ["マリ", "ブルキナファソ", "ニジェール", "ベナン", "トーゴ"],
-      "activeLocations": ["マリ中部・北部", "ブルキナファソ", "ニジェール", "ベナン北部"],
+      "primaryCountries": [
+        "マリ",
+        "ブルキナファソ",
+        "ニジェール",
+        "ベナン",
+        "トーゴ"
+      ],
+      "activeLocations": [
+        "マリ中部・北部",
+        "ブルキナファソ",
+        "ニジェール",
+        "ベナン北部"
+      ],
       "ideology": "イスラム過激主義、ジハード主義",
       "affiliation": "アルカイダ",
       "estimatedMembers": {
@@ -1137,7 +1325,13 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Al-Qaeda", "AQIM", "Ansar Dine", "al-Mourabitoun", "Macina Liberation Front"]
+      "relatedOrganizations": [
+        "Al-Qaeda",
+        "AQIM",
+        "Ansar Dine",
+        "al-Mourabitoun",
+        "Macina Liberation Front"
+      ]
     },
     {
       "id": "adf",
@@ -1145,13 +1339,24 @@
         "ja": "民主同盟軍",
         "en": "Allied Democratic Forces",
         "abbreviation": "ADF",
-        "aliases": ["ISIS-DRC", "Islamic State Central Africa Province"]
+        "aliases": [
+          "ISIS-DRC",
+          "Islamic State Central Africa Province"
+        ]
       },
       "status": "活動激化中",
       "founded": "1995",
       "region": "中央アフリカ",
-      "primaryCountries": ["コンゴ民主共和国", "ウガンダ"],
-      "activeLocations": ["北キブ州", "イトゥリ州", "ベニ地域", "ルベロ地域"],
+      "primaryCountries": [
+        "コンゴ民主共和国",
+        "ウガンダ"
+      ],
+      "activeLocations": [
+        "北キブ州",
+        "イトゥリ州",
+        "ベニ地域",
+        "ルベロ地域"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "イスラム国（ISIS）- 2019年に忠誠",
       "estimatedMembers": {
@@ -1216,7 +1421,9 @@
           "ISISとの実際の関係の性質と程度について議論"
         ]
       },
-      "relatedOrganizations": ["ISIS"]
+      "relatedOrganizations": [
+        "ISIS"
+      ]
     },
     {
       "id": "kataib-hezbollah",
@@ -1224,13 +1431,20 @@
         "ja": "ヒズボラ旅団",
         "en": "Kata'ib Hezbollah",
         "abbreviation": "KH",
-        "aliases": ["Hezbollah Brigades"]
+        "aliases": [
+          "Hezbollah Brigades"
+        ]
       },
       "status": "活動継続中",
       "founded": "2007",
       "region": "中東",
-      "primaryCountries": ["イラク"],
-      "activeLocations": ["イラク全土", "シリア"],
+      "primaryCountries": [
+        "イラク"
+      ],
+      "activeLocations": [
+        "イラク全土",
+        "シリア"
+      ],
       "ideology": "シーア派イスラム主義",
       "affiliation": "イランのIRGC-クドス部隊の直接指揮下",
       "estimatedMembers": {
@@ -1283,7 +1497,12 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Iran IRGC", "Harakat al-Nujaba", "Asaib Ahl al-Haq", "Islamic Resistance in Iraq"]
+      "relatedOrganizations": [
+        "Iran IRGC",
+        "Harakat al-Nujaba",
+        "Asaib Ahl al-Haq",
+        "Islamic Resistance in Iraq"
+      ]
     },
     {
       "id": "npa",
@@ -1295,8 +1514,14 @@
       "status": "大幅弱体化・活動継続",
       "founded": "1969",
       "region": "東南アジア",
-      "primaryCountries": ["フィリピン"],
-      "activeLocations": ["ルソン島", "ビサヤ諸島", "ミンダナオ島の農村部"],
+      "primaryCountries": [
+        "フィリピン"
+      ],
+      "activeLocations": [
+        "ルソン島",
+        "ビサヤ諸島",
+        "ミンダナオ島の農村部"
+      ],
       "ideology": "共産主義（マルクス・レーニン主義・毛沢東思想）",
       "affiliation": "フィリピン共産党（CPP）の軍事部門",
       "estimatedMembers": {
@@ -1352,7 +1577,10 @@
           "NPAの実際の勢力について政府と反乱勢力で大きく異なる主張"
         ]
       },
-      "relatedOrganizations": ["Communist Party of the Philippines (CPP)", "National Democratic Front of the Philippines (NDFP)"]
+      "relatedOrganizations": [
+        "Communist Party of the Philippines (CPP)",
+        "National Democratic Front of the Philippines (NDFP)"
+      ]
     },
     {
       "id": "harakat-al-nujaba",
@@ -1360,13 +1588,21 @@
         "ja": "ヌジャバ運動",
         "en": "Harakat al-Nujaba",
         "fullName": "Harakat Hezbollah al-Nujaba",
-        "aliases": ["Movement of the Noble Ones"]
+        "aliases": [
+          "Movement of the Noble Ones"
+        ]
       },
       "status": "活動継続中",
       "founded": "2013",
       "region": "中東",
-      "primaryCountries": ["イラク", "シリア"],
-      "activeLocations": ["イラク全土", "シリア"],
+      "primaryCountries": [
+        "イラク",
+        "シリア"
+      ],
+      "activeLocations": [
+        "イラク全土",
+        "シリア"
+      ],
       "ideology": "シーア派イスラム主義",
       "affiliation": "イランのIRGC-クドス部隊、アヤトラ・ハメネイに忠誠",
       "estimatedMembers": {
@@ -1424,7 +1660,12 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Iran IRGC", "Kata'ib Hezbollah", "Asaib Ahl al-Haq", "Islamic Resistance in Iraq"]
+      "relatedOrganizations": [
+        "Iran IRGC",
+        "Kata'ib Hezbollah",
+        "Asaib Ahl al-Haq",
+        "Islamic Resistance in Iraq"
+      ]
     },
     {
       "id": "let",
@@ -1432,13 +1673,22 @@
         "ja": "ラシュカレトイバ",
         "en": "Lashkar-e-Taiba",
         "abbreviation": "LeT",
-        "aliases": ["Army of the Pure"]
+        "aliases": [
+          "Army of the Pure"
+        ]
       },
       "status": "活動継続中",
       "founded": "1990年代初頭",
       "region": "南アジア",
-      "primaryCountries": ["パキスタン", "インド"],
-      "activeLocations": ["パキスタン全土", "カシミール", "ジャンムー"],
+      "primaryCountries": [
+        "パキスタン",
+        "インド"
+      ],
+      "activeLocations": [
+        "パキスタン全土",
+        "カシミール",
+        "ジャンムー"
+      ],
       "ideology": "サラフィー・ジハード主義",
       "affiliation": "パキスタンISI（三軍統合情報局）の支援",
       "estimatedMembers": {
@@ -1491,7 +1741,12 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Pakistan ISI", "Jaish-e-Mohammed", "The Resistance Front (TRF)", "Hizbul Mujahideen"]
+      "relatedOrganizations": [
+        "Pakistan ISI",
+        "Jaish-e-Mohammed",
+        "The Resistance Front (TRF)",
+        "Hizbul Mujahideen"
+      ]
     },
     {
       "id": "jem",
@@ -1499,13 +1754,21 @@
         "ja": "ジェイシェモハメド",
         "en": "Jaish-e-Mohammed",
         "abbreviation": "JeM",
-        "aliases": ["Army of Mohammed"]
+        "aliases": [
+          "Army of Mohammed"
+        ]
       },
       "status": "活動継続・再編中",
       "founded": "2000",
       "region": "南アジア",
-      "primaryCountries": ["パキスタン", "インド"],
-      "activeLocations": ["パキスタン", "カシミール"],
+      "primaryCountries": [
+        "パキスタン",
+        "インド"
+      ],
+      "activeLocations": [
+        "パキスタン",
+        "カシミール"
+      ],
       "ideology": "デオバンディ派イスラム過激主義",
       "affiliation": "パキスタンの支援（否定されているが）",
       "estimatedMembers": {
@@ -1563,20 +1826,33 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Lashkar-e-Taiba", "Harakat ul-Mujahideen", "Al-Qaeda (歴史的関係)"]
+      "relatedOrganizations": [
+        "Lashkar-e-Taiba",
+        "Harakat ul-Mujahideen",
+        "Al-Qaeda (歴史的関係)"
+      ]
     },
     {
       "id": "maute",
       "name": {
         "ja": "マウテ・グループ",
         "en": "Maute Group",
-        "aliases": ["Dawlah Islamiyah", "Islamic State Philippines"]
+        "aliases": [
+          "Dawlah Islamiyah",
+          "Islamic State Philippines"
+        ]
       },
       "status": "断片化・弱体化",
       "founded": "2012-2013",
       "region": "東南アジア",
-      "primaryCountries": ["フィリピン"],
-      "activeLocations": ["ミンダナオ島", "Lanao del Sur", "Lanao del Norte"],
+      "primaryCountries": [
+        "フィリピン"
+      ],
+      "activeLocations": [
+        "ミンダナオ島",
+        "Lanao del Sur",
+        "Lanao del Norte"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "イスラム国（ISIS）",
       "estimatedMembers": {
@@ -1630,7 +1906,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["ISIS", "Abu Sayyaf Group", "BIFF"]
+      "relatedOrganizations": [
+        "ISIS",
+        "Abu Sayyaf Group",
+        "BIFF"
+      ]
     },
     {
       "id": "biff",
@@ -1642,8 +1922,14 @@
       "status": "ほぼ機能停止",
       "founded": "2010",
       "region": "東南アジア",
-      "primaryCountries": ["フィリピン"],
-      "activeLocations": ["ミンダナオ島", "Maguindanao del Sur", "Maguindanao del Norte"],
+      "primaryCountries": [
+        "フィリピン"
+      ],
+      "activeLocations": [
+        "ミンダナオ島",
+        "Maguindanao del Sur",
+        "Maguindanao del Norte"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "歴史的にISISと関連",
       "estimatedMembers": {
@@ -1693,7 +1979,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["MILF (元)", "ISIS", "Dawlah Islamiyah"]
+      "relatedOrganizations": [
+        "MILF (元)",
+        "ISIS",
+        "Dawlah Islamiyah"
+      ]
     },
     {
       "id": "farc-emc",
@@ -1706,8 +1996,12 @@
       "status": "活動継続中",
       "founded": "2016（和平合意拒否）",
       "region": "南米",
-      "primaryCountries": ["コロンビア"],
-      "activeLocations": ["コロンビア32州中23州"],
+      "primaryCountries": [
+        "コロンビア"
+      ],
+      "activeLocations": [
+        "コロンビア32州中23州"
+      ],
       "ideology": "マルクス主義・ゲリラ運動",
       "affiliation": "FARC和平合意反対派",
       "estimatedMembers": {
@@ -1761,7 +2055,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["FARC (歴史)", "ELN (敵対)", "Segunda Marquetalia"]
+      "relatedOrganizations": [
+        "FARC (歴史)",
+        "ELN (敵対)",
+        "Segunda Marquetalia"
+      ]
     },
     {
       "id": "eln",
@@ -1774,8 +2072,15 @@
       "status": "活動継続・拡大中",
       "founded": "1964",
       "region": "南米",
-      "primaryCountries": ["コロンビア", "ベネズエラ"],
-      "activeLocations": ["コロンビア東部", "ベネズエラ", "国境地帯"],
+      "primaryCountries": [
+        "コロンビア",
+        "ベネズエラ"
+      ],
+      "activeLocations": [
+        "コロンビア東部",
+        "ベネズエラ",
+        "国境地帯"
+      ],
       "ideology": "マルクス主義、解放の神学",
       "affiliation": "ベネズエラMaduro政権の支援",
       "estimatedMembers": {
@@ -1836,7 +2141,10 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["FARC (歴史)", "Venezuela Government"]
+      "relatedOrganizations": [
+        "FARC (歴史)",
+        "Venezuela Government"
+      ]
     },
     {
       "id": "eta",
@@ -1844,13 +2152,20 @@
         "ja": "バスク祖国と自由",
         "en": "Euskadi Ta Askatasuna",
         "abbreviation": "ETA",
-        "aliases": ["Basque Homeland and Liberty"]
+        "aliases": [
+          "Basque Homeland and Liberty"
+        ]
       },
       "status": "解散（2018年）",
       "founded": "1959",
       "region": "ヨーロッパ",
-      "primaryCountries": ["スペイン", "フランス"],
-      "activeLocations": ["歴史的にバスク地方"],
+      "primaryCountries": [
+        "スペイン",
+        "フランス"
+      ],
+      "activeLocations": [
+        "歴史的にバスク地方"
+      ],
       "ideology": "バスク民族主義、社会主義",
       "affiliation": "独立組織（歴史）",
       "estimatedMembers": {
@@ -1906,7 +2221,9 @@
         "conflictingReports": false,
         "historicSignificance": "ヨーロッパで最も長く続いたテロ組織の一つの平和的解散"
       },
-      "relatedOrganizations": ["なし（独立組織）"]
+      "relatedOrganizations": [
+        "なし（独立組織）"
+      ]
     },
     {
       "id": "new-ira",
@@ -1914,13 +2231,21 @@
         "ja": "新アイルランド共和国軍",
         "en": "New Irish Republican Army",
         "abbreviation": "New IRA",
-        "aliases": ["NIRA"]
+        "aliases": [
+          "NIRA"
+        ]
       },
       "status": "活動継続中",
       "founded": "2012",
       "region": "ヨーロッパ",
-      "primaryCountries": ["北アイルランド", "アイルランド"],
-      "activeLocations": ["北アイルランド", "デリー"],
+      "primaryCountries": [
+        "北アイルランド",
+        "アイルランド"
+      ],
+      "activeLocations": [
+        "北アイルランド",
+        "デリー"
+      ],
       "ideology": "アイルランド共和主義",
       "affiliation": "独立組織（反対派共和主義）",
       "estimatedMembers": {
@@ -1975,7 +2300,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Provisional IRA (歴史)", "Real IRA (前身)", "Republican Action Against Drugs (前身)"]
+      "relatedOrganizations": [
+        "Provisional IRA (歴史)",
+        "Real IRA (前身)",
+        "Republican Action Against Drugs (前身)"
+      ]
     },
     {
       "id": "aqap",
@@ -1987,8 +2316,16 @@
       "status": "弱体化するも活動継続",
       "founded": "2009",
       "region": "中東",
-      "primaryCountries": ["イエメン"],
-      "activeLocations": ["イエメン南部・東部", "Shabwa", "Hadhramaut", "Abyan", "Al-Bayda"],
+      "primaryCountries": [
+        "イエメン"
+      ],
+      "activeLocations": [
+        "イエメン南部・東部",
+        "Shabwa",
+        "Hadhramaut",
+        "Abyan",
+        "Al-Bayda"
+      ],
       "ideology": "サラフィー・ジハード主義",
       "affiliation": "アルカイダ",
       "estimatedMembers": {
@@ -2052,7 +2389,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Al-Qaeda", "AQIM", "Al-Shabaab"]
+      "relatedOrganizations": [
+        "Al-Qaeda",
+        "AQIM",
+        "Al-Shabaab"
+      ]
     },
     {
       "id": "aqim",
@@ -2064,8 +2405,16 @@
       "status": "JNIM連合の一部として活動中",
       "founded": "2007（前身は1998年）",
       "region": "北アフリカ・サヘル",
-      "primaryCountries": ["アルジェリア", "マリ", "ニジェール", "ブルキナファソ"],
-      "activeLocations": ["サヘル地域全域", "マリ北部"],
+      "primaryCountries": [
+        "アルジェリア",
+        "マリ",
+        "ニジェール",
+        "ブルキナファソ"
+      ],
+      "activeLocations": [
+        "サヘル地域全域",
+        "マリ北部"
+      ],
       "ideology": "サラフィー・ジハード主義",
       "affiliation": "アルカイダ",
       "estimatedMembers": {
@@ -2116,7 +2465,13 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Al-Qaeda", "JNIM", "Ansar Dine", "al-Mourabitoun", "Macina Liberation Front"]
+      "relatedOrganizations": [
+        "Al-Qaeda",
+        "JNIM",
+        "Ansar Dine",
+        "al-Mourabitoun",
+        "Macina Liberation Front"
+      ]
     },
     {
       "id": "hizbul-mujahideen",
@@ -2124,13 +2479,22 @@
         "ja": "ヒズブル・ムジャヒディン",
         "en": "Hizbul Mujahideen",
         "abbreviation": "HuM",
-        "aliases": ["Party of Holy Warriors"]
+        "aliases": [
+          "Party of Holy Warriors"
+        ]
       },
       "status": "弱体化するも活動継続",
       "founded": "1989",
       "region": "南アジア",
-      "primaryCountries": ["インド", "パキスタン"],
-      "activeLocations": ["カシミール", "ジャンムー", "Muzaffarabad（本部）"],
+      "primaryCountries": [
+        "インド",
+        "パキスタン"
+      ],
+      "activeLocations": [
+        "カシミール",
+        "ジャンムー",
+        "Muzaffarabad（本部）"
+      ],
       "ideology": "イスラム民族主義",
       "affiliation": "パキスタンISIの支援",
       "estimatedMembers": {
@@ -2176,7 +2540,11 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Lashkar-e-Taiba", "Jaish-e-Mohammed", "Pakistan ISI"]
+      "relatedOrganizations": [
+        "Lashkar-e-Taiba",
+        "Jaish-e-Mohammed",
+        "Pakistan ISI"
+      ]
     },
     {
       "id": "bla",
@@ -2188,8 +2556,14 @@
       "status": "活動激化中",
       "founded": "2000年（再編）",
       "region": "南アジア",
-      "primaryCountries": ["パキスタン"],
-      "activeLocations": ["バローチスタン州", "グワダル", "クエッタ"],
+      "primaryCountries": [
+        "パキスタン"
+      ],
+      "activeLocations": [
+        "バローチスタン州",
+        "グワダル",
+        "クエッタ"
+      ],
       "ideology": "バローチ民族主義、分離独立主義",
       "affiliation": "独立組織",
       "estimatedMembers": {
@@ -2246,7 +2620,10 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Balochistan Liberation Front", "Baloch Republican Army"]
+      "relatedOrganizations": [
+        "Balochistan Liberation Front",
+        "Baloch Republican Army"
+      ]
     },
     {
       "id": "al-aqsa-martyrs",
@@ -2254,13 +2631,21 @@
         "ja": "アルアクサ殉教者旅団",
         "en": "Al-Aqsa Martyrs Brigades",
         "abbreviation": "AMB",
-        "aliases": ["AAMB"]
+        "aliases": [
+          "AAMB"
+        ]
       },
       "status": "活動継続中",
       "founded": "2000-2002",
       "region": "中東",
-      "primaryCountries": ["パレスチナ自治区"],
-      "activeLocations": ["ヨルダン川西岸", "ガザ地区", "ジェニン"],
+      "primaryCountries": [
+        "パレスチナ自治区"
+      ],
+      "activeLocations": [
+        "ヨルダン川西岸",
+        "ガザ地区",
+        "ジェニン"
+      ],
       "ideology": "パレスチナ民族主義",
       "affiliation": "ファタハに関連（公式には否定）",
       "estimatedMembers": {
@@ -2316,7 +2701,12 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Fatah", "Hamas", "Palestinian Islamic Jihad", "PFLP"]
+      "relatedOrganizations": [
+        "Fatah",
+        "Hamas",
+        "Palestinian Islamic Jihad",
+        "PFLP"
+      ]
     },
     {
       "id": "pflp",
@@ -2328,9 +2718,15 @@
       "status": "活動継続中",
       "founded": "1967",
       "region": "中東",
-      "primaryCountries": ["パレスチナ自治区"],
-      "activeLocations": ["ヨルダン川西岸", "ガザ地区", "レバノン"],
-      "ideology": "マルクス・レーニン主義、パレスチナ民族主義",
+      "primaryCountries": [
+        "パレスチナ自治区"
+      ],
+      "activeLocations": [
+        "ヨルダン川西岸",
+        "ガザ地区",
+        "レバノン"
+      ],
+      "ideology": "マルクス・レーニン主義とパレスチナ民族主義を組み合わせた世俗的組織",
       "affiliation": "PLO加盟組織",
       "estimatedMembers": {
         "current": "数百人から数千人（推定）",
@@ -2375,7 +2771,6 @@
           "Abdel Rahman Abdel Aal（政治局メンバー）"
         ]
       },
-      "ideology": "マルクス・レーニン主義とパレスチナ民族主義を組み合わせた世俗的組織",
       "credibilityAssessment": {
         "sourceTier": "tier1",
         "reliabilitySources": [
@@ -2387,7 +2782,12 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["PLO", "Hamas", "DFLP", "Palestinian Islamic Jihad"]
+      "relatedOrganizations": [
+        "PLO",
+        "Hamas",
+        "DFLP",
+        "Palestinian Islamic Jihad"
+      ]
     },
     {
       "id": "m23",
@@ -2395,13 +2795,21 @@
         "ja": "3月23日運動",
         "en": "March 23 Movement",
         "abbreviation": "M23",
-        "aliases": ["Congolese Revolutionary Army"]
+        "aliases": [
+          "Congolese Revolutionary Army"
+        ]
       },
       "status": "活動激化中",
       "founded": "2012",
       "region": "中央アフリカ",
-      "primaryCountries": ["コンゴ民主共和国"],
-      "activeLocations": ["北キブ州", "南キブ州", "ゴマ"],
+      "primaryCountries": [
+        "コンゴ民主共和国"
+      ],
+      "activeLocations": [
+        "北キブ州",
+        "南キブ州",
+        "ゴマ"
+      ],
       "ideology": "ツチ系民兵組織、武装反乱",
       "affiliation": "ルワンダ政府の支援",
       "estimatedMembers": {
@@ -2464,7 +2872,10 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["Rwanda Government", "CNDP (前身)"]
+      "relatedOrganizations": [
+        "Rwanda Government",
+        "CNDP (前身)"
+      ]
     },
     {
       "id": "jad",
@@ -2476,8 +2887,14 @@
       "status": "大幅弱体化",
       "founded": "2015",
       "region": "東南アジア",
-      "primaryCountries": ["インドネシア"],
-      "activeLocations": ["ジャワ島", "スマトラ島", "スラウェシ島"],
+      "primaryCountries": [
+        "インドネシア"
+      ],
+      "activeLocations": [
+        "ジャワ島",
+        "スマトラ島",
+        "スラウェシ島"
+      ],
       "ideology": "イスラム過激主義",
       "affiliation": "イスラム国（ISIS）",
       "estimatedMembers": {
@@ -2535,7 +2952,10 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["ISIS", "Jemaah Islamiyah (JI)"]
+      "relatedOrganizations": [
+        "ISIS",
+        "Jemaah Islamiyah (JI)"
+      ]
     },
     {
       "id": "shining-path",
@@ -2543,13 +2963,20 @@
         "ja": "光る道",
         "en": "Shining Path",
         "native": "Sendero Luminoso",
-        "aliases": ["MPCP", "Militarized Communist Party of Peru"]
+        "aliases": [
+          "MPCP",
+          "Militarized Communist Party of Peru"
+        ]
       },
       "status": "大幅弱体化・麻薬密売組織化",
       "founded": "1980",
       "region": "南米",
-      "primaryCountries": ["ペルー"],
-      "activeLocations": ["VRAEM地域（Apurímac、Ene、Mantaro川流域）"],
+      "primaryCountries": [
+        "ペルー"
+      ],
+      "activeLocations": [
+        "VRAEM地域（Apurímac、Ene、Mantaro川流域）"
+      ],
       "ideology": "マオイスト共産主義",
       "affiliation": "独立組織",
       "estimatedMembers": {
@@ -2604,20 +3031,32 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["麻薬カルテル（同盟）"]
+      "relatedOrganizations": [
+        "麻薬カルテル（同盟）"
+      ]
     },
     {
       "id": "naxalites",
       "name": {
         "ja": "ナクサライト",
         "en": "Naxalites",
-        "aliases": ["Maoists", "CPI (Maoist)", "Communist Party of India (Maoist)"]
+        "aliases": [
+          "Maoists",
+          "CPI (Maoist)",
+          "Communist Party of India (Maoist)"
+        ]
       },
       "status": "大幅弱体化・終結間近",
       "founded": "1967",
       "region": "南アジア",
-      "primaryCountries": ["インド"],
-      "activeLocations": ["チャッティースガル州", "ジャールカンド州", "Dandakaranya森林地帯"],
+      "primaryCountries": [
+        "インド"
+      ],
+      "activeLocations": [
+        "チャッティースガル州",
+        "ジャールカンド州",
+        "Dandakaranya森林地帯"
+      ],
       "ideology": "マオイスト共産主義",
       "affiliation": "CPI (Maoist)",
       "estimatedMembers": {
@@ -2684,7 +3123,9 @@
         "verificationLevel": "高",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["CPI (Maoist)"]
+      "relatedOrganizations": [
+        "CPI (Maoist)"
+      ]
     },
     {
       "id": "rsf",
@@ -2692,13 +3133,22 @@
         "ja": "即応支援部隊",
         "en": "Rapid Support Forces",
         "abbreviation": "RSF",
-        "aliases": ["Janjaweed"]
+        "aliases": [
+          "Janjaweed"
+        ]
       },
       "status": "活発・ジェノサイド実行中",
       "founded": "2013",
       "region": "アフリカ",
-      "primaryCountries": ["スーダン"],
-      "activeLocations": ["ダルフール", "ハルツーム", "北キブ州", "南キブ州"],
+      "primaryCountries": [
+        "スーダン"
+      ],
+      "activeLocations": [
+        "ダルフール",
+        "ハルツーム",
+        "北キブ州",
+        "南キブ州"
+      ],
       "ideology": "民族主義・権力維持",
       "affiliation": "独立組織（UAE支援）",
       "estimatedMembers": {
@@ -2770,7 +3220,10 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["スーダン軍（SAF、敵対）", "M23（地域紛争）"]
+      "relatedOrganizations": [
+        "スーダン軍（SAF、敵対）",
+        "M23（地域紛争）"
+      ]
     },
     {
       "id": "aah",
@@ -2779,13 +3232,21 @@
         "en": "Asaib Ahl al-Haq",
         "abbreviation": "AAH",
         "native": "عصائب أهل الحق",
-        "aliases": ["League of the Righteous"]
+        "aliases": [
+          "League of the Righteous"
+        ]
       },
       "status": "活発・イラン代理組織",
       "founded": "2006",
       "region": "中東",
-      "primaryCountries": ["イラク"],
-      "activeLocations": ["バグダッド", "バスラ", "イラク全域"],
+      "primaryCountries": [
+        "イラク"
+      ],
+      "activeLocations": [
+        "バグダッド",
+        "バスラ",
+        "イラク全域"
+      ],
       "ideology": "シーア派イスラム主義",
       "affiliation": "イラン（IRGC Qods Force）",
       "estimatedMembers": {
@@ -2827,7 +3288,11 @@
       },
       "islamicResistanceInIraq": {
         "umbrella": "IRI（Islamic Resistance in Iraq）傘下で活動",
-        "partners": ["Kataib Hezbollah (KH)", "Kataib Sayyid al-Shuhada (KSS)", "Harakat Hezbollah al-Nujaba (HHN)"],
+        "partners": [
+          "Kataib Hezbollah (KH)",
+          "Kataib Sayyid al-Shuhada (KSS)",
+          "Harakat Hezbollah al-Nujaba (HHN)"
+        ],
         "targets": "イラク・シリアの米軍標的",
         "motivation": "ガザ戦争における米国の役割への報復"
       },
@@ -2853,7 +3318,12 @@
         "conflictingReports": true,
         "note": "2024年半ばの攻撃役割について異なる報告あり"
       },
-      "relatedOrganizations": ["IRGC Qods Force（イラン）", "Kataib Hezbollah", "Harakat Hezbollah al-Nujaba", "Kataib Sayyid al-Shuhada"]
+      "relatedOrganizations": [
+        "IRGC Qods Force（イラン）",
+        "Kataib Hezbollah",
+        "Harakat Hezbollah al-Nujaba",
+        "Kataib Sayyid al-Shuhada"
+      ]
     },
     {
       "id": "fdlr",
@@ -2862,13 +3332,24 @@
         "en": "Democratic Forces for the Liberation of Rwanda",
         "abbreviation": "FDLR",
         "native": "Forces démocratiques de libération du Rwanda",
-        "aliases": ["FOCA", "ALIR"]
+        "aliases": [
+          "FOCA",
+          "ALIR"
+        ]
       },
       "status": "活発・大幅弱体化",
       "founded": "2000",
       "region": "アフリカ",
-      "primaryCountries": ["コンゴ民主共和国", "ルワンダ"],
-      "activeLocations": ["北キブ州", "南キブ州", "カレンガ", "Rutshuru領域"],
+      "primaryCountries": [
+        "コンゴ民主共和国",
+        "ルワンダ"
+      ],
+      "activeLocations": [
+        "北キブ州",
+        "南キブ州",
+        "カレンガ",
+        "Rutshuru領域"
+      ],
       "ideology": "フツ族民族主義",
       "affiliation": "コンゴ政府（非公式支援）",
       "estimatedMembers": {
@@ -2901,7 +3382,10 @@
       },
       "leadership": {
         "note": "2025年3月にM23が14人の幹部を逮捕してルワンダに引き渡し",
-        "historicalLeaders": ["Paul Rwarakabije（元）", "Sylvestre Mudacumura（元、2019年死亡）"]
+        "historicalLeaders": [
+          "Paul Rwarakabije（元）",
+          "Sylvestre Mudacumura（元、2019年死亡）"
+        ]
       },
       "genocideConnection": {
         "origin": "1994年ルワンダ・ジェノサイドの実行者によって創設",
@@ -2940,7 +3424,11 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["M23（敵対）", "ルワンダ国防軍（敵対）", "コンゴ軍（FARDC、支援）"]
+      "relatedOrganizations": [
+        "M23（敵対）",
+        "ルワンダ国防軍（敵対）",
+        "コンゴ軍（FARDC、支援）"
+      ]
     },
     {
       "id": "ji",
@@ -2949,13 +3437,22 @@
         "en": "Jemaah Islamiyah",
         "abbreviation": "JI",
         "native": "Jemaah Islamiyah",
-        "aliases": ["Jamaah Islamiyah"]
+        "aliases": [
+          "Jamaah Islamiyah"
+        ]
       },
       "status": "解散（2024年6月30日）",
       "founded": "1993",
       "region": "東南アジア",
-      "primaryCountries": ["インドネシア", "マレーシア", "シンガポール", "フィリピン"],
-      "activeLocations": ["歴史的: ジャワ島、スマトラ島、スラウェシ島"],
+      "primaryCountries": [
+        "インドネシア",
+        "マレーシア",
+        "シンガポール",
+        "フィリピン"
+      ],
+      "activeLocations": [
+        "歴史的: ジャワ島、スマトラ島、スラウェシ島"
+      ],
       "ideology": "イスラム過激主義（元アルカイダ系）",
       "affiliation": "元アルカイダ（現在: 解散）",
       "estimatedMembers": {
@@ -2990,7 +3487,10 @@
         ]
       },
       "leadership": {
-        "founders": ["Abdullah Sungkar（創設者、2000年死去）", "Abu Bakar Bashir（共同創設者）"],
+        "founders": [
+          "Abdullah Sungkar（創設者、2000年死去）",
+          "Abu Bakar Bashir（共同創設者）"
+        ],
         "note": "2024年6月30日に16人の幹部が解散を発表"
       },
       "disbandment": {
@@ -3066,7 +3566,11 @@
         "conflictingReports": false,
         "note": "IPACが解散声明の真正性を確認"
       },
-      "relatedOrganizations": ["アルカイダ（歴史的）", "JAD/Jamaah Ansharut Daulah（別組織）", "Abu Sayyaf（地域連携）"]
+      "relatedOrganizations": [
+        "アルカイダ（歴史的）",
+        "JAD/Jamaah Ansharut Daulah（別組織）",
+        "Abu Sayyaf（地域連携）"
+      ]
     },
     {
       "id": "hizb-ut-tahrir",
@@ -3075,14 +3579,34 @@
         "en": "Hizb ut-Tahrir",
         "abbreviation": "HuT",
         "native": "حزب التحرير",
-        "aliases": ["Party of Liberation", "HT"]
+        "aliases": [
+          "Party of Liberation",
+          "HT"
+        ]
       },
       "status": "活発・多数国で禁止",
       "founded": "1953",
       "region": "中央アジア・グローバル",
-      "primaryCountries": ["ウズベキスタン", "キルギス", "タジキスタン", "カザフスタン", "パキスタン", "インドネシア"],
-      "activeLocations": ["中央アジア全域", "中東", "南アジア", "ヨーロッパ"],
-      "ideology": "汎イスラム主義・カリフ制復活",
+      "primaryCountries": [
+        "ウズベキスタン",
+        "キルギス",
+        "タジキスタン",
+        "カザフスタン",
+        "パキスタン",
+        "インドネシア"
+      ],
+      "activeLocations": [
+        "中央アジア全域",
+        "中東",
+        "南アジア",
+        "ヨーロッパ"
+      ],
+      "ideology": {
+        "goal": "世界的カリフ制の復活",
+        "governance": "イスラム法（シャリーア）に基づく統治",
+        "method": "政治活動、イデオロギー普及、勧誘",
+        "violence": "直接的テロ攻撃は実行せず、イデオロギーと勧誘に焦点"
+      },
       "affiliation": "独立組織",
       "estimatedMembers": {
         "current": "数万人（世界中、推定）",
@@ -3142,14 +3666,14 @@
         "status": "中央アジア全域で禁止"
       },
       "globalBans": {
-        "countries": ["ドイツ", "エジプト", "英国", "インド", "複数の中央アジア・アラブ諸国"],
+        "countries": [
+          "ドイツ",
+          "エジプト",
+          "英国",
+          "インド",
+          "複数の中央アジア・アラブ諸国"
+        ],
         "trend": "2000年代以降禁止が拡大"
-      },
-      "ideology": {
-        "goal": "世界的カリフ制の復活",
-        "governance": "イスラム法（シャリーア）に基づく統治",
-        "method": "政治活動、イデオロギー普及、勧誘",
-        "violence": "直接的テロ攻撃は実行せず、イデオロギーと勧誘に焦点"
       },
       "radicalizationRole": {
         "target": "若者",
@@ -3175,112 +3699,10 @@
         "verificationLevel": "非常に高い",
         "conflictingReports": false
       },
-      "relatedOrganizations": ["ISIS（勧誘標的）", "アルカイダ（イデオロギー類似）"]
-    },
-    {
-      "id": "al-shabaab",
-      "name": {
-        "ja": "アル・シャバブ",
-        "en": "Al-Shabaab",
-        "native": "حركة الشباب المجاهدين",
-        "aliases": ["Harakat al-Shabaab al-Mujahideen"]
-      },
-      "status": "活発・2025年大攻勢",
-      "founded": "2006",
-      "region": "アフリカ",
-      "primaryCountries": ["ソマリア"],
-      "activeLocations": ["モガディシュ周辺", "中央ソマリア", "南部ソマリア"],
-      "ideology": "イスラム過激主義（アルカイダ系）",
-      "affiliation": "アルカイダ",
-      "estimatedMembers": {
-        "current": "7,000-12,000人",
-        "peak": "7,000-12,000人",
-        "lastUpdated": "2025-07"
-      },
-      "currentStatus": {
-        "summary": "2025年に攻撃が50%増加。モガディシュ包囲作戦。7月にSabiid・Anole奪還。",
-        "keyDevelopments": [
-          "2025年2月20日: 大規模攻撃開始",
-          "2025年3月: 大統領暗殺未遂",
-          "2025年7月: Sabiid・Anole奪還",
-          "2025年: 攻撃50%増加"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["The Soufan Center", "UN Security Council", "CFR"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["アルカイダ", "AQAP"]
-    },
-    {
-      "id": "pkk",
-      "name": {
-        "ja": "クルド労働者党",
-        "en": "Kurdistan Workers' Party",
-        "abbreviation": "PKK"
-      },
-      "status": "解散（2025年5月12日）",
-      "founded": "1978",
-      "region": "中東",
-      "primaryCountries": ["トルコ", "イラク"],
-      "activeLocations": ["歴史的: 北イラク、トルコ南東部"],
-      "ideology": "クルド民族主義",
-      "affiliation": "独立組織（現在: 解散）",
-      "estimatedMembers": {
-        "current": "0人（解散）",
-        "peak": "数万人（1990年代）",
-        "lastUpdated": "2025-07"
-      },
-      "currentStatus": {
-        "summary": "2025年5月12日正式解散。40年間の反乱終結。7月11日武器破壊式典。",
-        "keyDevelopments": [
-          "2024年10月: 航空宇宙産業攻撃（5人死亡）",
-          "2025年3月1日: 停戦宣言",
-          "2025年5月12日: 正式解散",
-          "2025年7月11日: 武器破壊式典"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["UK Government", "US NCTC", "CFR"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["YPG（シリア）"]
-    },
-    {
-      "id": "boko-haram",
-      "name": {
-        "ja": "ボコ・ハラム",
-        "en": "Boko Haram",
-        "abbreviation": "JAS"
-      },
-      "status": "活発・2025年再興",
-      "founded": "2002",
-      "region": "アフリカ",
-      "primaryCountries": ["ナイジェリア"],
-      "activeLocations": ["チャド湖流域"],
-      "ideology": "イスラム過激主義",
-      "affiliation": "独立組織",
-      "estimatedMembers": {
-        "current": "数千人",
-        "peak": "数万人（2010年代半ば）",
-        "lastUpdated": "2025-06"
-      },
-      "currentStatus": {
-        "summary": "2021年Shekau死亡後も継続。2025年初頭再興。ISWAPからチャド湖諸島奪還。",
-        "keyDevelopments": [
-          "2021年5月: Shekau死亡",
-          "2025年6月21日: Konduga自爆攻撃（12人死亡）",
-          "2025年初頭: チャド湖諸島奪還"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["HRW", "ICG", "ACLED"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["ISWAP（敵対）"]
+      "relatedOrganizations": [
+        "ISIS（勧誘標的）",
+        "アルカイダ（イデオロギー類似）"
+      ]
     },
     {
       "id": "ansaru",
@@ -3288,13 +3710,20 @@
         "ja": "アンサル",
         "en": "Ansaru",
         "native": "Jama'atu Ansarul Muslimina fi Biladis Sudan",
-        "aliases": ["Vanguards for the Protection of Muslims in Black Africa"]
+        "aliases": [
+          "Vanguards for the Protection of Muslims in Black Africa"
+        ]
       },
       "status": "活発・2025年リーダー逮捕",
       "founded": "2012",
       "region": "アフリカ",
-      "primaryCountries": ["ナイジェリア"],
-      "activeLocations": ["北西部", "北中部"],
+      "primaryCountries": [
+        "ナイジェリア"
+      ],
+      "activeLocations": [
+        "北西部",
+        "北中部"
+      ],
       "ideology": "イスラム過激主義（アルカイダ系）",
       "affiliation": "アルカイダ",
       "estimatedMembers": {
@@ -3313,45 +3742,16 @@
       },
       "credibilityAssessment": {
         "sourceTier": "tier1",
-        "reliabilitySources": ["ISS Africa", "DefenceWeb"],
+        "reliabilitySources": [
+          "ISS Africa",
+          "DefenceWeb"
+        ],
         "verificationLevel": "高"
       },
-      "relatedOrganizations": ["アルカイダ", "Boko Haram（分裂元）"]
-    },
-    {
-      "id": "aqap",
-      "name": {
-        "ja": "アラビア半島のアルカイダ",
-        "en": "Al-Qaeda in the Arabian Peninsula",
-        "abbreviation": "AQAP"
-      },
-      "status": "活発・弱体化",
-      "founded": "2009",
-      "region": "中東",
-      "primaryCountries": ["イエメン"],
-      "activeLocations": ["Abyan", "Shabwa", "Hadramawt"],
-      "ideology": "イスラム過激主義（アルカイダ系）",
-      "affiliation": "アルカイダ",
-      "estimatedMembers": {
-        "current": "2,000-3,000人",
-        "peak": "数千人（2010年代）",
-        "lastUpdated": "2024-07"
-      },
-      "currentStatus": {
-        "summary": "2024年3月に新リーダーSa'ad bin Atef al-Awlaki就任。2025年10月自爆攻撃で兵士4人殺害。Houthiと協力。",
-        "keyDevelopments": [
-          "2024年3月: Khalid Batarfi死亡、Sa'ad bin Atef al-Awlaki就任",
-          "2024年8月16日: 自爆攻撃（兵士16人殺害）",
-          "2025年10月21日: Abyanで自爆攻撃（兵士4人殺害）",
-          "2024年: Houthiとの協力合意"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["Long War Journal", "ACLED", "UN Security Council"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["アルカイダ", "Houthi（協力）"]
+      "relatedOrganizations": [
+        "アルカイダ",
+        "Boko Haram（分裂元）"
+      ]
     },
     {
       "id": "kss",
@@ -3364,8 +3764,12 @@
       "status": "活発・イラン代理組織",
       "founded": "2013",
       "region": "中東",
-      "primaryCountries": ["イラク"],
-      "activeLocations": ["イラク全域"],
+      "primaryCountries": [
+        "イラク"
+      ],
+      "activeLocations": [
+        "イラク全域"
+      ],
       "ideology": "シーア派イスラム主義",
       "affiliation": "イラン（IRGC）",
       "estimatedMembers": {
@@ -3383,155 +3787,17 @@
       },
       "credibilityAssessment": {
         "sourceTier": "tier1",
-        "reliabilitySources": ["US State Department", "Counter Extremism Project"],
+        "reliabilitySources": [
+          "US State Department",
+          "Counter Extremism Project"
+        ],
         "verificationLevel": "非常に高い"
       },
-      "relatedOrganizations": ["IRGC（イラン）", "Kataib Hezbollah", "AAH"]
-    },
-    {
-      "id": "eln",
-      "name": {
-        "ja": "民族解放軍",
-        "en": "National Liberation Army",
-        "abbreviation": "ELN",
-        "native": "Ejército de Liberación Nacional"
-      },
-      "status": "活発・和平交渉中断",
-      "founded": "1964",
-      "region": "南米",
-      "primaryCountries": ["コロンビア"],
-      "activeLocations": ["コロンビア全域"],
-      "ideology": "左翼・解放の神学",
-      "affiliation": "独立組織",
-      "estimatedMembers": {
-        "current": "2,000-3,000人",
-        "peak": "数千人",
-        "lastUpdated": "2025-01"
-      },
-      "currentStatus": {
-        "summary": "2024年8月停戦崩壊。2025年1月Tibú虐殺後和平交渉中断。誘拐・課税継続。",
-        "keyDevelopments": [
-          "2024年2月: 停戦6ヶ月延長",
-          "2024年8月: 停戦終了",
-          "2024年11月: 和平プロセス再開合意",
-          "2025年1月17日: Tibú虐殺後和平交渉中断"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["Al Jazeera", "JURIST", "ACLED"],
-        "verificationLevel": "高"
-      },
-      "relatedOrganizations": ["FARC（歴史的）"]
-    },
-    {
-      "id": "hts",
-      "name": {
-        "ja": "シャーム解放機構",
-        "en": "Hay'at Tahrir al-Sham",
-        "abbreviation": "HTS",
-        "native": "هيئة تحرير الشام"
-      },
-      "status": "解散・シリア暫定政府へ移行（2025年1月）",
-      "founded": "2017",
-      "region": "中東",
-      "primaryCountries": ["シリア"],
-      "activeLocations": ["歴史的: イドリブ、現在: シリア全域統治"],
-      "ideology": "イスラム主義",
-      "affiliation": "独立組織（元アルカイダ、現在: 解散）",
-      "estimatedMembers": {
-        "current": "0人（解散、国家機構に統合）",
-        "peak": "10,000-30,000人（2024）",
-        "lastUpdated": "2025-01"
-      },
-      "currentStatus": {
-        "summary": "2024年12月8日にアサド政権打倒。2025年1月29日に解散、国家機構に統合。米英がテロ指定解除。",
-        "keyDevelopments": [
-          "2024年11月27日: 全国攻勢開始",
-          "2024年11月29日: アレッポ占領",
-          "2024年12月5日: ハマ占領",
-          "2024年12月8日: ダマスカス陥落、アサド政権崩壊（53年支配終了）",
-          "2025年1月29日: HTS解散、武装勢力を国家機構に統合",
-          "2025年3月: 新憲法宣言",
-          "2025年7月: 米国がテロ指定解除",
-          "2025年10月: 英国がテロ指定解除"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["Brandeis Crown Center", "UK Parliament", "GWU Program on Extremism"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["アルカイダ（歴史的）", "シリア暫定政府"]
-    },
-    {
-      "id": "al-aqsa-martyrs",
-      "name": {
-        "ja": "アル・アクサ殉教者旅団",
-        "en": "Al-Aqsa Martyrs Brigades",
-        "abbreviation": "AMB"
-      },
-      "status": "活発",
-      "founded": "2000",
-      "region": "中東",
-      "primaryCountries": ["パレスチナ"],
-      "activeLocations": ["西岸地区", "ガザ"],
-      "ideology": "パレスチナ民族主義",
-      "affiliation": "元ファタハ（2007年分離）",
-      "estimatedMembers": {
-        "current": "不明",
-        "peak": "不明",
-        "lastUpdated": "2024-10"
-      },
-      "currentStatus": {
-        "summary": "2023年10月のガザ攻撃に参加。2024年西岸地区で活発。Jenin Battalion傘下で活動。",
-        "keyDevelopments": [
-          "2023年10月: ガザからイスラエル攻撃",
-          "2024年10月: Tubas襲撃対応",
-          "2024年10月9日: Balata指導者がYamam部隊に殺害",
-          "Jenin Battalionで他組織と協力"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier2",
-        "reliabilitySources": ["CFR", "ECFR", "Al Mayadeen"],
-        "verificationLevel": "高"
-      },
-      "relatedOrganizations": ["Hamas", "PIJ", "ファタハ（歴史的）"]
-    },
-    {
-      "id": "pflp",
-      "name": {
-        "ja": "パレスチナ解放人民戦線",
-        "en": "Popular Front for the Liberation of Palestine",
-        "abbreviation": "PFLP"
-      },
-      "status": "活発",
-      "founded": "1967",
-      "region": "中東",
-      "primaryCountries": ["パレスチナ", "レバノン"],
-      "activeLocations": ["西岸地区", "ガザ", "レバノン"],
-      "ideology": "マルクス・レーニン主義・パレスチナ民族主義",
-      "affiliation": "独立組織",
-      "estimatedMembers": {
-        "current": "不明",
-        "peak": "不明",
-        "lastUpdated": "2024-09"
-      },
-      "currentStatus": {
-        "summary": "ガザ戦争でHamas等と協力。2024年9月にイスラエルがレバノンで3人の指導者暗殺。",
-        "keyDevelopments": [
-          "2024年9月: イスラエルがレバノンでPFLP指導者3人暗殺",
-          "2023年10月以降: ガザ戦争に参加",
-          "PLO執行委員会・パレスチナ国民評議会をボイコット中"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier2",
-        "reliabilitySources": ["ECFR", "CFR", "Britannica"],
-        "verificationLevel": "高"
-      },
-      "relatedOrganizations": ["Hamas", "PIJ", "PFLP-GC"]
+      "relatedOrganizations": [
+        "IRGC（イラン）",
+        "Kataib Hezbollah",
+        "AAH"
+      ]
     },
     {
       "id": "jamaat-e-islami-bangladesh",
@@ -3543,8 +3809,12 @@
       "status": "活発・2024年禁止後解除",
       "founded": "1975",
       "region": "南アジア",
-      "primaryCountries": ["バングラデシュ"],
-      "activeLocations": ["バングラデシュ全域"],
+      "primaryCountries": [
+        "バングラデシュ"
+      ],
+      "activeLocations": [
+        "バングラデシュ全域"
+      ],
       "ideology": "イスラム主義",
       "affiliation": "独立組織",
       "estimatedMembers": {
@@ -3564,10 +3834,16 @@
       },
       "credibilityAssessment": {
         "sourceTier": "tier2",
-        "reliabilitySources": ["CNN", "The Diplomat", "Business Today"],
+        "reliabilitySources": [
+          "CNN",
+          "The Diplomat",
+          "Business Today"
+        ],
         "verificationLevel": "高"
       },
-      "relatedOrganizations": ["Islami Chhatra Shibir（学生部門）"]
+      "relatedOrganizations": [
+        "Islami Chhatra Shibir（学生部門）"
+      ]
     },
     {
       "id": "houthi",
@@ -3575,13 +3851,22 @@
         "ja": "フーシ派",
         "en": "Houthi Movement",
         "native": "أنصار الله",
-        "aliases": ["Ansar Allah", "Ansarallah"]
+        "aliases": [
+          "Ansar Allah",
+          "Ansarallah"
+        ]
       },
       "status": "活発・紅海攻撃継続",
       "founded": "1990年代",
       "region": "中東",
-      "primaryCountries": ["イエメン"],
-      "activeLocations": ["北イエメン", "紅海", "バブ・エル・マンデブ海峡"],
+      "primaryCountries": [
+        "イエメン"
+      ],
+      "activeLocations": [
+        "北イエメン",
+        "紅海",
+        "バブ・エル・マンデブ海峡"
+      ],
       "ideology": "ザイディー派シーア・イスラム主義",
       "affiliation": "イラン支援",
       "estimatedMembers": {
@@ -3602,84 +3887,17 @@
       },
       "credibilityAssessment": {
         "sourceTier": "tier1",
-        "reliabilitySources": ["Washington Institute", "ICG", "UK Parliament"],
+        "reliabilitySources": [
+          "Washington Institute",
+          "ICG",
+          "UK Parliament"
+        ],
         "verificationLevel": "非常に高い"
       },
-      "relatedOrganizations": ["イラン（支援）", "AQAP（協力）"]
-    },
-    {
-      "id": "hezbollah",
-      "name": {
-        "ja": "ヒズボラ",
-        "en": "Hezbollah",
-        "native": "حزب الله",
-        "aliases": ["Party of God"]
-      },
-      "status": "活発・2024年大打撃",
-      "founded": "1985",
-      "region": "中東",
-      "primaryCountries": ["レバノン"],
-      "activeLocations": ["南レバノン", "ベカー高原"],
-      "ideology": "シーア派イスラム主義",
-      "affiliation": "イラン支援",
-      "estimatedMembers": {
-        "current": "数万人",
-        "peak": "数万人",
-        "lastUpdated": "2024-11"
-      },
-      "currentStatus": {
-        "summary": "2024年9月Nasrallah暗殺。11月停戦。Naim Qassem新リーダー。2025年武装解除拒否。",
-        "keyDevelopments": [
-          "2024年9月27日: Hassan Nasrallah暗殺",
-          "2024年10月3日: 後継者Hashem Safieddine暗殺",
-          "2024年10月: Naim Qassem新書記長就任",
-          "2024年11月: 停戦合意（13ヶ月紛争終了）",
-          "2025年: イスラエルが南レバノン占領継続、武装解除要求",
-          "2025年: Qassem武装解除拒否"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["Long War Journal", "Al Jazeera", "FDD"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["イラン（IRGC）", "Hamas"]
-    },
-    {
-      "id": "iswap",
-      "name": {
-        "ja": "西アフリカ・イスラム国",
-        "en": "Islamic State West Africa Province",
-        "abbreviation": "ISWAP"
-      },
-      "status": "活発・2025年エスカレーション",
-      "founded": "2016",
-      "region": "アフリカ",
-      "primaryCountries": ["ナイジェリア"],
-      "activeLocations": ["ボルノ州", "チャド湖流域"],
-      "ideology": "イスラム過激主義（ISIS系）",
-      "affiliation": "ISIS",
-      "estimatedMembers": {
-        "current": "数千人",
-        "peak": "数千人",
-        "lastUpdated": "2025-05"
-      },
-      "currentStatus": {
-        "summary": "2025年300件以上の攻撃（全テロ事件の88%）。武装ドローン使用開始。年間1億9100万ドル稼ぐ。",
-        "keyDevelopments": [
-          "2025年1月以降: 12回の軍基地襲撃",
-          "2025年前半: 300件の攻撃（全341件の88%）",
-          "2024年後半: 武装ドローン使用開始",
-          "2025年3月: ニジェールがMNJTF脱退、情報共有崩壊",
-          "年間収入: 1億9100万ドル以上（課税）"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["The Soufan Center", "ACLED", "The New Humanitarian"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["ISIS", "Boko Haram（敵対）"]
+      "relatedOrganizations": [
+        "イラン（支援）",
+        "AQAP（協力）"
+      ]
     },
     {
       "id": "lashkar-e-jhangvi",
@@ -3691,8 +3909,13 @@
       "status": "大幅弱体化・残党",
       "founded": "1996",
       "region": "南アジア",
-      "primaryCountries": ["パキスタン"],
-      "activeLocations": ["バロチスタン州", "旧連邦直轄部族地域"],
+      "primaryCountries": [
+        "パキスタン"
+      ],
+      "activeLocations": [
+        "バロチスタン州",
+        "旧連邦直轄部族地域"
+      ],
       "ideology": "スンニ派過激主義・反シーア派",
       "affiliation": "ISKP（同盟）",
       "estimatedMembers": {
@@ -3712,48 +3935,17 @@
       },
       "credibilityAssessment": {
         "sourceTier": "tier2",
-        "reliabilitySources": ["ResearchGate", "Hudson Institute", "ACLED"],
+        "reliabilitySources": [
+          "ResearchGate",
+          "Hudson Institute",
+          "ACLED"
+        ],
         "verificationLevel": "高"
       },
-      "relatedOrganizations": ["ISKP（同盟）", "TTP"]
-    },
-    {
-      "id": "harakat-al-nujaba",
-      "name": {
-        "ja": "高潔者運動",
-        "en": "Harakat Hezbollah al-Nujaba",
-        "abbreviation": "HaN",
-        "native": "حركة حزب الله النجباء",
-        "aliases": ["Harakat al-Nujaba", "Movement of the Noble Ones"]
-      },
-      "status": "活発・イラン代理組織",
-      "founded": "2013",
-      "region": "中東",
-      "primaryCountries": ["イラク", "シリア"],
-      "activeLocations": ["イラク全域", "シリア"],
-      "ideology": "シーア派イスラム主義",
-      "affiliation": "イラン（IRGC）",
-      "estimatedMembers": {
-        "current": "数千人",
-        "peak": "数千人",
-        "lastUpdated": "2025-09"
-      },
-      "currentStatus": {
-        "summary": "米軍攻撃の69%を実行。2024年1月に司令官殺害。2025年9月FTO指定。最も攻撃的な反米民兵。",
-        "keyDevelopments": [
-          "2024年1月4日: 米国がバグダッドで司令官Abu Taqwa殺害",
-          "2023年10月以降: 150回以上の米軍攻撃（IRI傘下）",
-          "攻撃の69%をHaNが実行（95/136件）",
-          "2025年9月: 米国がFTO指定",
-          "ガザ戦争終結まで攻撃継続を宣言"
-        ]
-      },
-      "credibilityAssessment": {
-        "sourceTier": "tier1",
-        "reliabilitySources": ["Washington Institute", "US State Department", "FDD"],
-        "verificationLevel": "非常に高い"
-      },
-      "relatedOrganizations": ["IRGC（イラン）", "Kataib Hezbollah", "AAH"]
+      "relatedOrganizations": [
+        "ISKP（同盟）",
+        "TTP"
+      ]
     }
   ]
 }

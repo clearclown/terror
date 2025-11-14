@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import DOMPurify from 'dompurify'
 
 // Kuroshiroはブラウザでのみ動作するため、動的インポートを使用
 let Kuroshiro: any
@@ -86,10 +87,18 @@ export function FuriganaText({ text, enabled = true, className = '' }: FuriganaT
     return <span className={className}>{text}</span>
   }
 
+  // DOMPurifyでHTMLをサニタイズしてXSS攻撃を防ぐ
+  const sanitizedHTML = typeof window !== 'undefined'
+    ? DOMPurify.sanitize(convertedText, {
+        ALLOWED_TAGS: ['ruby', 'rb', 'rt', 'rp', 'span'],
+        ALLOWED_ATTR: ['class']
+      })
+    : text
+
   return (
     <span
       className={className}
-      dangerouslySetInnerHTML={{ __html: convertedText }}
+      dangerouslySetInnerHTML={{ __html: sanitizedHTML }}
     />
   )
 }

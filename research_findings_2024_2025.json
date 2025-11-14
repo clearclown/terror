@@ -1,0 +1,1292 @@
+{
+  "metadata": {
+    "researchDate": "2025-11-15",
+    "dataSourcePeriod": "2024-2025",
+    "totalNewOrganizationsIdentified": 20,
+    "credibilityTiers": {
+      "tier1": "政府機関・国際機関（UN, 米国務省, AFRICOM等）",
+      "tier2": "学術機関・シンクタンク（The Soufan Center, CTC West Point, ACLED等）",
+      "tier3": "報道機関・地域メディア"
+    },
+    "databaseIssues": {
+      "duplicateEntries": 10,
+      "duplicatedOrganizations": [
+        "pkk (2回)",
+        "pflp (2回)",
+        "iswap (2回)",
+        "hts (2回)",
+        "hezbollah (2回)",
+        "harakat-al-nujaba (2回)",
+        "eln (2回)",
+        "boko-haram (2回)",
+        "aqap (2回)",
+        "al-shabaab (2回)",
+        "al-aqsa-martyrs (2回)"
+      ]
+    },
+    "researchSources": [
+      "Vision of Humanity - Global Terrorism Index 2024-2025",
+      "The Soufan Center Intelligence Briefs",
+      "Combating Terrorism Center at West Point",
+      "ACLED (Armed Conflict Location & Event Data Project)",
+      "US State Department",
+      "US Treasury Department OFAC",
+      "UN Security Council Reports",
+      "International Crisis Group",
+      "Human Rights Watch",
+      "Africa Center for Strategic Studies"
+    ]
+  },
+  "newOrganizations": [
+    {
+      "id": "is-sahel",
+      "priority": "高",
+      "name": {
+        "ja": "イスラム国サヘル州",
+        "en": "Islamic State Sahel Province",
+        "abbreviation": "IS-Sahel/ISGS"
+      },
+      "founded": "2016",
+      "status": "活動中",
+      "region": "西アフリカ・サヘル",
+      "primaryCountries": ["マリ", "ニジェール", "ブルキナファソ"],
+      "ideology": "サラフィー・ジハード主義",
+      "affiliation": "イスラム国（IS）",
+      "estimatedMembers": {
+        "current": "不明（数百人規模と推定）",
+        "trend": "フランス軍撤退後に活動拡大"
+      },
+      "currentStatus": {
+        "summary": "マリ、ニジェール、ブルキナファソの国境地帯で活動。2024-2025年にJNIMとの競合が激化。",
+        "keyDevelopments": [
+          "2024年: IED使用が2019年比で3倍増加",
+          "2025年: マリとブルキナファソが世界1位・3位のテロ発生国に",
+          "フランス・国連軍撤退後の治安真空を利用して勢力拡大",
+          "民間インフラと治安部隊への攻撃増加"
+        ],
+        "recentAttacks": [
+          "2024-2025年: マリ・ブルキナファソで複数の軍事拠点攻撃",
+          "民間人への無差別攻撃を継続"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["ACLED", "Africa Center for Strategic Studies", "Institute for Global Policy"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-11"
+      },
+      "notInDatabase": true,
+      "additionReason": "サヘル地域でISの主要分派として活動。JNIMと並ぶ脅威。"
+    },
+    {
+      "id": "is-somalia",
+      "priority": "高",
+      "name": {
+        "ja": "イスラム国ソマリア州",
+        "en": "Islamic State Somalia Province",
+        "abbreviation": "IS-Somalia/ISS"
+      },
+      "founded": "2015",
+      "status": "活動中・急速拡大中",
+      "region": "東アフリカ",
+      "primaryCountries": ["ソマリア"],
+      "activeLocations": ["プントランド", "ボサソ周辺"],
+      "ideology": "サラフィー・ジハード主義",
+      "affiliation": "イスラム国（IS）",
+      "estimatedMembers": {
+        "current": "600-700人（2024年推定）",
+        "2019": "350人",
+        "growth": "2024年に前年比で2倍に増加",
+        "foreignFighters": "約50%が外国人戦闘員（エチオピア、イエメン、モロッコ等）"
+      },
+      "currentStatus": {
+        "summary": "2024年に急速に拡大し、ISの最重要支部の一つに成長。外国人戦闘員の流入が顕著。",
+        "keyDevelopments": [
+          "2024年10月: AFRICOM司令官が「2倍の成長」と報告",
+          "外国人戦闘員がソマリア人メンバーを上回る可能性",
+          "IS本部の「州管理総局」の重要拠点として機能",
+          "2024年12月以降: プントランド治安部隊への大規模攻撃を開始",
+          "地域支部から世界的重要拠点へと変貌"
+        ],
+        "foreignFighterOrigins": [
+          "エチオピア（最大の構成員）",
+          "イエメン",
+          "モロッコ",
+          "シリア",
+          "スーダン",
+          "タンザニア",
+          "アルジェリア",
+          "リビア",
+          "パレスチナ自治区",
+          "サウジアラビア",
+          "チュニジア"
+        ],
+        "strategicRole": "ISの資金、戦闘員、知識移転のハブとして機能"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US AFRICOM", "UN Sanctions Monitoring Team", "CTC West Point", "The Washington Post"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-02"
+      },
+      "notInDatabase": true,
+      "additionReason": "IS最重要支部の一つ。2024年の急成長が顕著。外国人戦闘員のハブ。"
+    },
+    {
+      "id": "is-mozambique",
+      "priority": "高",
+      "name": {
+        "ja": "イスラム国モザンビーク州",
+        "en": "Islamic State Mozambique",
+        "abbreviation": "IS-M/ISM",
+        "localName": "al-Shabaab（地元での呼称、ソマリアのal-Shabaabとは別組織）"
+      },
+      "founded": "2017",
+      "status": "活動中",
+      "region": "東アフリカ",
+      "primaryCountries": ["モザンビーク"],
+      "activeLocations": ["カボ・デルガド州", "チウレ", "アンクアベ", "ムイドゥンベ"],
+      "ideology": "サラフィー・ジハード主義",
+      "affiliation": "イスラム国（IS）",
+      "estimatedMembers": {
+        "current": "数百人（ルワンダ軍作戦で弱体化）",
+        "trend": "制約されているが復活の兆し"
+      },
+      "currentStatus": {
+        "summary": "ルワンダ主導の対テロ作戦で制約を受けているが、2024-2025年に攻撃が復活。",
+        "keyDevelopments": [
+          "2025年1月: 政情不安でIS復活の条件が整いつつある",
+          "2024年10月選挙後の暴力が紛争を悪化させる可能性",
+          "2025年1月以降: 95,000人以上が避難",
+          "攻撃は小規模だが2024年に頻度が増加"
+        ],
+        "recentAttacks": [
+          "2025年1月4日: クィテラジョのFADM拠点を攻撃、兵士1人死亡",
+          "2025年2月20日: キサンガの軍事拠点攻撃、兵士2人以上死亡",
+          "2025年7月22日: インツトゥプエ村で5人を斬首",
+          "2025年7月24日: チウレ・ヴェリョ地区警察司令部を攻撃・放火（2024年5月以来最大規模）",
+          "2025年7月20-28日: 攻撃により46,000人以上が避難"
+        ],
+        "humanitarianImpact": "紛争全体で6,000人以上が死亡、多数が負傷"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["The Soufan Center", "Human Rights Watch", "UN", "Cabo Ligado Project"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-07"
+      },
+      "notInDatabase": true,
+      "additionReason": "東アフリカでのIS活動拠点。人道危機を引き起こしている。"
+    },
+    {
+      "id": "cjng",
+      "priority": "高",
+      "name": {
+        "ja": "ハリスコ新世代カルテル",
+        "en": "Cartel de Jalisco Nueva Generación",
+        "abbreviation": "CJNG"
+      },
+      "founded": "2010",
+      "status": "活動中",
+      "designation": "2025年2月20日に米国がFTO指定",
+      "region": "北米・中南米",
+      "primaryCountries": ["メキシコ"],
+      "activeLocations": [
+        "ハリスコ州",
+        "メキシコほぼ全域",
+        "米国",
+        "南米",
+        "オーストラリア",
+        "中国",
+        "東南アジア"
+      ],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "数千人規模",
+        "trend": "拡大中"
+      },
+      "currentStatus": {
+        "summary": "2025年2月に米国が外国テロ組織（FTO）に指定。メキシコ最大級の麻薬カルテル。",
+        "keyDevelopments": [
+          "2025年2月20日: 米国がFTO・SDGT指定",
+          "フェンタニル密輸の主要組織",
+          "メキシコ軍・警察への攻撃に軍用兵器使用",
+          "ドローンによる爆発物投下を使用",
+          "メキシコ政府要人の暗殺・暗殺未遂"
+        ],
+        "criminalActivities": [
+          "フェンタニル・麻薬密輸",
+          "恐喝",
+          "移民密入国",
+          "武器密売",
+          "石油・鉱物窃盗"
+        ],
+        "violenceTactics": [
+          "軍用級兵器での攻撃",
+          "ドローンによる爆発物投下",
+          "政府要人への攻撃"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department", "US Treasury OFAC", "Federal Register"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-02"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年2月にFTO指定。史上初の純粋犯罪組織のテロ指定。メキシコ最大の脅威。"
+    },
+    {
+      "id": "sinaloa-cartel",
+      "priority": "高",
+      "name": {
+        "ja": "シナロア・カルテル",
+        "en": "Cartel de Sinaloa",
+        "abbreviation": "シナロア・カルテル"
+      },
+      "founded": "1989",
+      "status": "活動中",
+      "designation": "2025年2月20日に米国がFTO指定",
+      "region": "北米・中南米",
+      "primaryCountries": ["メキシコ"],
+      "activeLocations": ["シナロア州", "メキシコ各地", "米国", "世界各国"],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "数千人規模",
+        "trend": "継続"
+      },
+      "currentStatus": {
+        "summary": "2025年2月に米国が外国テロ組織（FTO）に指定。世界最大級の麻薬密輸組織。",
+        "keyDevelopments": [
+          "2025年2月20日: 米国がFTO・SDGT指定",
+          "米国へのフェンタニル密輸の主犯格",
+          "世界的な麻薬密輸ネットワーク運営"
+        ],
+        "criminalActivities": [
+          "フェンタニル・麻薬密輸",
+          "マネーロンダリング",
+          "武器密売",
+          "暴力・殺人"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department", "US Treasury OFAC"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-02"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年2月にFTO指定。世界最大級の麻薬カルテル。"
+    },
+    {
+      "id": "gulf-cartel",
+      "priority": "中",
+      "name": {
+        "ja": "湾岸カルテル",
+        "en": "Cartel del Golfo",
+        "abbreviation": "Gulf Cartel"
+      },
+      "founded": "1980年代",
+      "status": "活動中",
+      "designation": "2025年2月20日に米国がFTO指定",
+      "region": "北米",
+      "primaryCountries": ["メキシコ"],
+      "activeLocations": ["タマウリパス州", "メキシコ北東部"],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "数百～数千人規模"
+      },
+      "currentStatus": {
+        "summary": "2025年2月に米国が外国テロ組織（FTO）に指定。",
+        "keyDevelopments": [
+          "2025年2月20日: 米国がFTO・SDGT指定"
+        ],
+        "criminalActivities": [
+          "麻薬密輸",
+          "人身売買",
+          "恐喝"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-02"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年2月にFTO指定。"
+    },
+    {
+      "id": "cartel-del-noreste",
+      "priority": "中",
+      "name": {
+        "ja": "ノルエステ・カルテル",
+        "en": "Cartel del Noreste",
+        "abbreviation": "CDN",
+        "formerName": "Los Zetas"
+      },
+      "founded": "2014（Los Zetasから分派）",
+      "status": "活動中",
+      "designation": "2025年2月20日に米国がFTO指定",
+      "region": "北米",
+      "primaryCountries": ["メキシコ"],
+      "activeLocations": ["タマウリパス州", "コアウイラ州", "ヌエボ・レオン州"],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "数百人規模"
+      },
+      "currentStatus": {
+        "summary": "2025年2月に米国が外国テロ組織（FTO）に指定。メキシコで最も暴力的な組織の一つ。",
+        "keyDevelopments": [
+          "2025年2月20日: 米国がFTO・SDGT指定",
+          "米国-メキシコ国境（ラレド通過点）に大きな影響力",
+          "2025年5月・8月: 米財務省が幹部を追加制裁"
+        ],
+        "criminalActivities": [
+          "麻薬密輸（フェンタニル、覚醒剤、ヘロイン等）",
+          "大規模人身売買",
+          "暗殺・斬首",
+          "恐喝",
+          "マネーロンダリング",
+          "移民の誘拐・強制労働"
+        ],
+        "violenceTactics": [
+          "暗殺",
+          "斬首",
+          "2024年3月: メキシコ軍パトロール中にテロ攻撃"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department", "US Treasury OFAC"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-08"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年2月にFTO指定。極めて暴力的な組織。"
+    },
+    {
+      "id": "la-nueva-familia-michoacana",
+      "priority": "中",
+      "name": {
+        "ja": "新ミチョアカン・ファミリア",
+        "en": "La Nueva Familia Michoacana",
+        "abbreviation": "LNFM"
+      },
+      "founded": "2011",
+      "status": "活動中",
+      "designation": "2025年2月20日に米国がFTO指定",
+      "region": "北米",
+      "primaryCountries": ["メキシコ"],
+      "activeLocations": ["ミチョアカン州", "ゲレロ州", "メキシコ州"],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "数百人規模"
+      },
+      "leadership": [
+        "Johnny Hurtado Olascoaga（共同リーダー）",
+        "Jose Alfredo Hurtado Olascoaga（共同リーダー）"
+      ],
+      "currentStatus": {
+        "summary": "2025年2月に米国が外国テロ組織（FTO）に指定。",
+        "keyDevelopments": [
+          "2025年2月20日: 米国がFTO・SDGT指定",
+          "2025年4月: 米財務省OFACが関係者4人を制裁"
+        ],
+        "criminalActivities": [
+          "フェンタニル・麻薬密輸",
+          "不法移民密入国",
+          "誘拐",
+          "殺人",
+          "恐喝"
+        ],
+        "violenceTactics": [
+          "ドローンによる爆弾投下",
+          "通常火器に加えて爆弾・ドローン使用",
+          "民間人への無差別暴力"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department", "US Treasury OFAC", "US DOJ"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-04"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年2月にFTO指定。ドローン爆撃等の革新的戦術。"
+    },
+    {
+      "id": "carteles-unidos",
+      "priority": "中",
+      "name": {
+        "ja": "カルテレス・ウニドス",
+        "en": "Carteles Unidos",
+        "abbreviation": "United Cartels"
+      },
+      "founded": "2010年代中盤",
+      "status": "活動中",
+      "designation": "2025年2月20日に米国がFTO指定",
+      "region": "北米",
+      "primaryCountries": ["メキシコ"],
+      "activeLocations": ["ミチョアカン州"],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "数百人規模"
+      },
+      "leadership": [
+        "Juan José Farías Álvarez（別名「El Abuelo」）"
+      ],
+      "currentStatus": {
+        "summary": "2025年2月に米国が外国テロ組織（FTO）に指定。ミチョアカン州の小規模カルテル連合。",
+        "keyDevelopments": [
+          "2025年2月20日: 米国がFTO・SDGT指定",
+          "2025年8月: 米財務省OFACがカルテレス・ウニドスとLos Viagrasを制裁",
+          "CJNGの侵入を防ぐために形成された連合"
+        ],
+        "criminalActivities": [
+          "合成オピオイド製造・密輸",
+          "農業関係者への恐喝（アボカド農家等）",
+          "民間人・法執行機関への暴力",
+          "外国傭兵の雇用",
+          "即席爆発装置（IED）使用によるメキシコ兵士殺害"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department", "US Treasury OFAC"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-08"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年2月にFTO指定。外国傭兵・IED使用が特徴。"
+    },
+    {
+      "id": "tren-de-aragua",
+      "priority": "高",
+      "name": {
+        "ja": "トレン・デ・アラグア",
+        "en": "Tren de Aragua",
+        "abbreviation": "TdA"
+      },
+      "founded": "2012-2014",
+      "status": "活動中",
+      "designation": "2025年2月20日に米国がFTO指定",
+      "region": "南米・中米・北米",
+      "primaryCountries": ["ベネズエラ", "コロンビア", "ペルー", "チリ", "エクアドル", "米国"],
+      "activeLocations": [
+        "ラテンアメリカ全域",
+        "米国（テキサス、ニューヨーク等）"
+      ],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "数千人規模",
+        "trend": "ラテンアメリカ全域に急速拡大中"
+      },
+      "currentStatus": {
+        "summary": "2025年2月に米国が外国テロ組織（FTO）に指定。ベネズエラ発祥で急速に国際展開。",
+        "keyDevelopments": [
+          "2025年1月20日: トランプ大統領がFTO指定プロセス開始",
+          "2025年2月20日: FTO・SDGT指定発効",
+          "2025年3月: 1798年外国人敵性法に基づく強制送還命令（法的異議で一時停止）",
+          "2024年7月: 米財務省が重要な国際犯罪組織として制裁",
+          "テキサス州・アルゼンチンもテロ組織指定"
+        ],
+        "criminalActivities": [
+          "麻薬密輸",
+          "人身売買",
+          "恐喝",
+          "女性・児童の性的搾取",
+          "マネーロンダリング"
+        ],
+        "geographicExpansion": [
+          "ベネズエラ（発祥地）",
+          "コロンビア",
+          "ペルー",
+          "チリ",
+          "エクアドル",
+          "ボリビア",
+          "ブラジル",
+          "米国（特にテキサス州、ニューヨーク市）"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department", "US Treasury OFAC", "White House", "NPR"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-03"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年2月にFTO指定。ラテンアメリカで急速拡大中の国際犯罪組織。"
+    },
+    {
+      "id": "los-viagras",
+      "priority": "低",
+      "name": {
+        "ja": "ロス・ビアグラス",
+        "en": "Los Viagras",
+        "abbreviation": "Los Viagras"
+      },
+      "founded": "2010年代",
+      "status": "活動中",
+      "designation": "2025年8月14日に米財務省が制裁",
+      "region": "北米",
+      "primaryCountries": ["メキシコ"],
+      "activeLocations": ["ミチョアカン州"],
+      "ideology": "なし（犯罪組織）",
+      "affiliation": "CJNG（近年同盟）",
+      "estimatedMembers": {
+        "current": "数百人規模"
+      },
+      "leadership": [
+        "Nicolas Sierra Santana（別名「El Gordo」、創設者）",
+        "Heladio Cisneros Flores（別名「La Sirena」）",
+        "César Alejandro Sepulveda Arellano（別名「El Botox」）"
+      ],
+      "currentStatus": {
+        "summary": "2025年8月に米財務省が制裁。CJNGと同盟関係。",
+        "keyDevelopments": [
+          "2025年8月14日: 米財務省OFACが制裁",
+          "CJNGとの同盟関係を構築",
+          "ミチョアカン州農業地帯での恐喝活動"
+        ],
+        "criminalActivities": [
+          "覚醒剤・コカイン密輸",
+          "誘拐",
+          "メキシコ治安部隊への攻撃",
+          "アボカド・柑橘類栽培業者・牧場主への恐喝"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US Treasury OFAC", "Al Jazeera"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-08"
+      },
+      "notInDatabase": true,
+      "additionReason": "2025年8月に制裁。CJNGの同盟組織。"
+    },
+    {
+      "id": "ansaroul-islam",
+      "priority": "中",
+      "name": {
+        "ja": "アンサール・アル・イスラム",
+        "en": "Ansaroul Islam",
+        "abbreviation": "AI",
+        "aliases": ["Ansarul Islam"]
+      },
+      "founded": "2016",
+      "status": "活動中",
+      "region": "西アフリカ・サヘル",
+      "primaryCountries": ["ブルキナファソ", "ニジェール"],
+      "activeLocations": ["ブルキナファソ北部", "ニジェール西部"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "JNIM（ジャマート・ヌスラット・アル・イスラム・ワル・ムスリミン）",
+      "estimatedMembers": {
+        "current": "数百人規模"
+      },
+      "currentStatus": {
+        "summary": "JNIMと密接に連携し、ブルキナファソとニジェールで活動。",
+        "keyDevelopments": [
+          "2025年前半: 兵士10人以上が死亡する攻撃を少なくとも42回実行",
+          "2024年: ニジェール西部で598人の死者（前年比237%増）",
+          "主要商業ルートへの攻撃を強化"
+        ],
+        "recentAttacks": [
+          "2021年8月18日: ゴロル・ニビ村付近で民間車列襲撃、135人死亡（うち60人以上が民間人）",
+          "2024-2025年: ニアメ-ジボ間の西行き幹線道路を標的"
+        ],
+        "affiliationNote": "JNIMと資源・訓練を共有し、共同作戦を実施。JNIMの西アフリカ蜂起のブルキナファソ戦線とみなされる。"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "sources": ["Africa Center for Strategic Studies", "ECFR", "FPRI"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-09"
+      },
+      "notInDatabase": true,
+      "additionReason": "JNIMの主要構成組織。ブルキナファソとニジェールで激しい活動。"
+    },
+    {
+      "id": "katibat-macina",
+      "priority": "中",
+      "name": {
+        "ja": "カティバット・マシナ",
+        "en": "Katibat Macina",
+        "abbreviation": "Macina Liberation Front/MLF",
+        "aliases": ["Front de Libération du Macina", "FLM"]
+      },
+      "founded": "2015年1月",
+      "status": "活動中",
+      "region": "西アフリカ・サヘル",
+      "primaryCountries": ["マリ", "ブルキナファソ"],
+      "activeLocations": ["マリ中部・南部", "ブルキナファソ南部"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "JNIM（ジャマート・ヌスラット・アル・イスラム・ワル・ムスリミン）",
+      "estimatedMembers": {
+        "current": "JNIM全体で約6,000人（2025年）",
+        "component": "JNIMの主要構成組織の一つ"
+      },
+      "leadership": [
+        "Amadou Koufa（創設者・JNIMの副司令官）"
+      ],
+      "currentStatus": {
+        "summary": "JNIMの主要構成組織。2025年5月から高強度の攻勢フェーズに突入。",
+        "keyDevelopments": [
+          "2025年5月以降: 前例のない作戦ペース・質の向上",
+          "2025年前半: ブルキナファソで280回以上の攻撃（2024年同期の2倍）",
+          "2025年4月以降: サヘル全域で約1,000人殺害と主張（主に治安部隊・民兵）",
+          "2017年: JNIMの一部としてAQIMサハラ支部、Ansar Dine、al-Mourabitounと統合"
+        ],
+        "leadershipStatus": "Amadou Koufaの生存状態は不明確（2018年にマリ国防省が死亡と発表したが、2019年に生存映像が出現。2024-2025年の報告では現役副司令官として言及）"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "sources": ["Global Security", "Insight Threat Intel", "IAI"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-07"
+      },
+      "notInDatabase": true,
+      "additionReason": "JNIMの中核組織。マリとブルキナファソで最も活発な部隊の一つ。"
+    },
+    {
+      "id": "ansar-ghazwat-ul-hind",
+      "priority": "低",
+      "name": {
+        "ja": "アンサール・ガズワット・ウル・ヒンド",
+        "en": "Ansar Ghazwat-ul-Hind",
+        "abbreviation": "AGH/AGuH"
+      },
+      "founded": "2017",
+      "status": "活動中（小規模）",
+      "region": "南アジア",
+      "primaryCountries": ["インド"],
+      "activeLocations": ["ジャンムー・カシミール"],
+      "ideology": "イスラム過激主義",
+      "affiliation": "アルカイダ",
+      "estimatedMembers": {
+        "current": "小規模（数十人規模と推定）"
+      },
+      "objectives": "カシミールをシャリーア法下の独立イスラム国家とする",
+      "currentStatus": {
+        "summary": "アルカイダ系のカシミール武装組織。2025年に州際テロ網が摘発される。",
+        "keyDevelopments": [
+          "2025年11月: ジャンムー・カシミール警察がJeM・AGuH関連の州際テロ網を摘発",
+          "2025年10月19日: JeMポスター発見を契機に捜査開始",
+          "2025年11月: デリー自動車爆発事件に関連して医師2人を逮捕",
+          "350kgの硝酸アンモニウム、アサルトライフル、弾薬、タイマーを発見"
+        ],
+        "recentOperations": [
+          "「ホワイトカラー・テロ・エコシステム」の一部として活動",
+          "JeM（ジャイシュ・エ・ムハンマド）と連携"
+        ],
+        "arrestedMembers": [
+          "Arif Nisar Dar",
+          "Yasir-ul-Ashraf",
+          "Maqsood Ahmad Dar",
+          "Molvi Irfan Ahmad（イマーム）",
+          "Zameer Ahmad Ahanger",
+          "Dr. Muzammil Ahmad Ganaie",
+          "Dr. Adeel"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier2",
+        "sources": ["WION News", "New Delhi Times", "Al Jazeera", "SATP"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-11"
+      },
+      "notInDatabase": true,
+      "additionReason": "アルカイダ系カシミール組織。2025年に大規模摘発。"
+    },
+    {
+      "id": "jaish-e-mohammed",
+      "priority": "中",
+      "name": {
+        "ja": "ジャイシュ・エ・ムハンマド",
+        "en": "Jaish-e-Mohammed",
+        "abbreviation": "JeM"
+      },
+      "founded": "2000",
+      "status": "活動中",
+      "region": "南アジア",
+      "primaryCountries": ["パキスタン", "インド"],
+      "activeLocations": ["パキスタン（バハワルプル）", "ジャンムー・カシミール"],
+      "ideology": "デオバンディー派イスラム過激主義",
+      "affiliation": "なし（独立組織、アルカイダとの歴史的関係あり）",
+      "estimatedMembers": {
+        "current": "数百～数千人規模"
+      },
+      "leadership": [
+        "Masood Azhar（マスード・アザハル、創設者）",
+        "Sadia Azhar（女性部門ジャマート・ウル・モミナト責任者、Masoodの妹）"
+      ],
+      "currentStatus": {
+        "summary": "パキスタンを拠点とするカシミール焦点の武装組織。2025年にインドの攻撃で主要施設が破壊される。",
+        "keyDevelopments": [
+          "2025年4月22日: パハルガムでテロ攻撃、民間人26人死亡（Resistance Front名義だがLeT関連）",
+          "2025年5月7日: インドが「シンドゥール作戦」開始、JeM・LeTインフラにミサイル攻撃",
+          "JeM本部マルカズ・スブハンアッラーと4つの訓練キャンプが破壊",
+          "2025年9月: JeM幹部が訓練キャンプ破壊を認める",
+          "39.1億パキスタン・ルピーの資金調達キャンペーン開始（施設再建と新313マルカズ設立）",
+          "2025年11月: 女性自爆部隊「ジャマート・ウル・モミナト」を創設",
+          "Masood Azharがカシミール・イスラエルでのジハード実施を誓約"
+        ],
+        "destroyedFacilities": [
+          "マルカズ・スブハンアッラー（本部、バハワルプル）",
+          "マルカズ・ビラル（訓練キャンプ）",
+          "マルカズ・アッバース（訓練キャンプ）",
+          "マフモナ・ゾヤ（訓練キャンプ）",
+          "サーガル（訓練キャンプ）"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US NCTC", "Britannica", "The Diplomat", "CTC West Point"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-11"
+      },
+      "notInDatabase": true,
+      "additionReason": "南アジアの主要テロ組織。2025年にインド攻撃で大打撃。女性自爆部隊を新設。"
+    },
+    {
+      "id": "dhkp-c",
+      "priority": "低",
+      "name": {
+        "ja": "革命的人民解放党/戦線",
+        "en": "Revolutionary People's Liberation Party/Front",
+        "abbreviation": "DHKP-C",
+        "aliases": ["Devrimci Halk Kurtuluş Partisi-Cephesi", "Dev Sol", "Revolutionary Left"]
+      },
+      "founded": "1978（Dev Solとして）、1994年に改名",
+      "status": "活動中（低レベル）",
+      "region": "中東・欧州",
+      "primaryCountries": ["トルコ"],
+      "activeLocations": ["トルコ", "欧州（トルコ系移民コミュニティ）"],
+      "ideology": "マルクス・レーニン主義、共産主義",
+      "affiliation": "なし",
+      "estimatedMembers": {
+        "current": "トルコ国内数十人、欧州に支援ネットワーク"
+      },
+      "objectives": [
+        "トルコ政府転覆",
+        "NATO・米国影響力の排除",
+        "社会主義国家樹立",
+        "トルコ刑務所制度廃止"
+      ],
+      "currentStatus": {
+        "summary": "トルコと欧州で活動する極左武装組織。2024年にイスタンブールで攻撃。",
+        "keyDevelopments": [
+          "2024年初頭: イスタンブールで攻撃実施、トルコ法執行機関が組織への圧力を強化",
+          "欧州（特にトルコ系移民地域）で武器密輸・資金調達・犯罪活動を継続"
+        ],
+        "designations": [
+          "トルコ",
+          "米国",
+          "英国",
+          "EU",
+          "日本"
+        ]
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US NCTC", "Global Security", "State Department"],
+        "verificationLevel": "高",
+        "lastVerified": "2024"
+      },
+      "notInDatabase": true,
+      "additionReason": "トルコの主要極左テロ組織。2024年に攻撃実施。"
+    },
+    {
+      "id": "saraya-al-ashtar",
+      "priority": "低",
+      "name": {
+        "ja": "サラヤ・アル・アシュタル",
+        "en": "Saraya al-Ashtar",
+        "abbreviation": "SaA",
+        "aliases": ["al-Ashtar Brigades"]
+      },
+      "founded": "2013",
+      "status": "活動中",
+      "region": "中東",
+      "primaryCountries": ["バーレーン"],
+      "activeLocations": ["バーレーン"],
+      "ideology": "シーア派イスラム過激主義",
+      "affiliation": "イラン（IRGC）",
+      "estimatedMembers": {
+        "current": "不明（小規模セル構造）"
+      },
+      "leadership": [
+        "Qassim Abdullah Ali Ahmed（別名Qassim al Muamen）"
+      ],
+      "objectives": "バーレーンのスンニ派王政の打倒",
+      "currentStatus": {
+        "summary": "イラン支援のバーレーン・シーア派武装組織。2024年にイスラエル攻撃を主張。",
+        "keyDevelopments": [
+          "2024年3月: 米国務省がテロ組織指定",
+          "2024年3月12日: 米国が4人のメンバーをSDN（特別指定国民）リストに追加",
+          "2024年5月2日: 4月27日のイスラエル・エイラート攻撃（ドローン）を主張（未確認）",
+          "2018年: IRGCのブランドをロゴと旗に正式採用、テヘランへの忠誠を再確認",
+          "バーレーンで20件以上の攻撃を実施（主に警察・治安部隊標的）"
+        ],
+        "brandingNote": "2018年にイラン革命防衛隊（IRGC）のブランディングを採用"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["US State Department", "CIA World Factbook", "Washington Institute"],
+        "verificationLevel": "中～高",
+        "lastVerified": "2024-05"
+      },
+      "notInDatabase": true,
+      "additionReason": "イラン支援のバーレーン武装組織。2024年に米国指定・イスラエル攻撃主張。"
+    },
+    {
+      "id": "hurras-al-din",
+      "priority": "低",
+      "name": {
+        "ja": "フッラース・アッディーン",
+        "en": "Hurras al-Din",
+        "abbreviation": "HaD"
+      },
+      "founded": "2018",
+      "status": "解散（2025年1月）/ 実態は継続の可能性",
+      "region": "中東",
+      "primaryCountries": ["シリア"],
+      "activeLocations": ["シリア北西部（イドリブ）"],
+      "ideology": "サラフィー・ジハード主義",
+      "affiliation": "アルカイダ",
+      "estimatedMembers": {
+        "2025年7月": "約2,000人（UN報告）",
+        "note": "解散発表後も戦闘員を保持"
+      },
+      "currentStatus": {
+        "summary": "アルカイダのシリア支部として2018年に設立。2025年1月に解散を宣言したが、実態は継続の可能性。",
+        "keyDevelopments": [
+          "2025年1月28日: アサド政権崩壊から約2ヶ月後、組織解散を発表",
+          "解散はアルカイダ中央司令部の命令と説明",
+          "2025年2月: 米軍が解散宣言後もHaD幹部に5回の空爆実施",
+          "2025年7月UN報告: 解散は「大部分が象徴的」、約2,000人の戦闘員を保持",
+          "一部メンバーがアフガニスタン、アフリカ、イエメンへの移転を検討中"
+        ],
+        "dissolutionContext": "アサド政権崩壊により主要目的（政権打倒）を喪失。シリア攻勢での役割は皆無だった。",
+        "postDissolutionActivity": "解散発表にもかかわらず、米軍が継続的に標的化"
+      },
+      "credibilityAssessment": {
+        "sourceTier": "tier1",
+        "sources": ["CTC West Point", "UN Security Council", "Middle East Forum", "Al-Monitor"],
+        "verificationLevel": "高",
+        "lastVerified": "2025-07"
+      },
+      "notInDatabase": true,
+      "additionReason": "アルカイダのシリア支部。2025年1月に解散宣言したが実態は不明確。歴史的記録として重要。"
+    }
+  ],
+  "existingOrganizationsUpdates": {
+    "summary": "既存60組織の2024-2025年重要更新情報",
+    "criticalUpdates": [
+      {
+        "organizationId": "isis",
+        "updates": [
+          "2024年末時点で世界で最も致命的なテロ組織",
+          "2024年に22カ国で1,805人の死者",
+          "IS-K（ホラサン州）が最も外部攻撃能力が高い支部",
+          "2024年3月22日: IS-Kがモスクワ・クロッカス・シティ・ホール攻撃（140人死亡）"
+        ]
+      },
+      {
+        "organizationId": "jnim",
+        "updates": [
+          "2024年第3位の致命的組織（1,022人死亡）",
+          "2024-2025年: マリの燃料供給を遮断、首都バマコが陥落の危機",
+          "2024年9月以降: 主要幹線道路を封鎖、全国的燃料不足を引き起こす",
+          "ブルキナファソで2024年に1,532人死亡（前年比20%減だが依然高水準）",
+          "2024年: 史上最悪の攻撃でサントル・ノール地域で200-600人死亡"
+        ]
+      },
+      {
+        "organizationId": "ttp",
+        "updates": [
+          "2024年にパキスタンで約500回の攻撃を実施",
+          "「ビッグ4」の一つとして死者数11%増加（4組織合計4,204人）"
+        ]
+      },
+      {
+        "organizationId": "al-shabaab",
+        "updates": [
+          "2024年にソマリアでの攻撃は減少傾向",
+          "2025年3月: モハムド大統領暗殺未遂",
+          "2025年7月20日: モガディシュ南西40kmのサビードとアノレを奪還",
+          "モココリ、タルド、ブク・アカブレを支配する三角形の拠点を形成",
+          "自爆攻撃・車両爆弾（VBIED）等の複雑な戦術を継続使用"
+        ]
+      },
+      {
+        "organizationId": "boko-haram",
+        "updates": [
+          "2025年前半に2,266人以上が死亡（2024年全体を超過）",
+          "2025年9月5日: ダルル・ジャマル攻撃で63人死亡（兵士7人含む）",
+          "ほぼ毎日攻撃が発生",
+          "ISWAPも同時期に攻撃を激化"
+        ]
+      },
+      {
+        "organizationId": "taliban",
+        "updates": [
+          "2021年8月15日: カブール制圧、政権復帰",
+          "アフガニスタン・イスラム首長国を再樹立",
+          "女性の権利を大幅に制限",
+          "2025年7月: ロシアが政権承認",
+          "IS-Kとの対立が激化"
+        ]
+      },
+      {
+        "organizationId": "hamas",
+        "updates": [
+          "2023年10月7日: イスラエル攻撃（1,200人死亡、240人拉致）",
+          "イスラエル・ガザ戦争の引き金",
+          "2025年1月15日: 停戦合意（脆弱）",
+          "2025年11月時点: ガザで68,000人以上のパレスチナ人死亡、69%の建造物破壊・損傷"
+        ]
+      },
+      {
+        "organizationId": "hezbollah",
+        "updates": [
+          "2024年10月1日-11月27日: イスラエルによる第6次レバノン侵攻",
+          "ヒズボラ公式発表: 521人死亡 / IDF推定: 3,800人死亡",
+          "イスラエル側: 75人死亡",
+          "経済損失: 140億米ドル（物理的68億ドル、経済的72億ドル）",
+          "2024年11月27日: 60日間停戦合意",
+          "2025年4月: 武装解除協議への参加を表明"
+        ]
+      },
+      {
+        "organizationId": "pkk",
+        "updates": [
+          "2025年2月27日: アブドゥラ・オジャラン議長が紛争終結呼びかけ",
+          "2025年3月1日: PKK執行委員会が即時停戦を宣言",
+          "2025年5月12日: PKK全面解散を発表",
+          "2025年7月11日: 北イラクで武器破壊式典",
+          "40年以上続いた紛争が平和的解決へ（40,000人以上が死亡）"
+        ]
+      },
+      {
+        "organizationId": "jemaah-islamiyah",
+        "updates": [
+          "2024年6月30日: 16人の指導者が組織解散を発表",
+          "暴力を放棄し、インドネシア国家と法に従うと宣言",
+          "東南アジア最大のテロ組織の一つが公式解散",
+          "分派グループへの懸念は継続"
+        ]
+      },
+      {
+        "organizationId": "asg",
+        "updates": [
+          "2024年3月: フィリピン政府が「完全解体」を宣言",
+          "2024年12月26日: バシラン州で最後の8人が降伏",
+          "2025年6月9日: バシラン州が正式にASGフリーを宣言",
+          "2023年: スールー州でもASGフリーを宣言",
+          "実質的に壊滅"
+        ]
+      },
+      {
+        "organizationId": "houthis",
+        "updates": [
+          "2025年1月22日: 米国がFTO再指定",
+          "2023年10月以降: イスラエルに300発以上の弾道弾を発射",
+          "2024年7月: テルアビブ攻撃で1人死亡、エイラート港が倒産",
+          "紅海・アデン湾での海上交易攻撃でスエズ運河通商に重大影響",
+          "2025年1月: ハマス・イスラエル停戦後に攻撃を一時停止",
+          "2025年3月11日: 人道支援再開されず攻撃を再開",
+          "2024年9月UN報告: 「限定的武装集団から強力な軍事組織へ変貌」"
+        ]
+      },
+      {
+        "organizationId": "iswap",
+        "updates": [
+          "UN制裁監視団: 8,000-12,000人のメンバー",
+          "2025年ATA: 最大のIS支部、攻撃数でもトップ",
+          "ナイジェリア、ニジェール、カメルーン、チャドのチャド湖盆地で活動",
+          "2025年前半にボコ・ハラムと共に攻撃を激化"
+        ]
+      },
+      {
+        "organizationId": "adf",
+        "updates": [
+          "ISの中央アフリカ州（IS-CAP）として活動",
+          "2024年: 東部DRCで民間人に対する暴力のトップ実行者",
+          "2024年1-6月: 639人のキリスト教徒を殺害、半数が斬首",
+          "2024年12月: 48回の攻撃で200人以上を殺害",
+          "2025年1-3月: M23とADF/IS-CAの活動で1,600人死亡（2002年以来最悪の四半期）",
+          "2025年: M23とFARDCの戦闘の混乱を利用して作戦を拡大",
+          "約1,000-1,500人のメンバー、小型武器、迫撃砲、IED、RPGで武装"
+        ]
+      },
+      {
+        "organizationId": "aqap",
+        "updates": [
+          "2024年: Khaled Batarfi死亡後、Saad bin Atef al-Awlakiが新指導者に",
+          "2025年6月: al-Awlakiがガザ戦争に焦点を当てた宣伝動画でトランプ大統領、イーロン・マスク等を脅迫",
+          "2024年以降: フーシ派と協力、海賊作戦と引き換えに武器・訓練を提供",
+          "イエメン政府軍への共同攻撃を開始"
+        ]
+      }
+    ]
+  },
+  "majorEvents2024_2025": [
+    {
+      "date": "2024-03-22",
+      "title": {
+        "ja": "モスクワ・クロッカス・シティ・ホール攻撃",
+        "en": "Moscow Crocus City Hall Attack"
+      },
+      "organization": "isis (IS-K)",
+      "deaths": 140,
+      "injured": "180+",
+      "significance": "ロシア国内での近年最大のテロ攻撃。IS-Kの国際的脅威を証明。",
+      "sources": ["Russian Government", "The Soufan Center", "UN"]
+    },
+    {
+      "date": "2024-06-30",
+      "title": {
+        "ja": "ジェマー・イスラミア解散宣言",
+        "en": "Jemaah Islamiyah Dissolution"
+      },
+      "organization": "jemaah-islamiyah",
+      "deaths": 0,
+      "type": "組織解散",
+      "significance": "東南アジア最大のテロ組織の一つが公式に解散。対テロ圧力の成功例。",
+      "sources": ["East Asia Forum", "Counter Extremism Project"]
+    },
+    {
+      "date": "2024-10-01",
+      "title": {
+        "ja": "イスラエルのレバノン侵攻開始",
+        "en": "2024 Israeli Invasion of Lebanon"
+      },
+      "organization": "hezbollah",
+      "duration": "2024-10-01 to 2024-11-27",
+      "hezbollahDeaths": "521-3,800人",
+      "israeliDeaths": 75,
+      "economicDamage": "140億米ドル",
+      "significance": "第6次レバノン侵攻。ヒズボラの大幅弱体化。",
+      "sources": ["UN", "Human Rights Watch", "FDD"]
+    },
+    {
+      "date": "2025-01-22",
+      "title": {
+        "ja": "フーシ派の米国FTO再指定",
+        "en": "Houthis FTO Redesignation"
+      },
+      "organization": "houthis",
+      "type": "政策変更",
+      "significance": "米国がフーシ派を外国テロ組織に再指定。紅海危機への対応。",
+      "sources": ["US State Department", "White House"]
+    },
+    {
+      "date": "2025-01-28",
+      "title": {
+        "ja": "フッラース・アッディーン解散宣言",
+        "en": "Hurras al-Din Dissolution"
+      },
+      "organization": "hurras-al-din",
+      "type": "組織解散（象徴的）",
+      "significance": "アルカイダのシリア支部が解散を宣言（実態は継続の可能性）。",
+      "sources": ["CTC West Point", "UN", "Middle East Forum"]
+    },
+    {
+      "date": "2025-02-20",
+      "title": {
+        "ja": "メキシコ・カルテルと犯罪組織の米国FTO指定",
+        "en": "Mexican Cartels FTO Designation"
+      },
+      "organizations": [
+        "sinaloa-cartel",
+        "cjng",
+        "gulf-cartel",
+        "cartel-del-noreste",
+        "la-nueva-familia-michoacana",
+        "carteles-unidos",
+        "tren-de-aragua",
+        "MS-13"
+      ],
+      "type": "政策変更",
+      "significance": "史上初の純粋犯罪組織のFTO指定。米国の対カルテル政策の大転換。",
+      "sources": ["US State Department", "Federal Register"]
+    },
+    {
+      "date": "2025-03-01",
+      "title": {
+        "ja": "PKK停戦・解散プロセス開始",
+        "en": "PKK Ceasefire and Dissolution"
+      },
+      "organization": "pkk",
+      "type": "和平プロセス",
+      "significance": "40年以上続いた紛争の歴史的終結。中東の主要紛争の一つが平和的解決へ。",
+      "timeline": [
+        "2024-10: バフチェリ党首がオジャラン釈放提案",
+        "2025-02-27: オジャラン議長が紛争終結呼びかけ",
+        "2025-03-01: PKK即時停戦宣言",
+        "2025-05-12: PKK全面解散発表",
+        "2025-07-11: 北イラクで武器破壊式典"
+      ],
+      "sources": ["UN OHCHR", "International Crisis Group", "NPR", "CFR"]
+    },
+    {
+      "date": "2025-05-07",
+      "title": {
+        "ja": "インドのシンドゥール作戦",
+        "en": "Operation Sindoor"
+      },
+      "organizations": ["jaish-e-mohammed", "let"],
+      "type": "軍事作戦",
+      "target": "パキスタンのJeM・LeT施設",
+      "significance": "インドがパキスタン領内のテロ組織施設をミサイル攻撃。JeMの主要施設を破壊。",
+      "destroyedFacilities": [
+        "マルカズ・スブハンアッラー（JeM本部）",
+        "4つのJeM訓練キャンプ"
+      ],
+      "sources": ["Wikipedia", "Indian Intelligence"]
+    },
+    {
+      "date": "2025-06-09",
+      "title": {
+        "ja": "バシラン州ASGフリー宣言",
+        "en": "Basilan Declared ASG-Free"
+      },
+      "organization": "asg",
+      "type": "組織壊滅",
+      "significance": "ASGの歴史的拠点であるバシランでの完全排除。組織の事実上の終焉。",
+      "sources": ["Philippine News Agency", "Philippine Army", "The Soufan Center"]
+    },
+    {
+      "date": "2025-09-05",
+      "title": {
+        "ja": "ダルル・ジャマル攻撃",
+        "en": "Darul Jamal Attack"
+      },
+      "organization": "boko-haram",
+      "location": "ナイジェリア・ボルノ州",
+      "deaths": 63,
+      "significance": "2025年のボコ・ハラム活動再活性化の象徴的事件。前半で2,266人以上死亡。",
+      "sources": ["Amnesty International", "Human Rights Watch", "The Soufan Center"]
+    }
+  ],
+  "organizationRelationships": [
+    {
+      "type": "合併/統合",
+      "organizations": ["aqim", "ansar-dine", "katibat-macina", "al-mourabitoun"],
+      "result": "jnim",
+      "date": "2017-03-02",
+      "description": "サハラ支部AQIM、Ansar Dine、Macina Liberation Front、al-Mourabitounが統合してJNIMを形成"
+    },
+    {
+      "type": "提携",
+      "organizations": ["ansaroul-islam", "jnim"],
+      "relationship": "密接な提携関係",
+      "description": "Ansaroul IslamはJNIMと資源・訓練を共有し、共同作戦を実施。JNIMのブルキナファソ戦線と見なされる。"
+    },
+    {
+      "type": "ISIS支部",
+      "organizations": [
+        "is-k",
+        "iswap",
+        "is-sahel",
+        "is-somalia",
+        "is-mozambique",
+        "adf"
+      ],
+      "parent": "isis",
+      "description": "ISISの地域支部として活動。IS本部から資金・戦術支援を受ける。"
+    },
+    {
+      "type": "同盟",
+      "organizations": ["los-viagras", "cjng"],
+      "date": "2024-2025",
+      "description": "Los ViagrasCJNGと同盟関係を構築"
+    },
+    {
+      "type": "協力",
+      "organizations": ["aqap", "houthis"],
+      "date": "2024以降",
+      "description": "AQAPがフーシ派と協力。海賊作戦と引き換えに武器・訓練を提供。イエメン政府軍への共同攻撃を実施。"
+    },
+    {
+      "type": "連携",
+      "organizations": ["ansar-ghazwat-ul-hind", "jaish-e-mohammed"],
+      "date": "2025",
+      "description": "2025年11月に摘発された州際テロ網で連携が判明"
+    },
+    {
+      "type": "対立",
+      "organizations": ["taliban", "is-k"],
+      "description": "タリバン政権とIS-Kの対立が激化"
+    },
+    {
+      "type": "対立",
+      "organizations": ["jnim", "is-sahel"],
+      "description": "サヘル地域でJNIM（アルカイダ系）とIS-Sahel（ISIS系）が勢力圏をめぐって競合"
+    }
+  ],
+  "recommendations": {
+    "databaseCleanup": [
+      "重複エントリ11件の統合が必要",
+      "pkk、pflp、iswap、hts、hezbollah、harakat-al-nujaba、eln、boko-haram、aqap、al-shabaab、al-aqsa-martyrsの重複を解消"
+    ],
+    "priorityAdditions": [
+      {
+        "priority": "高",
+        "organizations": [
+          "is-sahel",
+          "is-somalia",
+          "is-mozambique",
+          "cjng",
+          "sinaloa-cartel",
+          "tren-de-aragua"
+        ],
+        "reason": "2024-2025年に重大な脅威、または米国FTO指定"
+      },
+      {
+        "priority": "中",
+        "organizations": [
+          "gulf-cartel",
+          "cartel-del-noreste",
+          "la-nueva-familia-michoacana",
+          "carteles-unidos",
+          "ansaroul-islam",
+          "katibat-macina",
+          "jaish-e-mohammed"
+        ],
+        "reason": "地域的に重要、または2025年に指定・活動活発化"
+      },
+      {
+        "priority": "低",
+        "organizations": [
+          "los-viagras",
+          "ansar-ghazwat-ul-hind",
+          "dhkp-c",
+          "saraya-al-ashtar",
+          "hurras-al-din"
+        ],
+        "reason": "小規模または解散済みだが歴史的・地域的重要性あり"
+      }
+    ],
+    "dataQualityImprovements": [
+      "既存60組織の2024-2025年情報を更新",
+      "特にISIS、JNIM、TTP、al-Shabaab、Boko Haram、Taliban、Hamas、Hezbollah、PKK、JI、ASG、Houthis、ISWAP、ADF、AQAPの重要更新を反映",
+      "各組織の「currentStatus」「keyDevelopments」「recentAttacks」フィールドを2025年11月時点の情報で更新"
+    ],
+    "newFieldsSuggestions": [
+      "designation: FTO指定日・指定国",
+      "dissolutionDate: 解散日（該当組織のみ）",
+      "foreignFighterComposition: 外国人戦闘員の割合・出身国",
+      "economicActivities: 経済活動（カルテル、資源窃盗等）",
+      "cyberCapabilities: サイバー能力（該当組織のみ）"
+    ]
+  }
+}

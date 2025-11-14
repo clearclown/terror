@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import DOMPurify from 'dompurify'
 import { useFurigana } from '@/features/furigana/useFurigana'
 
 type DifficultyMode = 'simple' | 'detailed'
@@ -81,7 +82,14 @@ export function EnhancedDifficultyToggle({ simpleText, detailedText }: EnhancedD
           {furiganaEnabled ? (
             <div
               className={mode === 'simple' ? 'text-lg leading-relaxed' : 'leading-relaxed'}
-              dangerouslySetInnerHTML={{ __html: displayText }}
+              dangerouslySetInnerHTML={{
+                __html: typeof window !== 'undefined'
+                  ? DOMPurify.sanitize(displayText, {
+                      ALLOWED_TAGS: ['ruby', 'rb', 'rt', 'rp', 'span'],
+                      ALLOWED_ATTR: ['class']
+                    })
+                  : displayText
+              }}
             />
           ) : (
             <p className={mode === 'simple' ? 'text-lg leading-relaxed' : 'leading-relaxed'}>
