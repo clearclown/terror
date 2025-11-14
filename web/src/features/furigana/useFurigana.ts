@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { logger } from '@/utils/logger'
 
 interface UseFuriganaOptions {
   enabled?: boolean
@@ -68,7 +69,7 @@ export function useFurigana(options: UseFuriganaOptions = {}): UseFuriganaReturn
         await initPromise
         setIsReady(true)
       } catch (err) {
-        console.error('Failed to initialize Kuroshiro:', err)
+        logger.error('Failed to initialize Kuroshiro:', err)
         setError('ふりがなライブラリの初期化に失敗しました')
         initPromise = null
       }
@@ -89,7 +90,7 @@ export function useFurigana(options: UseFuriganaOptions = {}): UseFuriganaReturn
       })
       return result
     } catch (err) {
-      console.error('Furigana conversion error:', err)
+      logger.error('Furigana conversion error:', err)
       return text
     }
   }
@@ -125,7 +126,7 @@ export async function convertToFurigana(text: string): Promise<string> {
     })
     return result
   } catch (err) {
-    console.error('Furigana conversion error:', err)
+    logger.error('Furigana conversion error:', err)
     return text
   }
 }

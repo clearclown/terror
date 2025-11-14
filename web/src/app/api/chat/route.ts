@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import OpenAI from 'openai'
+import { logger } from '@/utils/logger'
 
 // 環境変数から使用するAIプロバイダーを取得
 const AI_PROVIDER = process.env.AI_PROVIDER || 'openai'
@@ -20,7 +21,7 @@ if (typeof window === 'undefined') {
   import('@anthropic-ai/sdk').then((module) => {
     Anthropic = module.default
   }).catch(() => {
-    console.warn('Anthropic SDK not available')
+    logger.warn('Anthropic SDK not available')
   })
 }
 
@@ -30,7 +31,7 @@ if (typeof window === 'undefined') {
   import('@google/generative-ai').then((module) => {
     GoogleGenerativeAI = module.GoogleGenerativeAI
   }).catch(() => {
-    console.warn('Google Generative AI SDK not available')
+    logger.warn('Google Generative AI SDK not available')
   })
 }
 
@@ -97,7 +98,7 @@ export async function POST(req: NextRequest) {
     try {
       body = await req.json()
     } catch (error) {
-      console.error('JSON parse error:', error)
+      logger.error('JSON parse error:', error)
       return NextResponse.json(
         {
           error: 'リクエストのJSON形式が不正です',
@@ -110,7 +111,7 @@ export async function POST(req: NextRequest) {
     // リクエストバリデーション
     const validation = validateRequest(body)
     if (!validation.valid) {
-      console.error('Validation error:', validation.error)
+      logger.error('Validation error:', validation.error)
       return NextResponse.json(
         {
           error: validation.error,
@@ -153,7 +154,7 @@ export async function POST(req: NextRequest) {
     const { provider: selectedProvider, hasKey } = getAvailableProvider()
     
     if (!hasKey) {
-      console.warn(`API key not configured for provider: ${selectedProvider}`)
+      logger.warn(`API key not configured for provider: ${selectedProvider}`)
       return fallbackResponse(organizationName, selectedProvider, contextType)
     }
 
@@ -212,7 +213,7 @@ export async function POST(req: NextRequest) {
       provider,
     })
   } catch (error: any) {
-    console.error('AI API Error:', {
+    logger.error('AI API Error:', {
       message: error.message,
       status: error.status,
       code: error.code,
@@ -268,7 +269,7 @@ function timeoutPromise(ms: number, message: string): Promise<never> {
 // フォールバック応答
 function fallbackResponse(organizationName: string, provider?: string, contextType: 'organization' | 'event' = 'organization') {
   const providerName = provider || AI_PROVIDER
-  console.warn(`Fallback response: API key not configured for ${providerName}`)
+  logger.warn(`Fallback response: API key not configured for ${providerName}`)
   const pageType = contextType === 'event' ? 'イベント詳細ページ' : '組織詳細ページ'
   
   return NextResponse.json(

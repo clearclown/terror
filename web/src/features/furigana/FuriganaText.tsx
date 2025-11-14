@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import DOMPurify from 'dompurify'
+import { logger } from '@/utils/logger'
 
 // Kuroshiroはブラウザでのみ動作するため、動的インポートを使用
 let Kuroshiro: any
@@ -59,7 +60,7 @@ export function FuriganaText({ text, enabled = true, className = '' }: FuriganaT
           setIsLoading(false)
         }
       } catch (err) {
-        console.error('Furigana conversion error:', err)
+        logger.error('Furigana conversion error:', err)
         if (mounted) {
           setError('ふりがな変換に失敗しました')
           setConvertedText(text)
